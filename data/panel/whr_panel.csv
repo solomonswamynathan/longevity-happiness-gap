@@ -1,0 +1,2156 @@
+country,region,year,life_ladder,GDP_per_capita,social_support,life_expectancy,freedom_of_LifeChoices,generosity,corruption_index,positive_affect,negative_affect,confidence_in_govt
+Afghanistan,South Asia,2008,3.72,7.35,0.45,50.5,0.72,0.17,0.88,0.41,0.26,0.61
+Afghanistan,South Asia,2009,4.4,7.51,0.55,50.8,0.68,0.19,0.85,0.48,0.24,0.61
+Afghanistan,South Asia,2010,4.76,7.61,0.54,51.1,0.6,0.12,0.71,0.52,0.28,0.3
+Afghanistan,South Asia,2011,3.83,7.58,0.52,51.4,0.5,0.16,0.73,0.48,0.27,0.31
+Afghanistan,South Asia,2012,3.78,7.66,0.52,51.7,0.53,0.24,0.78,0.61,0.27,0.44
+Afghanistan,South Asia,2013,3.57,7.68,0.48,52,0.58,0.06,0.82,0.55,0.27,0.48
+Afghanistan,South Asia,2014,3.13,7.67,0.53,52.3,0.51,0.11,0.87,0.49,0.37,0.41
+Afghanistan,South Asia,2015,3.98,7.65,0.53,52.6,0.39,0.08,0.88,0.49,0.34,0.26
+Afghanistan,South Asia,2016,4.22,7.65,0.56,52.92,0.52,0.04,0.79,0.5,0.35,0.32
+Afghanistan,South Asia,2017,2.66,7.65,0.49,53.25,0.43,-0.12,0.95,0.44,0.37,0.26
+Afghanistan,South Asia,2018,2.69,7.63,0.51,53.58,0.37,-0.09,0.93,0.38,0.4,0.36
+Afghanistan,South Asia,2019,2.38,7.64,0.42,53.9,0.39,-0.11,0.92,0.32,0.5,0.34
+Afghanistan,South Asia,2021,2.44,7.32,0.45,54.55,0.39,-0.08,0.95,0.18,0.61,0.26
+Albania,Central and Eastern Europe,2007,4.63,9.12,0.82,66.76,0.53,-0.01,0.87,0.49,0.25,0.3
+Albania,Central and Eastern Europe,2012,5.51,9.33,0.78,68.16,0.6,-0.17,0.85,0.55,0.27,0.36
+Albania,Central and Eastern Europe,2013,4.55,9.34,0.76,68.44,0.63,-0.13,0.86,0.54,0.34,0.34
+Albania,Central and Eastern Europe,2014,4.81,9.36,0.63,68.72,0.73,-0.03,0.88,0.57,0.33,0.5
+Albania,Central and Eastern Europe,2015,4.61,9.38,0.64,69,0.7,-0.08,0.88,0.58,0.35,0.51
+Albania,Central and Eastern Europe,2016,4.51,9.42,0.64,69.03,0.73,-0.02,0.9,0.57,0.32,0.4
+Albania,Central and Eastern Europe,2017,4.64,9.46,0.64,69.05,0.75,-0.03,0.88,0.55,0.33,0.46
+Albania,Central and Eastern Europe,2018,5,9.5,0.68,69.07,0.82,0.01,0.9,0.59,0.32,0.44
+Albania,Central and Eastern Europe,2019,5,9.52,0.69,69.1,0.78,-0.1,0.91,0.55,0.27,0.34
+Albania,Central and Eastern Europe,2020,5.36,9.49,0.71,69.13,0.75,0,0.89,0.56,0.27,0.37
+Albania,Central and Eastern Europe,2021,5.26,9.58,0.7,69.15,0.83,0.04,0.9,0.55,0.25,0.47
+Albania,Central and Eastern Europe,2022,5.21,9.63,0.72,69.18,0.8,-0.07,0.85,0.55,0.25,0.55
+Algeria,Middle East and North Africa,2011,5.32,9.32,0.81,65.6,0.53,-0.19,0.64,0.5,0.25,0.55
+Algeria,Middle East and North Africa,2012,5.6,9.33,0.84,65.7,0.59,-0.18,0.69,0.54,0.23,0.55
+Algeria,Middle East and North Africa,2019,4.74,9.36,0.8,66.4,0.39,0,0.74,0.54,0.22,0.44
+Algeria,Middle East and North Africa,2020,5.44,9.29,0.87,66.5,0.57,-0.12,0.72,0.52,0.31,0.52
+Algeria,Middle East and North Africa,2021,5.22,9.31,0.84,66.6,0.56,-0.11,0.71,0.5,0.26,0.24
+Angola,Middle East and North Africa,2011,5.59,8.94,0.72,51.22,0.58,0.05,0.91,0.67,0.36,0.23
+Angola,Middle East and North Africa,2012,4.36,8.99,0.75,51.84,0.46,-0.14,0.91,0.59,0.3,0.24
+Angola,Middle East and North Africa,2013,3.94,9,0.72,52.46,0.41,-0.11,0.82,0.65,0.37,0.55
+Angola,Middle East and North Africa,2014,3.79,9.01,0.75,53.08,0.37,-0.17,0.83,0.6,0.37,0.57
+Argentina,Latin America and Caribbean,2006,6.31,9.94,0.94,65.82,0.73,-0.16,0.85,0.75,0.33,0.52
+Argentina,Latin America and Caribbean,2007,6.07,10.01,0.86,65.94,0.65,-0.14,0.88,0.75,0.28,0.41
+Argentina,Latin America and Caribbean,2008,5.96,10.04,0.89,66.06,0.68,-0.13,0.86,0.72,0.32,0.29
+Argentina,Latin America and Caribbean,2009,6.42,9.97,0.92,66.18,0.64,-0.13,0.88,0.76,0.24,0.27
+Argentina,Latin America and Caribbean,2010,6.44,10.07,0.93,66.3,0.73,-0.13,0.85,0.77,0.21,0.35
+Argentina,Latin America and Caribbean,2011,6.78,10.11,0.89,66.42,0.82,-0.18,0.75,0.77,0.23,0.61
+Argentina,Latin America and Caribbean,2012,6.47,10.09,0.9,66.54,0.75,-0.15,0.82,0.74,0.27,0.42
+Argentina,Latin America and Caribbean,2013,6.58,10.1,0.91,66.66,0.74,-0.13,0.82,0.77,0.25,0.43
+Argentina,Latin America and Caribbean,2014,6.67,10.07,0.92,66.78,0.75,-0.17,0.85,0.77,0.24,0.41
+Argentina,Latin America and Caribbean,2015,6.7,10.08,0.93,66.9,0.88,-0.18,0.85,0.77,0.31,0.38
+Argentina,Latin America and Caribbean,2016,6.43,10.05,0.88,66.95,0.85,-0.2,0.85,0.73,0.31,0.42
+Argentina,Latin America and Caribbean,2017,6.04,10.07,0.91,67,0.83,-0.19,0.84,0.72,0.29,0.31
+Argentina,Latin America and Caribbean,2018,5.79,10.03,0.9,67.05,0.85,-0.21,0.86,0.73,0.32,0.26
+Argentina,Latin America and Caribbean,2019,6.09,10,0.9,67.1,0.82,-0.21,0.83,0.73,0.32,0.27
+Argentina,Latin America and Caribbean,2020,5.9,9.89,0.9,67.15,0.82,-0.13,0.82,0.68,0.34,0.43
+Argentina,Latin America and Caribbean,2021,5.91,9.98,0.88,67.2,0.82,-0.01,0.82,0.68,0.35,0.33
+Argentina,Latin America and Caribbean,2022,6.26,10.01,0.89,67.25,0.83,-0.13,0.81,0.72,0.28,0.36
+Armenia,Commonwealth of Independent States,2006,4.29,9.02,0.68,63.84,0.52,-0.23,0.85,0.45,0.47,0.34
+Armenia,Commonwealth of Independent States,2007,4.88,9.16,0.76,64.08,0.61,-0.25,0.82,0.45,0.41,0.39
+Armenia,Commonwealth of Independent States,2008,4.65,9.23,0.71,64.32,0.46,-0.22,0.88,0.49,0.38,0.46
+Armenia,Commonwealth of Independent States,2009,4.18,9.08,0.68,64.56,0.44,-0.22,0.88,0.48,0.41,0.37
+Armenia,Commonwealth of Independent States,2010,4.37,9.11,0.66,64.8,0.46,-0.18,0.89,0.44,0.43,0.36
+Armenia,Commonwealth of Independent States,2011,4.26,9.16,0.71,65.04,0.46,-0.23,0.87,0.41,0.46,0.34
+Armenia,Commonwealth of Independent States,2012,4.32,9.24,0.68,65.28,0.5,-0.22,0.89,0.47,0.46,0.29
+Armenia,Commonwealth of Independent States,2013,4.28,9.28,0.72,65.52,0.5,-0.2,0.9,0.5,0.45,0.26
+Armenia,Commonwealth of Independent States,2014,4.45,9.32,0.74,65.76,0.51,-0.22,0.92,0.51,0.4,0.21
+Armenia,Commonwealth of Independent States,2015,4.35,9.35,0.72,66,0.55,-0.21,0.9,0.53,0.44,0.17
+Armenia,Commonwealth of Independent States,2016,4.33,9.36,0.71,66.28,0.61,-0.18,0.92,0.52,0.44,0.18
+Armenia,Commonwealth of Independent States,2017,4.29,9.43,0.7,66.55,0.61,-0.15,0.86,0.55,0.44,0.25
+Armenia,Commonwealth of Independent States,2018,5.06,9.49,0.81,66.82,0.81,-0.17,0.68,0.54,0.45,0.67
+Armenia,Commonwealth of Independent States,2019,5.49,9.57,0.78,67.1,0.84,-0.18,0.58,0.54,0.43,0.65
+Armenia,Commonwealth of Independent States,2021,5.3,9.56,0.76,67.65,0.8,-0.16,0.71,0.57,0.48,0.3
+Armenia,Commonwealth of Independent States,2022,5.38,9.67,0.81,67.93,0.79,-0.15,0.7,0.53,0.55,0.3
+Australia,North America and ANZ,2005,7.34,10.66,0.97,69.8,0.93,0.3,0.39,0.77,0.24,0.53
+Australia,North America and ANZ,2007,7.29,10.69,0.97,69.96,0.89,0.34,0.51,0.76,0.22,0.53
+Australia,North America and ANZ,2008,7.25,10.71,0.95,70.04,0.92,0.3,0.43,0.73,0.22,0.3
+Australia,North America and ANZ,2010,7.45,10.71,0.95,70.2,0.93,0.31,0.37,0.76,0.22,0.61
+Australia,North America and ANZ,2011,7.41,10.72,0.97,70.28,0.94,0.37,0.38,0.72,0.2,0.53
+Australia,North America and ANZ,2012,7.2,10.74,0.94,70.36,0.94,0.27,0.37,0.73,0.21,0.42
+Australia,North America and ANZ,2013,7.36,10.75,0.93,70.44,0.93,0.27,0.43,0.77,0.18,0.46
+Australia,North America and ANZ,2014,7.29,10.76,0.92,70.52,0.92,0.31,0.44,0.74,0.25,0.46
+Australia,North America and ANZ,2015,7.31,10.77,0.95,70.6,0.92,0.33,0.36,0.75,0.21,0.48
+Australia,North America and ANZ,2016,7.25,10.78,0.94,70.68,0.92,0.23,0.4,0.74,0.24,0.45
+Australia,North America and ANZ,2017,7.26,10.79,0.95,70.75,0.91,0.31,0.41,0.73,0.23,0.45
+Australia,North America and ANZ,2018,7.18,10.8,0.94,70.82,0.92,0.14,0.4,0.71,0.19,0.47
+Australia,North America and ANZ,2019,7.23,10.81,0.94,70.9,0.92,0.12,0.43,0.73,0.2,0.47
+Australia,North America and ANZ,2020,7.14,10.79,0.94,70.97,0.91,0.2,0.49,0.73,0.21,0.45
+Australia,North America and ANZ,2021,7.11,10.82,0.92,71.05,0.91,0.24,0.45,0.74,0.24,0.52
+Australia,North America and ANZ,2022,7.03,10.85,0.94,71.13,0.85,0.15,0.55,0.71,0.24,0.5
+Austria,Western Europe,2006,7.12,10.84,0.94,69.5,0.94,0.3,0.49,0.75,0.17,0.5
+Austria,Western Europe,2008,7.18,10.88,0.93,69.7,0.88,0.29,0.61,0.72,0.17,0.26
+Austria,Western Europe,2010,7.3,10.86,0.91,69.9,0.9,0.13,0.55,0.71,0.16,0.49
+Austria,Western Europe,2011,7.47,10.88,0.94,70,0.94,0.13,0.7,0.67,0.15,0.41
+Austria,Western Europe,2012,7.4,10.88,0.95,70.1,0.92,0.11,0.77,0.71,0.16,0.38
+Austria,Western Europe,2013,7.5,10.88,0.95,70.2,0.92,0.16,0.68,0.73,0.16,0.42
+Austria,Western Europe,2014,6.95,10.88,0.9,70.3,0.89,0.11,0.57,0.72,0.17,0.41
+Austria,Western Europe,2015,7.08,10.88,0.93,70.4,0.9,0.09,0.56,0.75,0.16,0.45
+Austria,Western Europe,2016,7.05,10.88,0.93,70.53,0.89,0.08,0.52,0.71,0.2,0.43
+Austria,Western Europe,2017,7.29,10.9,0.91,70.65,0.89,0.13,0.52,0.7,0.18,0.44
+Austria,Western Europe,2018,7.4,10.92,0.91,70.78,0.9,0.05,0.52,0.69,0.23,0.49
+Austria,Western Europe,2019,7.2,10.93,0.96,70.9,0.9,0.06,0.46,0.73,0.21,0.51
+Austria,Western Europe,2020,7.21,10.86,0.92,71.03,0.91,0.01,0.46,0.72,0.21,0.63
+Austria,Western Europe,2021,7.08,10.9,0.86,71.15,0.79,0.16,0.5,0.72,0.26,0.61
+Austria,Western Europe,2022,7,10.94,0.88,71.28,0.86,0.14,0.52,0.72,0.23,0.7
+Azerbaijan,Commonwealth of Independent States,2006,4.73,9.15,0.85,60.58,0.77,-0.24,0.77,0.47,0.28,0.75
+Azerbaijan,Commonwealth of Independent States,2007,4.57,9.37,0.75,60.86,0.52,-0.21,0.87,0.47,0.28,0.71
+Azerbaijan,Commonwealth of Independent States,2008,4.82,9.45,0.68,61.14,0.6,-0.03,0.72,0.56,0.23,0.79
+Azerbaijan,Commonwealth of Independent States,2009,4.57,9.52,0.74,61.42,0.5,-0.09,0.75,0.52,0.23,0.77
+Azerbaijan,Commonwealth of Independent States,2010,4.22,9.55,0.69,61.7,0.5,-0.13,0.86,0.52,0.27,0.7
+Azerbaijan,Commonwealth of Independent States,2011,4.68,9.54,0.73,61.98,0.54,-0.11,0.8,0.52,0.26,0.74
+Azerbaijan,Commonwealth of Independent States,2012,4.91,9.55,0.76,62.26,0.6,-0.14,0.76,0.52,0.27,0.71
+Azerbaijan,Commonwealth of Independent States,2013,5.48,9.59,0.77,62.54,0.67,-0.17,0.7,0.52,0.24,0.75
+Azerbaijan,Commonwealth of Independent States,2014,5.25,9.61,0.8,62.82,0.73,-0.21,0.65,0.5,0.22,0.78
+Azerbaijan,Commonwealth of Independent States,2015,5.15,9.61,0.79,63.1,0.76,-0.2,0.62,0.52,0.21,0.79
+Azerbaijan,Commonwealth of Independent States,2016,5.3,9.56,0.78,63.22,0.71,-0.21,0.61,0.51,0.19,0.73
+Azerbaijan,Commonwealth of Independent States,2017,5.15,9.56,0.79,63.35,0.73,-0.23,0.65,0.51,0.2,0.77
+Azerbaijan,Commonwealth of Independent States,2018,5.17,9.56,0.78,63.47,0.77,-0.23,0.56,0.53,0.19,0.83
+Azerbaijan,Commonwealth of Independent States,2019,5.17,9.58,0.89,63.6,0.85,-0.22,0.46,0.58,0.16,0.86
+Bangladesh,South Asia,2006,4.32,7.94,0.67,59.12,0.61,0.06,0.79,0.46,0.32,0.61
+Bangladesh,South Asia,2007,4.61,8,0.51,59.64,0.6,0.03,0.81,0.48,0.31,0.73
+Bangladesh,South Asia,2008,5.05,8.05,0.47,60.16,0.61,-0.06,0.8,0.54,0.23,0.76
+Bangladesh,South Asia,2009,5.08,8.09,0.53,60.68,0.63,-0.09,0.78,0.51,0.22,0.83
+Bangladesh,South Asia,2010,4.86,8.13,0.55,61.2,0.66,-0.03,0.77,0.5,0.29,0.65
+Bangladesh,South Asia,2011,4.99,8.18,0.61,61.72,0.84,-0.08,0.76,0.5,0.23,0.79
+Bangladesh,South Asia,2012,4.72,8.23,0.58,62.24,0.67,-0.05,0.76,0.54,0.18,0.71
+Bangladesh,South Asia,2013,4.66,8.28,0.53,62.76,0.74,-0.03,0.74,0.49,0.25,0.74
+Bangladesh,South Asia,2014,4.64,8.32,0.58,63.28,0.74,-0.11,0.79,0.43,0.23,0.72
+Bangladesh,South Asia,2015,4.63,8.38,0.6,63.8,0.81,-0.08,0.72,0.54,0.23,0.76
+Bangladesh,South Asia,2016,4.56,8.43,0.65,63.92,0.87,-0.1,0.69,0.44,0.24,0.85
+Bangladesh,South Asia,2017,4.31,8.48,0.71,64.05,0.9,0,0.64,0.44,0.21,0.88
+Bangladesh,South Asia,2018,4.5,8.54,0.71,64.18,0.9,-0.06,0.7,0.43,0.36,0.83
+Bangladesh,South Asia,2019,5.11,8.61,0.67,64.3,0.9,-0.06,0.66,0.43,0.37,0.89
+Bangladesh,South Asia,2020,5.28,8.63,0.74,64.43,0.78,-0.02,0.74,0.48,0.33,0.74
+Bangladesh,South Asia,2021,4.12,8.68,0.48,64.55,0.89,0.09,0.75,0.5,0.45,0.54
+Bangladesh,South Asia,2022,3.41,8.74,0.4,64.68,0.86,-0.05,0.62,0.39,0.45,0.54
+Belarus,Commonwealth of Independent States,2006,5.66,9.49,0.92,60.06,0.71,-0.25,0.71,0.54,0.27,0.59
+Belarus,Commonwealth of Independent States,2007,5.62,9.58,0.86,60.62,0.67,-0.23,0.69,0.5,0.23,0.54
+Belarus,Commonwealth of Independent States,2008,5.46,9.68,0.9,61.18,0.64,-0.22,0.7,0.52,0.25,0.53
+Belarus,Commonwealth of Independent States,2009,5.56,9.68,0.91,61.74,0.68,-0.21,0.68,0.54,0.22,0.55
+Belarus,Commonwealth of Independent States,2010,5.53,9.76,0.92,62.3,0.7,-0.17,0.71,0.53,0.21,0.59
+Belarus,Commonwealth of Independent States,2011,5.23,9.81,0.91,62.86,0.66,-0.17,0.67,0.49,0.25,0.45
+Belarus,Commonwealth of Independent States,2012,5.75,9.83,0.9,63.42,0.65,-0.22,0.66,0.52,0.18,0.51
+Belarus,Commonwealth of Independent States,2013,5.88,9.84,0.92,63.98,0.72,-0.18,0.65,0.55,0.21,0.51
+Belarus,Commonwealth of Independent States,2014,5.81,9.86,0.88,64.54,0.65,-0.05,0.68,0.58,0.21,0.51
+Belarus,Commonwealth of Independent States,2015,5.72,9.82,0.92,65.1,0.62,-0.1,0.67,0.55,0.18,0.52
+Belarus,Commonwealth of Independent States,2016,5.18,9.79,0.93,65.32,0.66,-0.13,0.66,0.5,0.18,0.45
+Belarus,Commonwealth of Independent States,2017,5.55,9.82,0.9,65.55,0.62,-0.13,0.65,0.5,0.23,0.45
+Belarus,Commonwealth of Independent States,2018,5.23,9.85,0.9,65.78,0.64,-0.18,0.72,0.41,0.24,0.42
+Belarus,Commonwealth of Independent States,2019,5.82,9.87,0.92,66,0.66,-0.19,0.55,0.56,0.19,0.46
+Belgium,Western Europe,2005,7.26,10.74,0.93,68.4,0.92,0.07,0.6,0.68,0.26,0.55
+Belgium,Western Europe,2007,7.22,10.79,0.92,68.72,0.9,0.07,0.72,0.74,0.22,0.6
+Belgium,Western Europe,2008,7.12,10.79,0.92,68.88,0.89,0,0.65,0.71,0.24,0.46
+Belgium,Western Europe,2010,6.85,10.78,0.93,69.2,0.81,0.02,0.7,0.79,0.24,0.34
+Belgium,Western Europe,2011,7.11,10.78,0.94,69.36,0.88,-0.02,0.71,0.75,0.23,0.29
+Belgium,Western Europe,2012,6.94,10.78,0.93,69.52,0.86,-0.05,0.76,0.72,0.24,0.44
+Belgium,Western Europe,2013,7.1,10.78,0.91,69.68,0.89,0.01,0.57,0.74,0.22,0.55
+Belgium,Western Europe,2014,6.86,10.79,0.94,69.84,0.86,0,0.51,0.74,0.25,0.47
+Belgium,Western Europe,2015,6.9,10.81,0.89,70,0.87,0.06,0.47,0.75,0.24,0.46
+Belgium,Western Europe,2016,6.95,10.82,0.93,70.15,0.87,-0.06,0.5,0.7,0.26,0.42
+Belgium,Western Europe,2017,6.93,10.83,0.92,70.3,0.86,0.05,0.54,0.71,0.23,0.45
+Belgium,Western Europe,2018,6.89,10.84,0.93,70.45,0.81,-0.13,0.63,0.68,0.25,0.44
+Belgium,Western Europe,2019,6.77,10.86,0.88,70.6,0.78,-0.18,0.67,0.7,0.24,0.33
+Belgium,Western Europe,2020,6.84,10.8,0.9,70.75,0.77,-0.17,0.63,0.62,0.26,0.29
+Belgium,Western Europe,2021,6.88,10.85,0.91,70.9,0.82,0.08,0.52,0.69,0.26,0.38
+Belgium,Western Europe,2022,6.86,10.88,0.92,71.05,0.89,0.1,0.48,0.72,0.23,0.6
+Belize,Western Europe,2007,6.45,9.19,0.87,64.3,0.71,0.01,0.77,0.73,0.25,0.26
+Belize,Western Europe,2014,5.96,9.14,0.76,65,0.87,0,0.78,0.74,0.28,0.38
+Benin,Sub-Saharan Africa,2006,3.33,7.84,0.44,51.96,0.58,-0.01,0.79,0.52,0.31,0.54
+Benin,Sub-Saharan Africa,2008,3.67,7.89,0.38,52.48,0.71,0,0.83,0.57,0.3,0.6
+Benin,Sub-Saharan Africa,2011,3.87,7.88,0.48,53.26,0.77,-0.14,0.85,0.57,0.22,0.78
+Benin,Sub-Saharan Africa,2012,3.19,7.89,0.52,53.52,0.77,-0.11,0.81,0.56,0.23,0.58
+Benin,Sub-Saharan Africa,2013,3.48,7.93,0.58,53.78,0.78,-0.08,0.86,0.65,0.22,0.55
+Benin,Sub-Saharan Africa,2014,3.35,7.97,0.51,54.04,0.78,-0.1,0.85,0.56,0.27,0.57
+Benin,Sub-Saharan Africa,2015,3.62,7.96,0.43,54.3,0.73,-0.03,0.85,0.55,0.37,0.51
+Benin,Sub-Saharan Africa,2016,4.01,7.96,0.49,54.6,0.78,-0.06,0.84,0.58,0.46,0.64
+Benin,Sub-Saharan Africa,2017,4.85,7.98,0.44,54.9,0.73,-0.06,0.77,0.6,0.46,0.62
+Benin,Sub-Saharan Africa,2018,5.82,8.02,0.5,55.2,0.71,0,0.75,0.63,0.47,0.64
+Benin,Sub-Saharan Africa,2019,4.98,8.06,0.44,55.5,0.77,-0.02,0.7,0.64,0.44,0.69
+Benin,Sub-Saharan Africa,2020,4.41,8.07,0.51,55.8,0.78,-0.08,0.53,0.56,0.3,0.81
+Benin,Sub-Saharan Africa,2021,4.49,8.11,0.44,56.1,0.72,-0.01,0.61,0.6,0.43,0.76
+Benin,Sub-Saharan Africa,2022,4.22,8.14,0.37,56.4,0.71,-0.03,0.58,0.57,0.44,0.76
+Bolivia,Latin America and Caribbean,2006,5.37,8.67,0.83,60.9,0.77,-0.05,0.79,0.71,0.43,0.54
+Bolivia,Latin America and Caribbean,2007,5.63,8.7,0.8,61.1,0.78,0,0.82,0.75,0.39,0.51
+Bolivia,Latin America and Caribbean,2008,5.3,8.74,0.79,61.3,0.73,-0.09,0.8,0.72,0.39,0.44
+Bolivia,Latin America and Caribbean,2009,6.09,8.76,0.83,61.5,0.78,-0.04,0.76,0.74,0.37,0.47
+Bolivia,Latin America and Caribbean,2010,5.78,8.78,0.81,61.7,0.7,-0.07,0.78,0.72,0.35,0.38
+Bolivia,Latin America and Caribbean,2011,5.78,8.81,0.82,61.9,0.78,-0.04,0.82,0.69,0.36,0.33
+Bolivia,Latin America and Caribbean,2012,6.02,8.85,0.78,62.1,0.86,-0.02,0.84,0.7,0.41,0.44
+Bolivia,Latin America and Caribbean,2013,5.77,8.9,0.8,62.3,0.85,-0.07,0.81,0.72,0.41,0.43
+Bolivia,Latin America and Caribbean,2014,5.86,8.93,0.82,62.5,0.88,0.02,0.83,0.77,0.4,0.47
+Bolivia,Latin America and Caribbean,2015,5.83,8.97,0.83,62.7,0.88,-0.03,0.86,0.75,0.39,0.49
+Bolivia,Latin America and Caribbean,2016,5.77,8.99,0.8,62.85,0.88,-0.05,0.85,0.74,0.38,0.4
+Bolivia,Latin America and Caribbean,2017,5.65,9.02,0.78,63,0.88,-0.12,0.82,0.66,0.43,0.43
+Bolivia,Latin America and Caribbean,2018,5.92,9.04,0.83,63.15,0.86,-0.09,0.79,0.71,0.39,0.4
+Bolivia,Latin America and Caribbean,2019,5.67,9.05,0.78,63.3,0.88,-0.09,0.86,0.7,0.42,0.3
+Bolivia,Latin America and Caribbean,2020,5.56,8.95,0.8,63.45,0.88,-0.05,0.87,0.73,0.38,0.17
+Bolivia,Latin America and Caribbean,2021,5.57,8.99,0.8,63.6,0.86,-0.06,0.81,0.72,0.4,0.39
+Bolivia,Latin America and Caribbean,2022,5.93,9.01,0.82,63.75,0.87,-0.08,0.84,0.74,0.43,0.39
+Bosnia and Herzegovina,Central and Eastern Europe,2007,4.9,9.19,0.77,67,0.34,0.01,0.93,0.57,0.3,0.4
+Bosnia and Herzegovina,Central and Eastern Europe,2009,4.96,9.25,0.74,67,0.26,-0.02,0.96,0.51,0.39,0.4
+Bosnia and Herzegovina,Central and Eastern Europe,2010,4.67,9.27,0.77,67,0.36,-0.13,0.93,0.46,0.41,0.4
+Bosnia and Herzegovina,Central and Eastern Europe,2011,4.99,9.3,0.73,67,0.33,-0.04,0.92,0.55,0.33,0.4
+Bosnia and Herzegovina,Central and Eastern Europe,2012,4.77,9.31,0.78,67,0.42,-0.01,0.95,0.47,0.34,0.19
+Bosnia and Herzegovina,Central and Eastern Europe,2013,5.12,9.35,0.77,67,0.39,0.04,0.97,0.49,0.31,0.11
+Bosnia and Herzegovina,Central and Eastern Europe,2014,5.25,9.37,0.79,67,0.41,0.23,0.98,0.49,0.26,0.1
+Bosnia and Herzegovina,Central and Eastern Europe,2015,5.12,9.42,0.66,67,0.63,-0.05,0.96,0.49,0.29,0.19
+Bosnia and Herzegovina,Central and Eastern Europe,2016,5.18,9.46,0.81,67.05,0.63,0.13,0.96,0.57,0.3,0.21
+Bosnia and Herzegovina,Central and Eastern Europe,2017,5.09,9.5,0.78,67.1,0.56,0.09,0.92,0.53,0.27,0.13
+Bosnia and Herzegovina,Central and Eastern Europe,2018,5.89,9.55,0.84,67.15,0.66,0.12,0.91,0.57,0.28,0.25
+Bosnia and Herzegovina,Central and Eastern Europe,2019,6.02,9.59,0.87,67.2,0.72,0.08,0.96,0.54,0.24,0.17
+Bosnia and Herzegovina,Central and Eastern Europe,2020,5.52,9.57,0.9,67.25,0.74,0.14,0.92,0.6,0.33,0.24
+Bosnia and Herzegovina,Central and Eastern Europe,2021,5.75,9.66,0.86,67.3,0.76,0.28,0.92,0.6,0.31,0.23
+Botswana,Sub-Saharan Africa,2006,4.74,9.49,0.88,48.84,0.82,-0.2,0.72,0.64,0.23,0.81
+Botswana,Sub-Saharan Africa,2008,5.45,9.54,0.83,49.72,0.86,-0.16,0.81,0.68,0.22,0.88
+Botswana,Sub-Saharan Africa,2010,3.55,9.45,0.87,50.6,0.83,-0.14,0.81,0.62,0.17,0.74
+Botswana,Sub-Saharan Africa,2011,3.52,9.49,0.86,51.04,0.81,-0.25,0.82,0.65,0.16,0.79
+Botswana,Sub-Saharan Africa,2012,4.84,9.47,0.84,51.48,0.8,-0.19,0.81,0.69,0.17,0.66
+Botswana,Sub-Saharan Africa,2013,4.13,9.56,0.86,51.92,0.77,-0.15,0.75,0.67,0.24,0.65
+Botswana,Sub-Saharan Africa,2014,4.03,9.59,0.86,52.36,0.79,-0.1,0.74,0.63,0.25,0.71
+Botswana,Sub-Saharan Africa,2015,3.76,9.52,0.82,52.8,0.86,-0.11,0.86,0.68,0.26,0.82
+Botswana,Sub-Saharan Africa,2016,3.5,9.57,0.77,53.08,0.85,-0.24,0.73,0.66,0.25,0.8
+Botswana,Sub-Saharan Africa,2017,3.5,9.59,0.77,53.35,0.82,-0.24,0.73,0.61,0.28,0.77
+Botswana,Sub-Saharan Africa,2018,3.46,9.61,0.79,53.63,0.82,-0.25,0.81,0.69,0.27,0.72
+Botswana,Sub-Saharan Africa,2019,3.47,9.62,0.77,53.9,0.83,-0.23,0.79,0.67,0.27,0.69
+Botswana,Sub-Saharan Africa,2022,3.44,9.63,0.75,54.72,0.74,-0.21,0.83,0.62,0.29,0.69
+Brazil,Latin America and Caribbean,2005,6.64,9.44,0.88,63.1,0.88,-0.21,0.74,0.77,0.3,0.34
+Brazil,Latin America and Caribbean,2007,6.32,9.51,0.89,63.42,0.78,-0.02,0.73,0.77,0.3,0.38
+Brazil,Latin America and Caribbean,2008,6.69,9.55,0.88,63.58,0.78,-0.08,0.69,0.72,0.27,0.51
+Brazil,Latin America and Caribbean,2009,7,9.54,0.91,63.74,0.77,-0.06,0.72,0.74,0.27,0.43
+Brazil,Latin America and Caribbean,2010,6.84,9.6,0.91,63.9,0.81,-0.06,0.66,0.73,0.25,0.51
+Brazil,Latin America and Caribbean,2011,7.04,9.63,0.92,64.06,0.83,-0.08,0.66,0.7,0.27,0.5
+Brazil,Latin America and Caribbean,2012,6.66,9.64,0.89,64.22,0.85,-0.08,0.62,0.69,0.35,0.46
+Brazil,Latin America and Caribbean,2013,7.14,9.66,0.91,64.38,0.78,-0.1,0.71,0.72,0.28,0.39
+Brazil,Latin America and Caribbean,2014,6.98,9.66,0.9,64.54,0.71,-0.12,0.71,0.72,0.27,0.36
+Brazil,Latin America and Caribbean,2015,6.55,9.62,0.91,64.7,0.8,-0.02,0.77,0.69,0.32,0.2
+Brazil,Latin America and Caribbean,2016,6.37,9.58,0.91,64.88,0.81,-0.1,0.78,0.71,0.3,0.26
+Brazil,Latin America and Caribbean,2017,6.33,9.58,0.9,65.05,0.76,-0.18,0.79,0.67,0.31,0.17
+Brazil,Latin America and Caribbean,2018,6.19,9.59,0.88,65.22,0.75,-0.12,0.76,0.68,0.35,0.17
+Brazil,Latin America and Caribbean,2019,6.45,9.59,0.9,65.4,0.83,-0.07,0.76,0.7,0.34,0.34
+Brazil,Latin America and Caribbean,2020,6.11,9.55,0.83,65.57,0.79,-0.06,0.73,0.65,0.39,0.36
+Brazil,Latin America and Caribbean,2021,6.01,9.59,0.81,65.75,0.79,0.09,0.74,0.66,0.41,0.33
+Brazil,Latin America and Caribbean,2022,6.26,9.61,0.87,65.93,0.83,-0.06,0.74,0.68,0.34,0.33
+Bulgaria,Central and Eastern Europe,2007,3.84,9.75,0.83,64.78,0.57,-0.14,0.98,0.5,0.23,0.28
+Bulgaria,Central and Eastern Europe,2010,3.91,9.81,0.84,65.2,0.54,-0.15,0.94,0.51,0.24,0.37
+Bulgaria,Central and Eastern Europe,2011,3.88,9.83,0.86,65.34,0.66,-0.23,0.95,0.49,0.27,0.27
+Bulgaria,Central and Eastern Europe,2012,4.22,9.85,0.84,65.48,0.64,-0.18,0.94,0.51,0.24,0.34
+Bulgaria,Central and Eastern Europe,2013,3.99,9.85,0.83,65.62,0.6,-0.2,0.96,0.54,0.28,0.17
+Bulgaria,Central and Eastern Europe,2014,4.44,9.86,0.89,65.76,0.58,-0.06,0.95,0.54,0.24,0.14
+Bulgaria,Central and Eastern Europe,2015,4.87,9.9,0.91,65.9,0.64,-0.2,0.94,0.56,0.21,0.25
+Bulgaria,Central and Eastern Europe,2016,4.84,9.94,0.93,66,0.7,-0.17,0.94,0.54,0.17,0.22
+Bulgaria,Central and Eastern Europe,2017,5.1,9.97,0.94,66.1,0.69,-0.16,0.91,0.54,0.19,0.33
+Bulgaria,Central and Eastern Europe,2018,5.1,10.01,0.92,66.2,0.72,-0.18,0.95,0.55,0.19,0.22
+Bulgaria,Central and Eastern Europe,2019,5.11,10.05,0.95,66.3,0.82,-0.11,0.94,0.58,0.2,0.27
+Bulgaria,Central and Eastern Europe,2020,5.6,10.02,0.92,66.4,0.82,-0.01,0.9,0.64,0.22,0.27
+Bulgaria,Central and Eastern Europe,2021,5.42,10.1,0.88,66.5,0.84,-0.02,0.89,0.65,0.25,0.22
+Bulgaria,Central and Eastern Europe,2022,5.38,10.14,0.95,66.6,0.74,-0.15,0.94,0.58,0.17,0.22
+Burkina Faso,Sub-Saharan Africa,2006,3.8,7.33,0.8,49.44,0.59,0.03,0.8,0.68,0.27,0.35
+Burkina Faso,Sub-Saharan Africa,2007,4.02,7.34,0.77,49.88,0.58,-0.06,0.83,0.61,0.28,0.42
+Burkina Faso,Sub-Saharan Africa,2008,3.85,7.36,0.73,50.32,0.61,-0.1,0.89,0.54,0.3,0.46
+Burkina Faso,Sub-Saharan Africa,2010,4.04,7.42,0.77,51.2,0.59,-0.03,0.77,0.56,0.22,0.55
+Burkina Faso,Sub-Saharan Africa,2011,4.79,7.45,0.71,51.64,0.72,-0.1,0.71,0.58,0.2,0.63
+Burkina Faso,Sub-Saharan Africa,2012,3.96,7.48,0.74,52.08,0.62,-0.07,0.73,0.49,0.3,0.62
+Burkina Faso,Sub-Saharan Africa,2013,3.33,7.51,0.75,52.52,0.74,-0.01,0.76,0.59,0.29,0.63
+Burkina Faso,Sub-Saharan Africa,2014,3.48,7.52,0.74,52.96,0.71,0,0.8,0.6,0.26,0.54
+Burkina Faso,Sub-Saharan Africa,2015,4.42,7.53,0.71,53.4,0.66,0,0.69,0.55,0.36,0.67
+Burkina Faso,Sub-Saharan Africa,2016,4.21,7.56,0.76,53.78,0.64,0,0.72,0.59,0.34,0.66
+Burkina Faso,Sub-Saharan Africa,2017,4.65,7.59,0.78,54.15,0.61,-0.06,0.73,0.58,0.35,0.54
+Burkina Faso,Sub-Saharan Africa,2018,4.93,7.63,0.66,54.53,0.72,-0.01,0.76,0.66,0.34,0.62
+Burkina Faso,Sub-Saharan Africa,2019,4.74,7.65,0.68,54.9,0.68,0,0.73,0.66,0.36,0.7
+Burkina Faso,Sub-Saharan Africa,2020,4.64,7.65,0.67,55.28,0.75,0.12,0.81,0.6,0.39,0.7
+Burkina Faso,Sub-Saharan Africa,2021,4.64,7.69,0.66,55.65,0.64,0.07,0.74,0.62,0.36,0.62
+Burundi,Sub-Saharan Africa,2008,3.56,6.7,0.29,49.66,0.26,-0.02,0.86,0.42,0.25,0.57
+Burundi,Sub-Saharan Africa,2009,3.79,6.69,0.33,50.28,0.43,-0.02,0.72,0.61,0.16,0.75
+Burundi,Sub-Saharan Africa,2011,3.71,6.69,0.42,51.52,0.49,-0.06,0.68,0.57,0.19,0.85
+Burundi,Sub-Saharan Africa,2014,2.9,6.72,0.56,53.38,0.43,-0.06,0.81,0.62,0.25,0.85
+Burundi,Sub-Saharan Africa,2018,3.78,6.61,0.48,55.2,0.65,-0.02,0.6,0.64,0.36,0.85
+Cambodia,Southeast Asia,2006,3.57,7.75,0.79,57.64,0.65,0.25,0.83,0.64,0.34,0.74
+Cambodia,Southeast Asia,2007,4.16,7.83,0.68,57.98,0.82,0.11,0.88,0.64,0.32,0.64
+Cambodia,Southeast Asia,2008,4.46,7.87,0.62,58.32,0.91,0.04,0.89,0.6,0.34,0.74
+Cambodia,Southeast Asia,2009,4.11,7.86,0.82,58.66,0.94,0.15,0.96,0.69,0.19,0.9
+Cambodia,Southeast Asia,2010,4.14,7.9,0.7,59,0.94,0.35,0.9,0.66,0.42,0.9
+Cambodia,Southeast Asia,2011,4.16,7.96,0.72,59.34,0.93,0.42,0.78,0.64,0.31,0.9
+Cambodia,Southeast Asia,2012,3.9,8.01,0.61,59.68,0.96,0.24,0.89,0.71,0.35,0.83
+Cambodia,Southeast Asia,2013,3.67,8.07,0.65,60.02,0.94,0.16,0.81,0.67,0.44,0.78
+Cambodia,Southeast Asia,2014,3.88,8.13,0.69,60.36,0.94,0.24,0.84,0.68,0.48,0.7
+Cambodia,Southeast Asia,2015,4.16,8.18,0.73,60.7,0.96,0.21,0.83,0.73,0.4,0.73
+Cambodia,Southeast Asia,2016,4.46,8.23,0.75,60.9,0.96,0.07,0.84,0.71,0.4,0.74
+Cambodia,Southeast Asia,2017,4.59,8.29,0.77,61.1,0.96,0.08,0.82,0.67,0.41,0.75
+Cambodia,Southeast Asia,2018,5.12,8.35,0.79,61.3,0.96,0.03,0.84,0.72,0.41,0.83
+Cambodia,Southeast Asia,2019,5,8.4,0.76,61.5,0.96,0.01,0.83,0.7,0.39,0.9
+Cambodia,Southeast Asia,2020,4.38,8.36,0.72,61.7,0.96,0.05,0.86,0.77,0.39,0.75
+Cambodia,Southeast Asia,2021,4.56,8.38,0.71,61.9,0.97,0.02,0.84,0.76,0.39,0.74
+Cambodia,Southeast Asia,2022,4.25,8.41,0.78,62.1,0.95,0.15,0.86,0.76,0.39,0.83
+Cameroon,Sub-Saharan Africa,2006,3.85,8.09,0.69,47.84,0.65,-0.02,0.91,0.59,0.27,0.43
+Cameroon,Sub-Saharan Africa,2007,4.35,8.1,0.72,48.28,0.64,-0.04,0.91,0.63,0.25,0.41
+Cameroon,Sub-Saharan Africa,2008,4.29,8.1,0.7,48.72,0.58,-0.08,0.95,0.61,0.31,0.31
+Cameroon,Sub-Saharan Africa,2009,4.74,8.1,0.73,49.16,0.7,-0.02,0.93,0.59,0.25,0.37
+Cameroon,Sub-Saharan Africa,2010,4.55,8.1,0.76,49.6,0.79,0,0.87,0.59,0.27,0.51
+Cameroon,Sub-Saharan Africa,2011,4.43,8.11,0.74,50.04,0.82,-0.04,0.87,0.61,0.27,0.65
+Cameroon,Sub-Saharan Africa,2012,4.24,8.12,0.74,50.48,0.77,-0.04,0.9,0.62,0.28,0.53
+Cameroon,Sub-Saharan Africa,2013,4.27,8.14,0.76,50.92,0.79,-0.04,0.87,0.64,0.27,0.61
+Cameroon,Sub-Saharan Africa,2014,4.24,8.17,0.78,51.36,0.79,-0.08,0.86,0.6,0.22,0.61
+Cameroon,Sub-Saharan Africa,2015,5.04,8.19,0.65,51.8,0.79,0.04,0.87,0.62,0.35,0.61
+Cameroon,Sub-Saharan Africa,2016,4.82,8.21,0.66,52.47,0.71,-0.01,0.88,0.63,0.37,0.62
+Cameroon,Sub-Saharan Africa,2017,5.07,8.21,0.69,53.15,0.77,-0.03,0.84,0.63,0.38,0.58
+Cameroon,Sub-Saharan Africa,2018,5.25,8.22,0.68,53.83,0.82,0.03,0.88,0.63,0.36,0.65
+Cameroon,Sub-Saharan Africa,2019,4.94,8.23,0.71,54.5,0.71,-0.01,0.82,0.61,0.33,0.55
+Cameroon,Sub-Saharan Africa,2020,5.24,8.21,0.72,55.17,0.67,0.04,0.84,0.63,0.39,0.5
+Cameroon,Sub-Saharan Africa,2021,4.96,8.22,0.69,55.85,0.72,-0.03,0.85,0.61,0.35,0.56
+Cameroon,Sub-Saharan Africa,2022,4.71,8.23,0.63,56.53,0.67,0.03,0.85,0.59,0.36,0.5
+Canada,North America and ANZ,2005,7.42,10.71,0.96,70.5,0.96,0.25,0.5,0.78,0.23,0.44
+Canada,North America and ANZ,2007,7.48,10.73,0.94,70.62,0.93,0.25,0.41,0.81,0.26,0.64
+Canada,North America and ANZ,2008,7.49,10.73,0.94,70.68,0.93,0.26,0.37,0.8,0.2,0.59
+Canada,North America and ANZ,2009,7.49,10.69,0.94,70.74,0.92,0.24,0.41,0.79,0.25,0.61
+Canada,North America and ANZ,2010,7.65,10.71,0.95,70.8,0.93,0.23,0.41,0.79,0.23,0.55
+Canada,North America and ANZ,2011,7.43,10.73,0.92,70.86,0.95,0.25,0.43,0.8,0.25,0.55
+Canada,North America and ANZ,2012,7.42,10.74,0.95,70.92,0.92,0.29,0.47,0.78,0.23,0.52
+Canada,North America and ANZ,2013,7.59,10.75,0.94,70.98,0.92,0.31,0.41,0.8,0.26,0.51
+Canada,North America and ANZ,2014,7.3,10.77,0.92,71.04,0.94,0.27,0.44,0.79,0.26,0.52
+Canada,North America and ANZ,2015,7.41,10.77,0.94,71.1,0.93,0.25,0.43,0.79,0.29,0.64
+Canada,North America and ANZ,2016,7.24,10.77,0.92,71.15,0.91,0.21,0.39,0.77,0.24,0.62
+Canada,North America and ANZ,2017,7.41,10.79,0.93,71.2,0.95,0.16,0.36,0.8,0.22,0.65
+Canada,North America and ANZ,2018,7.18,10.8,0.92,71.25,0.95,0.1,0.37,0.77,0.26,0.61
+Canada,North America and ANZ,2019,7.11,10.8,0.93,71.3,0.91,0.11,0.44,0.78,0.28,0.55
+Canada,North America and ANZ,2020,7.02,10.74,0.93,71.35,0.89,0.04,0.43,0.74,0.31,0.6
+Canada,North America and ANZ,2021,6.94,10.78,0.93,71.4,0.9,0.19,0.38,0.76,0.28,0.61
+Canada,North America and ANZ,2022,6.92,10.8,0.93,71.45,0.84,0.22,0.44,0.72,0.29,0.61
+Central African Republic,,2007,4.16,6.95,0.53,41.48,0.66,0.08,0.78,0.57,0.33,0.62
+Central African Republic,,2010,3.57,7.03,0.48,42.5,0.69,-0.03,0.85,0.48,0.26,0.75
+Central African Republic,,2011,3.68,7.06,0.39,42.84,0.78,-0.01,0.83,0.5,0.28,0.78
+Central African Republic,,2016,2.69,6.71,0.29,44.75,0.62,0.04,0.86,0.55,0.49,0.75
+Central African Republic,,2017,3.48,6.73,0.32,45.3,0.65,0.08,0.89,0.6,0.6,0.65
+Chad,Sub-Saharan Africa,2006,3.43,7.37,0.72,47.08,0.31,0.03,0.96,0.57,0.26,0.16
+Chad,Sub-Saharan Africa,2007,4.14,7.37,0.48,47.46,0.29,-0.01,0.87,0.6,0.25,0.23
+Chad,Sub-Saharan Africa,2008,4.63,7.36,0.57,47.84,0.53,0.06,0.94,0.57,0.23,0.35
+Chad,Sub-Saharan Africa,2009,3.64,7.37,0.65,48.22,0.4,0.02,0.93,0.6,0.22,0.25
+Chad,Sub-Saharan Africa,2010,3.74,7.46,0.73,48.6,0.5,0.02,0.86,0.56,0.29,0.32
+Chad,Sub-Saharan Africa,2011,4.39,7.43,0.82,48.98,0.54,0.03,0.88,0.58,0.29,0.39
+Chad,Sub-Saharan Africa,2012,4.03,7.48,0.67,49.36,0.56,-0.04,0.88,0.5,0.32,0.3
+Chad,Sub-Saharan Africa,2013,3.51,7.5,0.71,49.74,0.49,-0.05,0.88,0.44,0.31,0.31
+Chad,Sub-Saharan Africa,2014,3.46,7.53,0.73,50.12,0.57,-0.07,0.88,0.52,0.33,0.37
+Chad,Sub-Saharan Africa,2015,4.32,7.52,0.75,50.5,0.47,-0.03,0.89,0.59,0.36,0.45
+Chad,Sub-Saharan Africa,2016,4.03,7.43,0.62,50.88,0.53,0.05,0.82,0.56,0.47,0.51
+Chad,Sub-Saharan Africa,2017,4.56,7.37,0.66,51.25,0.61,0.01,0.79,0.58,0.54,0.47
+Chad,Sub-Saharan Africa,2018,4.49,7.35,0.58,51.63,0.65,0.02,0.76,0.53,0.54,0.58
+Chad,Sub-Saharan Africa,2019,4.25,7.35,0.64,52,0.54,0.05,0.83,0.56,0.46,0.57
+Chad,Sub-Saharan Africa,2022,4.4,7.26,0.72,53.13,0.68,0.22,0.81,0.59,0.5,
+Chile,Latin America and Caribbean,2006,6.06,9.87,0.84,67.78,0.74,0.16,0.63,0.75,0.35,0.58
+Chile,Latin America and Caribbean,2007,5.7,9.91,0.81,67.96,0.66,0.24,0.72,0.71,0.34,0.43
+Chile,Latin America and Caribbean,2008,5.79,9.94,0.8,68.14,0.64,0.08,0.74,0.71,0.33,0.41
+Chile,Latin America and Caribbean,2009,6.49,9.92,0.83,68.32,0.75,0.14,0.73,0.76,0.3,0.58
+Chile,Latin America and Caribbean,2010,6.64,9.96,0.86,68.5,0.79,0.1,0.7,0.76,0.3,0.48
+Chile,Latin America and Caribbean,2011,6.53,10.01,0.82,68.68,0.7,0.11,0.75,0.76,0.32,0.32
+Chile,Latin America and Caribbean,2012,6.6,10.06,0.86,68.86,0.73,0.19,0.78,0.74,0.29,0.34
+Chile,Latin America and Caribbean,2013,6.74,10.09,0.86,69.04,0.74,0.08,0.74,0.79,0.29,0.31
+Chile,Latin America and Caribbean,2014,6.84,10.09,0.86,69.22,0.73,0.21,0.76,0.8,0.28,0.4
+Chile,Latin America and Caribbean,2015,6.53,10.1,0.83,69.4,0.77,0.03,0.81,0.75,0.33,0.3
+Chile,Latin America and Caribbean,2016,6.58,10.11,0.84,69.55,0.65,0.1,0.86,0.79,0.28,0.2
+Chile,Latin America and Caribbean,2017,6.32,10.11,0.88,69.7,0.79,-0.03,0.84,0.76,0.29,0.27
+Chile,Latin America and Caribbean,2018,6.44,10.13,0.89,69.85,0.79,-0.07,0.82,0.76,0.28,0.33
+Chile,Latin America and Caribbean,2019,5.94,10.12,0.87,70,0.66,-0.11,0.86,0.74,0.34,0.15
+Chile,Latin America and Caribbean,2020,6.15,10.04,0.89,70.15,0.78,0.03,0.81,0.75,0.34,0.17
+Chile,Latin America and Caribbean,2021,6.44,10.14,0.89,70.3,0.8,-0.05,0.86,0.74,0.22,0.23
+Chile,Latin America and Caribbean,2022,6.42,10.15,0.89,70.45,0.79,-0.01,0.8,0.78,0.25,
+China,East Asia,2006,4.56,8.7,0.75,65.66,,,,0.66,0.17,
+China,East Asia,2007,4.86,8.82,0.81,65.92,,-0.18,,0.66,0.16,
+China,East Asia,2008,4.85,8.91,0.75,66.18,0.85,-0.1,,0.71,0.15,
+China,East Asia,2009,4.45,9,0.8,66.44,0.77,-0.16,,0.67,0.16,
+China,East Asia,2010,4.65,9.09,0.77,66.7,0.8,-0.14,,0.66,0.16,
+China,East Asia,2011,5.04,9.18,0.79,66.96,0.82,-0.19,,0.71,0.13,
+China,East Asia,2012,5.09,9.25,0.79,67.22,0.81,-0.19,,0.69,0.16,
+China,East Asia,2013,5.24,9.31,0.78,67.48,0.8,-0.16,,0.72,0.14,
+China,East Asia,2014,5.2,9.38,0.82,67.74,,-0.22,,0.71,0.11,
+China,East Asia,2015,5.3,9.44,0.79,68,,-0.25,,0.67,0.17,
+China,East Asia,2016,5.32,9.5,0.74,68.13,,-0.23,,0.68,0.15,
+China,East Asia,2017,5.1,9.56,0.77,68.25,0.88,-0.18,,0.68,0.21,
+China,East Asia,2018,5.13,9.62,0.79,68.38,0.9,-0.16,,0.72,0.19,
+China,East Asia,2019,5.14,9.68,0.82,68.5,0.93,-0.18,,0.76,0.15,
+China,East Asia,2020,5.77,9.7,0.81,68.63,0.89,-0.11,,0.66,0.24,
+China,East Asia,2021,5.86,9.78,0.86,68.75,0.87,0.02,,0.7,0.24,
+Colombia,Latin America and Caribbean,2006,6.02,9.28,0.91,66.32,0.8,-0.02,0.81,0.78,0.33,0.48
+Colombia,Latin America and Caribbean,2007,6.14,9.33,0.89,66.54,0.79,-0.04,0.86,0.77,0.29,0.51
+Colombia,Latin America and Caribbean,2008,6.17,9.35,0.88,66.76,0.8,-0.04,0.76,0.77,0.31,0.64
+Colombia,Latin America and Caribbean,2009,6.27,9.35,0.89,66.98,0.76,-0.06,0.84,0.79,0.27,0.44
+Colombia,Latin America and Caribbean,2010,6.41,9.38,0.89,67.2,0.82,-0.05,0.81,0.79,0.26,0.55
+Colombia,Latin America and Caribbean,2011,6.46,9.44,0.9,67.42,0.81,-0.08,0.85,0.78,0.29,0.45
+Colombia,Latin America and Caribbean,2012,6.37,9.47,0.91,67.64,0.83,-0.01,0.87,0.83,0.29,0.36
+Colombia,Latin America and Caribbean,2013,6.61,9.51,0.9,67.86,0.84,-0.07,0.9,0.81,0.28,0.29
+Colombia,Latin America and Caribbean,2014,6.45,9.54,0.91,68.08,0.8,-0.09,0.89,0.82,0.28,0.3
+Colombia,Latin America and Caribbean,2015,6.39,9.56,0.89,68.3,0.79,-0.1,0.84,0.8,0.29,0.27
+Colombia,Latin America and Caribbean,2016,6.23,9.57,0.88,68.47,0.83,-0.1,0.9,0.77,0.29,0.26
+Colombia,Latin America and Caribbean,2017,6.16,9.57,0.91,68.65,0.84,-0.16,0.88,0.79,0.3,0.22
+Colombia,Latin America and Caribbean,2018,5.98,9.58,0.87,68.82,0.85,-0.15,0.85,0.77,0.3,0.27
+Colombia,Latin America and Caribbean,2019,6.35,9.59,0.87,69,0.82,-0.17,0.85,0.79,0.32,0.33
+Colombia,Latin America and Caribbean,2020,5.71,9.5,0.8,69.18,0.84,-0.09,0.81,0.76,0.34,0.37
+Colombia,Latin America and Caribbean,2021,5.29,9.59,0.79,69.35,0.77,-0.06,0.83,0.75,0.35,0.29
+Colombia,Latin America and Caribbean,2022,5.89,9.66,0.88,69.53,0.8,-0.16,0.86,0.76,0.31,
+Comoros,Sub-Saharan Africa,2009,3.48,8,0.63,56.76,0.51,-0.08,0.84,0.63,0.17,0.32
+Comoros,Sub-Saharan Africa,2010,3.81,8.01,0.72,57,0.53,0,0.74,0.66,0.18,0.4
+Comoros,Sub-Saharan Africa,2011,3.84,8.03,0.72,57.24,0.5,-0.08,0.73,0.62,0.17,0.44
+Comoros,Sub-Saharan Africa,2012,3.96,8.04,0.72,57.48,0.53,-0.13,0.65,0.62,0.21,0.46
+Comoros,Sub-Saharan Africa,2018,3.97,8.1,0.62,58.72,0.56,0.08,0.79,0.69,0.34,0.32
+Comoros,Sub-Saharan Africa,2019,4.61,8.1,0.63,58.9,0.54,0.07,0.76,0.67,0.34,0.31
+Comoros,Sub-Saharan Africa,2022,3.55,8.07,0.47,59.42,0.48,-0.01,0.73,0.6,0.35,
+Congo (Brazzaville),Sub-Saharan Africa,2008,3.82,8.39,0.55,52.24,0.53,-0.12,,0.6,0.3,0.32
+Congo (Brazzaville),Sub-Saharan Africa,2011,4.51,8.5,0.64,53.38,0.74,-0.13,0.83,0.6,0.29,0.47
+Congo (Brazzaville),Sub-Saharan Africa,2012,3.92,8.57,0.62,53.76,0.77,-0.14,0.8,0.55,0.32,0.54
+Congo (Brazzaville),Sub-Saharan Africa,2013,3.95,8.54,0.68,54.14,0.73,-0.1,0.75,0.6,0.29,0.56
+Congo (Brazzaville),Sub-Saharan Africa,2014,4.06,8.58,0.69,54.52,0.66,-0.14,0.81,0.56,0.4,0.48
+Congo (Brazzaville),Sub-Saharan Africa,2015,4.69,8.52,0.64,54.9,0.85,-0.13,0.84,0.56,0.26,0.5
+Congo (Brazzaville),Sub-Saharan Africa,2016,4.12,8.38,0.62,55.22,0.79,-0.09,0.79,0.59,0.3,0.48
+Congo (Brazzaville),Sub-Saharan Africa,2017,4.88,8.31,0.66,55.55,0.78,-0.14,0.76,0.57,0.38,0.47
+Congo (Brazzaville),Sub-Saharan Africa,2018,5.49,8.24,0.62,55.88,0.7,-0.1,0.74,0.57,0.45,0.47
+Congo (Brazzaville),Sub-Saharan Africa,2019,5.21,8.21,0.62,56.2,0.69,-0.06,0.74,0.59,0.41,0.54
+Congo (Brazzaville),Sub-Saharan Africa,2020,5.08,8.13,0.6,56.53,0.76,-0.02,0.73,0.57,0.43,0.58
+Congo (Brazzaville),Sub-Saharan Africa,2021,4.92,8.08,0.57,56.85,0.74,-0.02,0.73,0.57,0.42,0.52
+Congo (Brazzaville),Sub-Saharan Africa,2022,5.8,8.08,0.65,57.17,0.7,0.03,0.76,0.58,0.48,
+Congo (Kinshasa),,2009,3.98,6.7,0.73,49.4,0.56,-0.02,0.82,0.49,0.28,0.54
+Congo (Kinshasa),,2011,4.52,6.77,0.74,50.4,0.63,-0.02,0.86,0.56,0.21,0.35
+Congo (Kinshasa),,2012,4.64,6.8,0.77,50.9,0.56,-0.03,0.81,0.63,0.23,0.44
+Congo (Kinshasa),,2013,4.5,6.85,0.83,51.4,0.48,0.01,0.91,0.56,0.19,0.2
+Congo (Kinshasa),,2014,4.41,6.91,0.82,51.9,0.56,0.01,0.81,0.52,0.3,0.31
+Congo (Kinshasa),,2015,3.9,6.94,0.77,52.4,0.57,-0.05,0.87,0.54,0.3,0.27
+Congo (Kinshasa),,2016,4.52,6.93,0.86,52.83,0.64,-0.02,0.87,0.61,0.22,0.28
+Congo (Kinshasa),,2017,4.31,6.93,0.67,53.25,0.7,0.07,0.81,0.54,0.4,0.48
+Congo (Kinshasa),,2022,3.21,7.01,0.65,55.38,0.66,0.09,0.84,0.56,0.46,
+Costa Rica,Latin America and Caribbean,2006,7.08,9.61,0.94,68.56,0.88,0.05,0.8,0.82,0.24,0.38
+Costa Rica,Latin America and Caribbean,2007,7.43,9.67,0.92,68.72,0.92,0.09,0.82,0.83,0.24,0.45
+Costa Rica,Latin America and Caribbean,2008,6.85,9.7,0.92,68.88,0.91,0.09,0.82,0.84,0.23,0.36
+Costa Rica,Latin America and Caribbean,2009,7.61,9.68,0.9,69.04,0.89,0.06,0.79,0.84,0.22,0.52
+Costa Rica,Latin America and Caribbean,2010,7.27,9.72,0.92,69.2,0.88,0.04,0.76,0.83,0.22,0.53
+Costa Rica,Latin America and Caribbean,2011,7.23,9.75,0.89,69.36,0.93,-0.04,0.84,0.79,0.27,0.32
+Costa Rica,Latin America and Caribbean,2012,7.27,9.79,0.9,69.52,0.93,0.04,0.79,0.84,0.26,0.28
+Costa Rica,Latin America and Caribbean,2013,7.16,9.8,0.9,69.68,0.9,0.01,0.81,0.81,0.28,0.26
+Costa Rica,Latin America and Caribbean,2014,7.25,9.82,0.91,69.84,0.93,0,0.79,0.8,0.29,0.4
+Costa Rica,Latin America and Caribbean,2015,6.85,9.85,0.88,70,0.91,-0.07,0.76,0.81,0.29,0.26
+Costa Rica,Latin America and Caribbean,2016,7.14,9.88,0.9,70,0.87,-0.04,0.78,0.83,0.28,0.28
+Costa Rica,Latin America and Caribbean,2017,7.23,9.91,0.92,70,0.94,-0.08,0.74,0.79,0.28,0.41
+Costa Rica,Latin America and Caribbean,2018,7.14,9.93,0.88,70,0.94,-0.11,0.78,0.8,0.33,0.48
+Costa Rica,Latin America and Caribbean,2019,7,9.94,0.91,70,0.93,-0.15,0.84,0.79,0.3,0.28
+Costa Rica,Latin America and Caribbean,2020,6.34,9.89,0.83,70,0.89,-0.14,0.77,0.76,0.35,0.3
+Costa Rica,Latin America and Caribbean,2021,6.41,9.96,0.88,70,0.89,-0.03,0.78,0.77,0.32,0.32
+Costa Rica,Latin America and Caribbean,2022,7.08,10,0.9,70,0.91,-0.05,0.75,0.79,0.27,0.25
+Croatia,Central and Eastern Europe,2007,5.82,10.17,0.91,66.94,0.66,-0.1,0.93,0.55,0.34,0.39
+Croatia,Central and Eastern Europe,2009,5.43,10.12,0.86,67.18,0.55,-0.28,0.96,0.56,0.27,0.16
+Croatia,Central and Eastern Europe,2010,5.6,10.11,0.8,67.3,0.56,-0.24,0.97,0.55,0.26,0.26
+Croatia,Central and Eastern Europe,2011,5.39,10.11,0.79,67.42,0.52,-0.2,0.98,0.55,0.27,0.36
+Croatia,Central and Eastern Europe,2012,6.03,10.09,0.78,67.54,0.54,-0.25,0.92,0.57,0.27,0.31
+Croatia,Central and Eastern Europe,2013,5.89,10.09,0.75,67.66,0.63,-0.21,0.94,0.55,0.28,0.26
+Croatia,Central and Eastern Europe,2014,5.38,10.09,0.65,67.78,0.52,0.13,0.92,0.54,0.29,0.16
+Croatia,Central and Eastern Europe,2015,5.21,10.12,0.77,67.9,0.69,-0.1,0.85,0.57,0.29,0.36
+Croatia,Central and Eastern Europe,2016,5.42,10.17,0.8,68.07,0.67,-0.07,0.88,0.57,0.34,0.3
+Croatia,Central and Eastern Europe,2017,5.34,10.21,0.77,68.25,0.72,-0.11,0.89,0.62,0.32,0.21
+Croatia,Central and Eastern Europe,2018,5.54,10.25,0.91,68.43,0.69,-0.16,0.93,0.51,0.29,0.25
+Croatia,Central and Eastern Europe,2019,5.63,10.29,0.94,68.6,0.74,-0.14,0.93,0.5,0.27,0.29
+Croatia,Central and Eastern Europe,2020,6.51,10.2,0.92,68.78,0.84,-0.07,0.96,0.68,0.29,0.21
+Croatia,Central and Eastern Europe,2021,6.29,10.36,0.92,68.95,0.84,0,0.93,0.64,0.27,0.25
+Croatia,Central and Eastern Europe,2022,5.58,10.46,0.91,69.13,0.59,-0.21,0.88,0.57,0.27,0.34
+Cyprus,Western Europe,2006,6.24,10.57,0.88,70.16,0.84,0.01,0.71,0.7,0.25,0.66
+Cyprus,Western Europe,2009,6.83,10.56,0.81,70.64,0.77,0.05,0.8,0.67,0.33,0.56
+Cyprus,Western Europe,2010,6.39,10.56,0.82,70.8,0.76,0.07,0.83,0.7,0.3,0.45
+Cyprus,Western Europe,2011,6.69,10.53,0.84,70.96,0.75,0.18,0.84,0.68,0.27,0.4
+Cyprus,Western Europe,2012,6.18,10.48,0.77,71.12,0.72,0.09,0.87,0.69,0.37,0.34
+Cyprus,Western Europe,2013,5.44,10.42,0.74,71.28,0.66,0.1,0.87,0.66,0.42,0.27
+Cyprus,Western Europe,2014,5.63,10.41,0.77,71.44,0.72,0.06,0.87,0.66,0.4,0.24
+Cyprus,Western Europe,2015,5.44,10.45,0.77,71.6,0.63,0.11,0.89,0.66,0.38,0.2
+Cyprus,Western Europe,2016,5.79,10.51,0.79,71.8,0.76,-0.03,0.9,0.63,0.34,0.33
+Cyprus,Western Europe,2017,6.06,10.56,0.82,72,0.81,0.04,0.85,0.67,0.3,0.31
+Cyprus,Western Europe,2018,6.28,10.6,0.83,72.2,0.79,-0.03,0.85,0.66,0.3,0.35
+Cyprus,Western Europe,2019,6.14,10.64,0.78,72.4,0.74,-0.02,0.87,0.66,0.29,0.33
+Cyprus,Western Europe,2020,6.26,10.58,0.81,72.6,0.76,-0.08,0.82,0.67,0.28,0.41
+Cyprus,Western Europe,2021,6.27,10.64,0.86,72.8,0.72,-0.04,0.88,0.64,0.27,0.32
+Cyprus,Western Europe,2022,5.86,,0.82,73,0.7,,0.89,0.66,0.3,
+Czechia,Western Europe,2005,6.44,10.32,0.92,67.1,0.87,,0.9,0.64,0.26,0.28
+Czechia,Western Europe,2007,6.5,10.43,0.9,67.34,0.8,-0.07,0.93,0.66,0.28,0.27
+Czechia,Western Europe,2010,6.25,10.42,0.93,67.7,0.78,-0.05,0.93,0.65,0.24,0.33
+Czechia,Western Europe,2011,6.33,10.43,0.91,67.82,0.79,-0.11,0.95,0.62,0.25,0.21
+Czechia,Western Europe,2012,6.33,10.42,0.91,67.94,0.74,-0.16,0.96,0.63,0.26,0.17
+Czechia,Western Europe,2013,6.7,10.42,0.89,68.06,0.73,-0.16,0.92,0.66,0.25,0.24
+Czechia,Western Europe,2014,6.48,10.45,0.88,68.18,0.8,-0.17,0.9,0.64,0.24,0.34
+Czechia,Western Europe,2015,6.61,10.5,0.91,68.3,0.81,-0.15,0.89,0.69,0.21,0.44
+Czechia,Western Europe,2016,6.74,10.52,0.93,68.43,0.85,-0.2,0.9,0.71,0.2,0.42
+Czechia,Western Europe,2017,6.79,10.57,0.9,68.55,0.83,-0.18,0.87,0.67,0.23,0.34
+Czechia,Western Europe,2018,7.03,10.6,0.93,68.68,0.79,-0.3,0.85,0.67,0.18,0.42
+Czechia,Western Europe,2020,6.9,10.56,0.96,68.93,0.91,-0.13,0.88,0.75,0.29,0.32
+Czechia,Western Europe,2021,6.94,10.61,0.95,69.05,0.89,0.16,0.86,0.72,0.24,0.28
+Czechia,Western Europe,2022,6.7,10.66,0.94,69.18,0.91,0.09,0.83,0.74,0.25,0.67
+Denmark,Western Europe,2005,8.02,10.85,0.97,68.3,0.97,0.16,0.24,0.78,0.15,0.67
+Denmark,Western Europe,2007,7.83,10.89,0.95,68.74,0.93,0.24,0.21,0.78,0.19,0.59
+Denmark,Western Europe,2008,7.97,10.88,0.95,68.96,0.97,0.27,0.25,0.76,0.16,0.67
+Denmark,Western Europe,2009,7.68,10.82,0.94,69.18,0.95,0.26,0.21,0.78,0.23,0.63
+Denmark,Western Europe,2010,7.77,10.84,0.97,69.4,0.94,0.24,0.17,0.8,0.15,0.59
+Denmark,Western Europe,2011,7.79,10.85,0.96,69.62,0.93,0.29,0.22,0.78,0.17,0.47
+Denmark,Western Europe,2012,7.52,10.84,0.95,69.84,0.93,0.13,0.19,0.78,0.21,0.53
+Denmark,Western Europe,2013,7.59,10.85,0.96,70.06,0.92,0.21,0.17,0.83,0.19,0.39
+Denmark,Western Europe,2014,7.51,10.86,0.96,70.28,0.94,0.11,0.24,0.78,0.23,0.46
+Denmark,Western Europe,2015,7.51,10.88,0.96,70.5,0.94,0.22,0.19,0.8,0.22,0.58
+Denmark,Western Europe,2016,7.56,10.9,0.95,70.63,0.95,0.13,0.21,0.79,0.21,0.47
+Denmark,Western Europe,2017,7.59,10.92,0.95,70.75,0.96,0.15,0.18,0.78,0.21,0.57
+Denmark,Western Europe,2018,7.65,10.94,0.96,70.88,0.94,0.01,0.15,0.77,0.21,0.63
+Denmark,Western Europe,2019,7.69,10.95,0.96,71,0.96,0.02,0.17,0.8,0.18,0.63
+Denmark,Western Europe,2020,7.51,10.92,0.95,71.13,0.94,0.05,0.21,0.75,0.23,0.72
+Denmark,Western Europe,2021,7.7,10.97,0.94,71.25,0.93,0.13,0.17,0.79,0.21,0.65
+Denmark,Western Europe,2022,7.54,10.99,0.97,71.38,0.93,0.22,0.2,0.79,0.21,
+Djibouti,Western Europe,2008,5.01,8.12,0.69,53.64,0.77,0.13,0.58,0.74,0.12,0.67
+Djibouti,Western Europe,2009,4.91,8.01,0.9,54.12,0.65,0,0.63,0.63,0.23,0.6
+Djibouti,Western Europe,2011,4.37,8.15,0.63,55.08,0.75,-0.08,0.52,0.54,0.18,0.68
+Dominican Republic,Latin America and Caribbean,2006,5.09,9.31,0.92,65.36,0.86,0.04,0.75,0.73,0.27,0.64
+Dominican Republic,Latin America and Caribbean,2007,5.08,9.37,0.85,65.12,0.89,-0.01,0.77,0.72,0.26,0.48
+Dominican Republic,Latin America and Caribbean,2008,4.84,9.38,0.85,64.88,0.85,-0.05,0.73,0.65,0.33,0.54
+Dominican Republic,Latin America and Caribbean,2009,5.43,9.38,0.88,64.64,0.86,-0.06,0.81,0.71,0.28,0.41
+Dominican Republic,Latin America and Caribbean,2010,4.74,9.45,0.86,64.4,0.82,-0.08,0.78,0.71,0.28,0.45
+Dominican Republic,Latin America and Caribbean,2011,5.4,9.47,0.87,64.16,0.85,0.01,0.79,0.74,0.3,0.41
+Dominican Republic,Latin America and Caribbean,2012,4.75,9.48,0.88,63.92,0.84,-0.06,0.73,0.72,0.3,0.43
+Dominican Republic,Latin America and Caribbean,2013,5.02,9.51,0.88,63.68,0.89,0.02,0.75,0.77,0.3,0.57
+Dominican Republic,Latin America and Caribbean,2014,5.39,9.57,0.89,63.44,0.9,-0.02,0.76,0.77,0.3,0.56
+Dominican Republic,Latin America and Caribbean,2015,5.06,9.63,0.89,63.2,0.86,-0.07,0.76,0.7,0.3,0.45
+Dominican Republic,Latin America and Caribbean,2016,5.24,9.68,0.89,63.4,0.87,-0.08,0.74,0.73,0.28,0.55
+Dominican Republic,Latin America and Caribbean,2017,5.61,9.71,0.89,63.6,0.86,-0.12,0.76,0.71,0.27,0.46
+Dominican Republic,Latin America and Caribbean,2018,5.43,9.77,0.86,63.8,0.87,-0.15,0.76,0.72,0.29,0.42
+Dominican Republic,Latin America and Caribbean,2019,6,9.81,0.88,64,0.88,-0.13,0.75,0.75,0.26,0.41
+Dominican Republic,Latin America and Caribbean,2020,5.17,9.73,0.81,64.2,0.83,-0.13,0.64,0.72,0.31,0.63
+Dominican Republic,Latin America and Caribbean,2021,6.03,9.83,0.86,64.4,0.86,-0.09,0.68,0.73,0.28,0.57
+Dominican Republic,Latin America and Caribbean,2022,5.52,9.87,0.82,64.6,0.85,-0.08,0.66,0.72,0.31,
+Ecuador,Latin America and Caribbean,2006,5.02,9.19,0.91,64.44,0.67,-0.09,0.9,0.79,0.36,0.12
+Ecuador,Latin America and Caribbean,2007,5,9.19,0.84,64.78,0.67,-0.07,0.83,0.8,0.29,0.47
+Ecuador,Latin America and Caribbean,2008,5.3,9.24,0.83,65.12,0.64,-0.1,0.8,0.81,0.28,0.51
+Ecuador,Latin America and Caribbean,2009,6.02,9.23,0.78,65.46,0.74,-0.11,0.77,0.8,0.26,0.54
+Ecuador,Latin America and Caribbean,2010,5.84,9.25,0.84,65.8,0.72,-0.07,0.81,0.77,0.22,0.41
+Ecuador,Latin America and Caribbean,2011,5.8,9.3,0.82,66.14,0.79,-0.16,0.7,0.81,0.27,0.59
+Ecuador,Latin America and Caribbean,2012,5.96,9.34,0.79,66.48,0.83,-0.09,0.73,0.77,0.33,0.64
+Ecuador,Latin America and Caribbean,2013,6.02,9.38,0.8,66.82,0.79,-0.19,0.65,0.82,0.27,0.62
+Ecuador,Latin America and Caribbean,2014,5.95,9.4,0.83,67.16,0.72,-0.17,0.66,0.84,0.31,0.65
+Ecuador,Latin America and Caribbean,2015,5.96,9.38,0.86,67.5,0.8,-0.12,0.67,0.82,0.32,0.52
+Ecuador,Latin America and Caribbean,2016,6.12,9.36,0.84,67.75,0.85,-0.02,0.77,0.81,0.37,0.47
+Ecuador,Latin America and Caribbean,2017,5.84,9.37,0.85,68,0.88,-0.17,0.73,0.79,0.31,0.64
+Ecuador,Latin America and Caribbean,2018,6.13,9.36,0.85,68.25,0.87,-0.1,0.83,0.82,0.33,0.4
+Ecuador,Latin America and Caribbean,2019,5.81,9.34,0.81,68.5,0.83,-0.12,0.84,0.75,0.37,0.21
+Ecuador,Latin America and Caribbean,2020,5.35,9.25,0.8,68.75,0.83,-0.16,0.85,0.75,0.42,0.23
+Ecuador,Latin America and Caribbean,2021,5.43,9.28,0.79,69,0.82,-0.08,0.77,0.74,0.4,0.41
+Ecuador,Latin America and Caribbean,2022,5.89,9.29,0.83,69.25,0.76,-0.08,0.87,0.78,0.36,
+Egypt,Middle East and North Africa,2005,5.17,8.99,0.85,61.4,0.82,,,0.69,0.35,
+Egypt,Middle East and North Africa,2007,5.54,9.09,0.69,61.52,0.61,-0.12,,0.6,0.36,
+Egypt,Middle East and North Africa,2008,4.63,9.13,0.74,61.58,,-0.09,0.91,0.63,0.3,
+Egypt,Middle East and North Africa,2009,5.07,9.16,0.74,61.64,0.61,-0.1,0.8,0.55,0.34,
+Egypt,Middle East and North Africa,2010,4.67,9.19,0.77,61.7,0.49,-0.07,0.83,0.49,0.28,
+Egypt,Middle East and North Africa,2011,4.17,9.19,0.75,61.76,0.59,-0.15,0.86,0.46,0.35,0.63
+Egypt,Middle East and North Africa,2012,4.2,9.19,0.74,61.82,0.45,-0.14,0.88,0.46,0.4,0.6
+Egypt,Middle East and North Africa,2013,3.56,9.18,0.68,61.88,0.47,-0.14,0.91,0.49,0.48,0.29
+Egypt,Middle East and North Africa,2014,4.89,9.19,0.62,61.94,0.58,-0.13,0.75,0.48,0.33,0.7
+Egypt,Middle East and North Africa,2015,4.76,9.21,0.73,62,0.66,-0.09,0.68,0.55,0.34,0.77
+Egypt,Middle East and North Africa,2016,4.56,9.23,0.81,62.25,0.66,-0.14,0.82,0.54,0.37,0.62
+Egypt,Middle East and North Africa,2017,3.93,9.25,0.64,62.5,0.59,-0.15,,0.46,0.41,
+Egypt,Middle East and North Africa,2018,4.01,9.29,0.76,62.75,0.68,-0.21,,0.41,0.29,
+Egypt,Middle East and North Africa,2019,4.33,9.32,0.77,63,0.77,-0.2,,0.42,0.31,
+Egypt,Middle East and North Africa,2020,4.47,9.34,0.67,63.25,0.77,-0.11,,0.54,0.44,
+Egypt,Middle East and North Africa,2021,4.03,9.36,0.72,63.5,0.7,-0.23,0.58,0.39,0.32,0.76
+Egypt,Middle East and North Africa,2022,4.02,9.4,0.77,63.75,0.73,-0.21,,0.49,0.31,
+El Salvador,Latin America and Caribbean,2006,5.7,8.88,0.88,65.12,0.68,-0.06,0.81,0.81,0.23,0.37
+El Salvador,Latin America and Caribbean,2007,5.3,8.9,0.72,64.94,0.64,-0.02,0.79,0.83,0.22,0.37
+El Salvador,Latin America and Caribbean,2008,5.19,8.92,0.75,64.76,0.64,-0.08,0.73,0.83,0.23,0.38
+El Salvador,Latin America and Caribbean,2009,6.84,8.89,0.73,64.58,0.67,-0.11,0.65,0.84,0.24,0.59
+El Salvador,Latin America and Caribbean,2010,6.74,8.91,0.76,64.4,0.67,-0.07,0.69,0.82,0.3,0.52
+El Salvador,Latin America and Caribbean,2011,4.74,8.94,0.73,64.22,0.75,-0.13,0.71,0.83,0.34,0.49
+El Salvador,Latin America and Caribbean,2012,5.93,8.97,0.81,64.04,0.68,-0.16,0.79,0.78,0.37,0.31
+El Salvador,Latin America and Caribbean,2013,6.33,8.99,0.83,63.86,0.72,-0.15,0.77,0.8,0.32,0.36
+El Salvador,Latin America and Caribbean,2014,5.86,9,0.8,63.68,0.78,-0.2,0.78,0.8,0.33,0.32
+El Salvador,Latin America and Caribbean,2015,6.02,9.02,0.79,63.5,0.73,-0.16,0.8,0.82,0.33,0.31
+El Salvador,Latin America and Caribbean,2016,6.14,9.04,0.79,63.85,0.8,-0.19,0.8,0.74,0.35,0.25
+El Salvador,Latin America and Caribbean,2017,6.34,9.06,0.83,64.2,0.76,-0.18,0.78,0.8,0.27,0.27
+El Salvador,Latin America and Caribbean,2018,6.24,9.08,0.82,64.55,0.86,-0.1,0.8,0.82,0.27,0.37
+El Salvador,Latin America and Caribbean,2019,6.45,9.11,0.76,64.9,0.88,-0.11,0.68,0.83,0.27,0.72
+El Salvador,Latin America and Caribbean,2020,5.46,9.02,0.7,65.25,0.92,-0.13,0.58,0.81,0.33,0.8
+El Salvador,Latin America and Caribbean,2021,6.43,9.11,0.8,65.6,0.91,-0.08,0.66,0.83,0.29,0.7
+El Salvador,Latin America and Caribbean,2022,6.49,9.13,0.77,65.95,0.91,-0.11,0.62,0.82,0.3,
+Estonia,Central and Eastern Europe,2006,5.37,10.27,0.91,65.78,0.75,-0.27,0.8,0.59,0.22,0.44
+Estonia,Central and Eastern Europe,2007,5.33,10.35,0.9,66.06,0.71,-0.25,0.74,0.59,0.18,0.42
+Estonia,Central and Eastern Europe,2008,5.45,10.3,0.9,66.34,0.64,-0.22,0.66,0.59,0.22,0.33
+Estonia,Central and Eastern Europe,2009,5.14,10.14,0.87,66.62,0.61,-0.23,0.79,0.59,0.24,0.22
+Estonia,Central and Eastern Europe,2011,5.49,10.24,0.91,67.18,0.74,-0.17,0.69,0.64,0.21,0.42
+Estonia,Central and Eastern Europe,2012,5.36,10.27,0.89,67.46,0.7,-0.2,0.79,0.63,0.2,0.27
+Estonia,Central and Eastern Europe,2013,5.37,10.29,0.9,67.74,0.75,-0.2,0.73,0.65,0.2,0.26
+Estonia,Central and Eastern Europe,2014,5.56,10.33,0.92,68.02,0.77,-0.16,0.65,0.62,0.2,0.41
+Estonia,Central and Eastern Europe,2015,5.63,10.34,0.92,68.3,0.81,-0.17,0.57,0.65,0.18,0.34
+Estonia,Central and Eastern Europe,2016,5.65,10.37,0.94,68.53,0.84,-0.15,0.64,0.66,0.18,0.34
+Estonia,Central and Eastern Europe,2017,5.94,10.43,0.94,68.75,0.86,-0.1,0.67,0.74,0.16,0.41
+Estonia,Central and Eastern Europe,2018,6.09,10.46,0.93,68.97,0.89,-0.14,0.62,0.73,0.16,0.42
+Estonia,Central and Eastern Europe,2019,6.03,10.5,0.93,69.2,0.89,-0.1,0.58,0.74,0.16,0.4
+Estonia,Central and Eastern Europe,2020,6.45,10.49,0.96,69.43,0.95,-0.09,0.4,0.76,0.19,0.46
+Estonia,Central and Eastern Europe,2021,6.55,10.56,0.95,69.65,0.93,0.05,0.44,0.76,0.18,0.52
+Estonia,Central and Eastern Europe,2022,6.36,10.57,0.93,69.88,0.9,0.14,0.39,0.77,0.19,
+Eswatini,Central and Eastern Europe,2011,4.87,8.9,0.84,42.5,0.61,-0.07,0.92,0.76,0.25,0.35
+Eswatini,Central and Eastern Europe,2018,4.21,9.03,0.78,49.3,0.71,-0.18,0.69,0.74,0.25,0.69
+Eswatini,Central and Eastern Europe,2019,4.4,9.05,0.76,50.1,0.6,-0.19,0.72,0.73,0.28,0.68
+Ethiopia,Sub-Saharan Africa,2012,4.56,7.25,0.66,56.32,0.78,-0.04,,0.56,0.14,
+Ethiopia,Sub-Saharan Africa,2013,4.44,7.33,0.6,56.98,0.71,-0.01,0.75,0.57,0.21,0.77
+Ethiopia,Sub-Saharan Africa,2014,4.51,7.4,0.64,57.64,0.69,0.08,0.7,0.64,0.3,0.68
+Ethiopia,Sub-Saharan Africa,2015,4.57,7.47,0.63,58.3,0.8,0.11,0.57,0.62,0.24,0.83
+Ethiopia,Sub-Saharan Africa,2016,4.3,7.53,0.72,58.7,0.74,0.04,0.7,0.63,0.25,0.75
+Ethiopia,Sub-Saharan Africa,2017,4.18,7.59,0.73,59.1,0.72,0,0.76,0.51,0.3,0.77
+Ethiopia,Sub-Saharan Africa,2018,4.38,7.63,0.74,59.5,0.74,0.04,0.8,0.56,0.27,0.88
+Ethiopia,Sub-Saharan Africa,2019,4.1,7.69,0.75,59.9,0.75,0.05,0.73,0.52,0.28,0.78
+Ethiopia,Sub-Saharan Africa,2020,4.55,7.72,0.82,60.3,0.77,0.19,0.78,0.61,0.25,0.72
+Ethiopia,Sub-Saharan Africa,2022,3.63,7.76,0.74,61.1,0.67,0.36,0.79,0.56,0.33,
+Finland,Western Europe,2006,7.67,10.75,0.96,68.72,0.97,-0.01,0.13,0.68,0.17,0.76
+Finland,Western Europe,2008,7.67,10.8,0.95,69.16,0.93,0.02,0.22,0.69,0.14,0.72
+Finland,Western Europe,2010,7.39,10.73,0.94,69.6,0.92,0.09,0.41,0.76,0.2,0.46
+Finland,Western Europe,2011,7.35,10.75,0.94,69.82,0.94,0.1,0.32,0.71,0.21,0.57
+Finland,Western Europe,2012,7.42,10.74,0.93,70.04,0.92,-0.01,0.36,0.74,0.2,0.6
+Finland,Western Europe,2013,7.44,10.72,0.94,70.26,0.92,0.04,0.31,0.75,0.19,0.42
+Finland,Western Europe,2014,7.38,10.71,0.95,70.48,0.93,-0.01,0.27,0.77,0.2,0.47
+Finland,Western Europe,2015,7.45,10.72,0.95,70.7,0.93,0.11,0.22,0.74,0.19,0.56
+Finland,Western Europe,2016,7.66,10.74,0.95,70.78,0.95,-0.03,0.25,0.77,0.18,0.49
+Finland,Western Europe,2017,7.79,10.77,0.96,70.85,0.96,-0.01,0.19,0.76,0.18,0.6
+Finland,Western Europe,2018,7.86,10.78,0.96,70.93,0.94,-0.13,0.2,0.75,0.18,0.56
+Finland,Western Europe,2019,7.78,10.79,0.94,71,0.95,-0.06,0.2,0.73,0.18,0.64
+Finland,Western Europe,2020,7.89,10.77,0.96,71.07,0.96,-0.12,0.16,0.75,0.19,0.81
+Finland,Western Europe,2021,7.79,10.79,0.97,71.15,0.96,-0.04,0.19,0.75,0.18,0.71
+Finland,Western Europe,2022,7.73,10.81,0.97,71.22,0.96,0.1,0.19,0.74,0.19,
+France,Western Europe,2005,7.09,10.64,0.94,70.7,0.89,,0.69,0.68,0.23,0.32
+France,Western Europe,2006,6.58,10.65,0.94,70.8,0.79,0.12,0.7,0.69,0.29,0.36
+France,Western Europe,2008,7.01,10.67,0.94,71,0.83,-0.03,0.67,0.7,0.28,0.45
+France,Western Europe,2009,6.28,10.63,0.92,71.1,0.8,-0.09,0.65,0.69,0.3,0.47
+France,Western Europe,2010,6.8,10.65,0.94,71.2,0.85,-0.11,0.62,0.73,0.26,0.4
+France,Western Europe,2011,6.96,10.67,0.92,71.3,0.9,-0.11,0.63,0.72,0.28,0.38
+France,Western Europe,2012,6.65,10.66,0.94,71.4,0.84,-0.15,0.61,0.71,0.25,0.44
+France,Western Europe,2013,6.67,10.66,0.91,71.5,0.88,-0.13,0.7,0.74,0.2,0.4
+France,Western Europe,2014,6.47,10.67,0.88,71.6,0.8,-0.12,0.66,0.76,0.22,0.26
+France,Western Europe,2015,6.36,10.68,0.9,71.7,0.82,-0.14,0.64,0.74,0.22,0.33
+France,Western Europe,2016,6.48,10.69,0.88,71.8,0.79,-0.1,0.62,0.71,0.27,0.28
+France,Western Europe,2017,6.64,10.7,0.93,71.9,0.83,-0.13,0.6,0.72,0.24,0.37
+France,Western Europe,2018,6.67,10.72,0.92,72,0.82,-0.14,0.58,0.71,0.28,0.38
+France,Western Europe,2019,6.69,10.73,0.96,72.1,0.83,-0.14,0.57,0.69,0.25,0.38
+France,Western Europe,2020,6.71,10.65,0.95,72.2,0.82,-0.17,0.56,0.69,0.23,0.41
+France,Western Europe,2021,6.66,10.71,0.91,72.3,0.84,-0.1,0.56,0.68,0.27,0.43
+France,Western Europe,2022,6.61,10.74,0.87,72.4,0.8,-0.02,0.53,0.69,0.25,
+Gabon,Sub-Saharan Africa,2011,4.26,9.56,0.65,54.46,0.77,-0.21,0.85,0.56,0.26,0.53
+Gabon,Sub-Saharan Africa,2012,3.97,9.57,0.74,54.92,0.57,-0.19,0.81,0.5,0.27,0.36
+Gabon,Sub-Saharan Africa,2013,3.8,9.59,0.73,55.38,0.68,-0.15,0.78,0.52,0.29,0.41
+Gabon,Sub-Saharan Africa,2014,3.92,9.6,0.83,55.84,0.61,-0.2,0.78,0.53,0.29,0.32
+Gabon,Sub-Saharan Africa,2015,4.66,9.61,0.76,56.3,0.67,-0.19,0.87,0.6,0.37,0.37
+Gabon,Sub-Saharan Africa,2016,4.83,9.6,0.78,56.63,0.7,-0.2,0.82,0.63,0.43,0.38
+Gabon,Sub-Saharan Africa,2017,4.78,9.58,0.81,56.95,0.65,-0.23,0.87,0.64,0.45,0.29
+Gabon,Sub-Saharan Africa,2018,4.78,9.56,0.78,57.28,0.72,-0.2,0.82,0.61,0.42,0.31
+Gabon,Sub-Saharan Africa,2019,4.91,9.58,0.76,57.6,0.74,-0.2,0.85,0.64,0.41,0.35
+Gabon,Sub-Saharan Africa,2020,4.89,9.54,0.7,57.92,0.53,-0.19,0.79,0.57,0.42,0.34
+Gabon,Sub-Saharan Africa,2021,5.08,9.53,0.75,58.25,0.7,-0.2,0.77,0.62,0.36,0.45
+Gabon,Sub-Saharan Africa,2022,5.14,9.54,0.78,58.58,0.7,-0.16,0.8,0.66,0.41,
+Gambia,Sub-Saharan Africa,2017,4.12,7.56,0.7,56.4,0.81,0.11,0.57,0.77,0.28,0.8
+Gambia,Sub-Saharan Africa,2018,4.92,7.61,0.68,56.7,0.72,0.44,0.69,0.76,0.38,0.76
+Gambia,Sub-Saharan Africa,2019,5.16,7.64,0.69,57,0.68,0.41,0.8,0.72,0.4,0.65
+Gambia,Sub-Saharan Africa,2022,4.28,7.65,0.59,57.9,0.6,0.36,0.88,0.72,0.44,
+Georgia,Commonwealth of Independent States,2006,3.68,8.99,0.65,63.3,0.55,-0.27,0.75,0.35,0.27,0.46
+Georgia,Commonwealth of Independent States,2007,3.71,9.12,0.55,63.4,0.46,-0.27,0.7,0.35,0.24,0.33
+Georgia,Commonwealth of Independent States,2008,4.16,9.14,0.61,63.5,0.61,-0.23,0.5,0.37,0.26,0.51
+Georgia,Commonwealth of Independent States,2009,3.8,9.12,0.54,63.6,0.5,-0.24,0.53,0.39,0.24,0.43
+Georgia,Commonwealth of Independent States,2010,4.1,9.18,0.54,63.7,0.56,-0.25,0.46,0.4,0.24,0.62
+Georgia,Commonwealth of Independent States,2011,4.2,9.26,0.5,63.8,0.63,-0.26,0.35,0.42,0.25,0.66
+Georgia,Commonwealth of Independent States,2012,4.25,9.33,0.53,63.9,0.66,-0.27,0.32,0.44,0.25,0.61
+Georgia,Commonwealth of Independent States,2013,4.35,9.37,0.56,64,0.72,-0.26,0.35,0.47,0.2,0.63
+Georgia,Commonwealth of Independent States,2014,4.29,9.41,0.56,64.1,0.72,-0.24,0.42,0.46,0.2,0.53
+Georgia,Commonwealth of Independent States,2015,4.12,9.44,0.52,64.2,0.64,-0.21,0.5,0.45,0.23,0.25
+Georgia,Commonwealth of Independent States,2016,4.45,9.47,0.53,64.32,0.61,-0.25,0.56,0.47,0.22,0.34
+Georgia,Commonwealth of Independent States,2017,4.45,9.52,0.59,64.45,0.82,-0.25,0.59,0.5,0.21,0.3
+Georgia,Commonwealth of Independent States,2018,4.66,9.56,0.62,64.57,0.78,-0.24,0.75,0.48,0.24,0.3
+Georgia,Commonwealth of Independent States,2019,4.89,9.62,0.67,64.7,0.81,-0.26,0.65,0.5,0.24,0.41
+Georgia,Commonwealth of Independent States,2020,5.12,9.54,0.72,64.82,0.76,-0.22,0.58,0.57,0.29,0.52
+Georgia,Commonwealth of Independent States,2021,4.91,9.65,0.67,64.95,0.78,-0.29,0.72,0.51,0.24,0.44
+Georgia,Commonwealth of Independent States,2022,5.29,9.75,0.75,65.07,0.82,-0.25,0.66,0.5,0.23,
+Germany,Western Europe,2005,6.62,10.69,0.96,69.9,0.85,,0.78,0.68,0.2,0.32
+Germany,Western Europe,2007,6.42,10.76,0.93,69.94,0.8,0.16,0.79,0.65,0.23,0.35
+Germany,Western Europe,2008,6.52,10.77,0.92,69.96,0.77,,0.76,0.67,0.22,0.36
+Germany,Western Europe,2009,6.64,10.72,0.93,69.98,0.84,0.12,0.69,0.68,0.21,0.52
+Germany,Western Europe,2010,6.72,10.76,0.94,70,0.84,0.09,0.69,0.7,0.18,0.4
+Germany,Western Europe,2011,6.62,10.81,0.95,70.02,0.91,0.03,0.68,0.69,0.17,0.42
+Germany,Western Europe,2012,6.7,10.82,0.93,70.04,0.9,0.07,0.68,0.7,0.17,0.52
+Germany,Western Europe,2013,6.97,10.82,0.93,70.06,0.89,0.02,0.57,0.69,0.2,0.56
+Germany,Western Europe,2014,6.98,10.84,0.94,70.08,0.9,0.08,0.47,0.74,0.19,0.6
+Germany,Western Europe,2015,7.04,10.84,0.93,70.1,0.89,0.17,0.41,0.72,0.2,0.63
+Germany,Western Europe,2016,6.87,10.86,0.91,70.3,0.87,0.14,0.45,0.71,0.19,0.55
+Germany,Western Europe,2017,7.07,10.88,0.89,70.5,0.84,0.14,0.41,0.71,0.2,0.62
+Germany,Western Europe,2018,7.12,10.89,0.92,70.7,0.88,0.03,0.5,0.74,0.24,0.59
+Germany,Western Europe,2019,7.04,10.89,0.89,70.9,0.88,0.05,0.46,0.71,0.23,0.57
+Germany,Western Europe,2020,7.31,10.86,0.91,71.1,0.86,-0.07,0.42,0.7,0.21,0.65
+Germany,Western Europe,2021,6.75,10.88,0.87,71.3,0.78,0.08,0.42,0.7,0.25,0.6
+Germany,Western Europe,2022,6.61,10.9,0.92,71.5,0.9,0.08,0.42,0.67,0.2,
+Ghana,Sub-Saharan Africa,2006,4.54,8.07,0.73,52.54,0.85,0.21,0.81,0.64,0.2,0.64
+Ghana,Sub-Saharan Africa,2007,5.22,8.08,0.73,52.98,0.89,0.14,0.77,0.66,0.22,0.72
+Ghana,Sub-Saharan Africa,2008,4.97,8.15,0.62,53.42,0.84,0.12,0.86,0.67,0.17,0.67
+Ghana,Sub-Saharan Africa,2009,4.2,8.17,0.63,53.86,0.76,0,0.89,0.71,0.2,0.68
+Ghana,Sub-Saharan Africa,2010,4.61,8.22,0.74,54.3,0.89,0.07,0.87,0.69,0.18,0.75
+Ghana,Sub-Saharan Africa,2011,5.61,8.33,0.72,54.74,0.85,0.01,0.79,0.66,0.21,0.68
+Ghana,Sub-Saharan Africa,2012,5.06,8.39,0.69,55.18,0.68,0.04,0.9,0.71,0.15,0.58
+Ghana,Sub-Saharan Africa,2013,4.97,8.44,0.68,55.62,0.79,-0.07,0.88,0.66,0.21,0.49
+Ghana,Sub-Saharan Africa,2014,3.86,8.44,0.65,56.06,0.68,0,0.91,0.68,0.28,0.34
+Ghana,Sub-Saharan Africa,2015,3.99,8.44,0.69,56.5,0.85,-0.04,0.95,0.67,0.27,0.44
+Ghana,Sub-Saharan Africa,2016,4.51,8.45,0.65,56.88,0.75,0.09,0.89,0.66,0.3,0.52
+Ghana,Sub-Saharan Africa,2017,5.48,8.5,0.67,57.25,0.78,0.08,0.84,0.71,0.25,0.67
+Ghana,Sub-Saharan Africa,2018,5,8.54,0.76,57.63,0.82,0.06,0.85,0.72,0.25,0.62
+Ghana,Sub-Saharan Africa,2019,4.97,8.58,0.75,58,0.79,0.11,0.86,0.64,0.27,0.58
+Ghana,Sub-Saharan Africa,2020,5.32,8.57,0.64,58.38,0.82,0.2,0.85,0.67,0.25,0.62
+Ghana,Sub-Saharan Africa,2021,4.38,8.6,0.63,58.75,0.73,0.11,0.89,0.59,0.3,0.52
+Ghana,Sub-Saharan Africa,2022,4.19,8.62,0.63,59.13,0.79,0.12,0.91,0.62,0.29,
+Greece,Western Europe,2005,6.01,10.45,0.84,69.6,0.73,,0.86,0.6,0.26,0.49
+Greece,Western Europe,2007,6.65,10.54,0.81,69.76,0.58,-0.19,0.84,0.63,0.22,0.38
+Greece,Western Europe,2009,6.04,10.48,0.79,69.92,0.44,-0.3,0.96,0.61,0.25,0.32
+Greece,Western Europe,2010,5.84,10.43,0.87,70,0.48,-0.31,0.95,0.58,0.29,0.24
+Greece,Western Europe,2011,5.37,10.32,0.85,70.08,0.53,-0.32,0.94,0.55,0.32,0.18
+Greece,Western Europe,2012,5.1,10.25,0.81,70.16,0.37,-0.31,0.96,0.54,0.35,0.13
+Greece,Western Europe,2013,4.72,10.23,0.69,70.24,0.43,-0.28,0.94,0.57,0.48,0.14
+Greece,Western Europe,2014,4.76,10.24,0.83,70.32,0.37,-0.29,0.93,0.6,0.39,0.19
+Greece,Western Europe,2015,5.62,10.25,0.83,70.4,0.53,-0.28,0.82,0.64,0.28,0.44
+Greece,Western Europe,2016,5.3,10.25,0.8,70.53,0.48,-0.26,0.9,0.59,0.34,0.13
+Greece,Western Europe,2017,5.15,10.26,0.75,70.65,0.44,-0.29,0.87,0.52,0.33,0.14
+Greece,Western Europe,2018,5.41,10.28,0.79,70.78,0.56,-0.34,0.86,0.56,0.26,0.16
+Greece,Western Europe,2019,5.95,10.3,0.89,70.9,0.61,-0.29,0.85,0.56,0.24,0.4
+Greece,Western Europe,2020,5.79,10.21,0.78,71.03,0.56,-0.24,0.76,0.63,0.32,0.4
+Greece,Western Europe,2021,6.1,10.29,0.85,71.15,0.57,-0.16,0.75,0.62,0.31,0.4
+Greece,Western Europe,2022,5.9,10.36,0.88,71.28,0.56,-0.32,0.87,0.59,0.18,
+Guatemala,Latin America and Caribbean,2006,5.9,8.85,0.83,58.98,0.66,0.17,0.71,0.79,0.29,0.39
+Guatemala,Latin America and Caribbean,2007,6.33,8.89,0.87,59.26,0.63,0.13,0.81,0.79,0.22,0.3
+Guatemala,Latin America and Caribbean,2008,6.41,8.9,0.87,59.54,0.63,0.2,0.8,0.8,0.23,0.32
+Guatemala,Latin America and Caribbean,2009,6.45,8.89,0.83,59.82,0.64,0.19,0.75,0.81,0.24,0.34
+Guatemala,Latin America and Caribbean,2010,6.29,8.9,0.86,60.1,0.7,0.16,0.79,0.8,0.24,0.34
+Guatemala,Latin America and Caribbean,2011,5.74,8.92,0.77,60.38,0.76,0.01,0.86,0.79,0.29,0.36
+Guatemala,Latin America and Caribbean,2012,5.86,8.93,0.8,60.66,0.87,0.02,0.82,0.81,0.35,0.5
+Guatemala,Latin America and Caribbean,2013,5.98,8.95,0.83,60.94,0.88,0.04,0.82,0.82,0.33,0.47
+Guatemala,Latin America and Caribbean,2014,6.54,8.98,0.83,61.22,0.84,0.1,0.8,0.82,0.31,0.37
+Guatemala,Latin America and Caribbean,2015,6.46,9,0.82,61.5,0.87,0.05,0.82,0.83,0.31,0.27
+Guatemala,Latin America and Caribbean,2016,6.36,9.01,0.81,61.7,0.86,0.01,0.81,0.82,0.32,0.47
+Guatemala,Latin America and Caribbean,2017,6.33,9.03,0.83,61.9,0.91,-0.06,0.8,0.82,0.31,0.46
+Guatemala,Latin America and Caribbean,2018,6.63,9.04,0.84,62.1,0.91,-0.01,0.77,0.83,0.26,0.46
+Guatemala,Latin America and Caribbean,2019,6.26,9.07,0.77,62.3,0.9,-0.07,0.77,0.82,0.31,0.46
+Guatemala,Latin America and Caribbean,2022,6.15,9.12,0.81,62.9,0.86,-0.06,0.84,0.83,0.26,
+Guinea,Sub-Saharan Africa,2011,4.04,7.56,0.6,51.02,0.8,0.04,0.74,0.67,0.26,0.77
+Guinea,Sub-Saharan Africa,2012,3.65,7.59,0.54,51.14,0.65,0,0.79,0.66,0.28,0.56
+Guinea,Sub-Saharan Africa,2013,3.9,7.6,0.57,51.26,0.69,0.09,0.82,0.61,0.35,0.52
+Guinea,Sub-Saharan Africa,2014,3.41,7.62,0.64,51.38,0.68,0.01,0.71,0.64,0.35,0.57
+Guinea,Sub-Saharan Africa,2015,3.5,7.63,0.58,51.5,0.67,0.01,0.76,0.66,0.27,0.61
+Guinea,Sub-Saharan Africa,2016,3.6,7.7,0.68,51.95,0.73,-0.06,0.8,0.68,0.37,0.47
+Guinea,Sub-Saharan Africa,2017,4.87,7.78,0.63,52.4,0.74,0.04,0.75,0.7,0.42,0.64
+Guinea,Sub-Saharan Africa,2018,5.25,7.81,0.63,52.85,0.73,0.09,0.78,0.73,0.44,0.59
+Guinea,Sub-Saharan Africa,2019,4.77,7.84,0.66,53.3,0.69,0.1,0.76,0.67,0.47,0.58
+Guinea,Sub-Saharan Africa,2020,4.97,7.86,0.73,53.75,0.6,0.08,0.79,0.71,0.35,0.33
+Guinea,Sub-Saharan Africa,2021,4.94,7.88,0.63,54.2,0.68,0.16,0.78,0.67,0.45,
+Guinea,Sub-Saharan Africa,2022,5.32,7.9,0.58,54.65,0.73,0.14,0.77,0.7,0.49,
+Guyana,Sub-Saharan Africa,2007,5.99,9.09,0.85,56.24,0.69,0.08,0.84,0.76,0.3,0.46
+Haiti,Latin America and Caribbean,2006,3.75,7.97,0.69,6.72,0.45,0.36,0.85,0.58,0.33,0.36
+Haiti,Latin America and Caribbean,2008,3.85,8.01,0.68,17.36,0.46,0.22,0.81,0.57,0.26,0.24
+Haiti,Latin America and Caribbean,2010,3.77,7.98,0.55,28,0.37,0.17,0.85,0.5,0.29,0.16
+Haiti,Latin America and Caribbean,2011,4.84,8.02,0.57,33.32,0.41,0.2,0.68,0.55,0.24,0.46
+Haiti,Latin America and Caribbean,2012,4.41,8.01,0.75,38.64,0.48,0.25,0.72,0.56,0.28,0.37
+Haiti,Latin America and Caribbean,2013,4.62,8.04,0.65,43.96,0.61,0.25,0.67,0.53,0.33,0.36
+Haiti,Latin America and Caribbean,2014,3.89,8.04,0.55,49.28,0.51,0.24,0.71,0.57,0.33,0.33
+Haiti,Latin America and Caribbean,2015,3.57,8.05,0.56,54.6,0.4,0.26,0.78,0.6,0.33,0.3
+Haiti,Latin America and Caribbean,2016,3.35,8.06,0.58,54.9,0.3,0.25,0.84,0.53,0.37,0.15
+Haiti,Latin America and Caribbean,2017,3.82,8.07,0.65,55.2,0.48,0.34,0.65,0.57,0.32,0.44
+Haiti,Latin America and Caribbean,2018,3.61,8.07,0.54,55.5,0.59,0.38,0.72,0.58,0.36,0.37
+Honduras,Latin America and Caribbean,2006,5.4,8.45,0.93,63.1,0.65,0.09,0.84,0.84,0.16,0.44
+Honduras,Latin America and Caribbean,2007,5.1,8.49,0.82,62.9,0.68,0.23,0.83,0.71,0.2,0.34
+Honduras,Latin America and Caribbean,2008,5.42,8.5,0.83,62.7,0.69,0.22,0.86,0.72,0.21,0.29
+Honduras,Latin America and Caribbean,2009,6.03,8.46,0.82,62.5,0.66,0.12,0.86,0.74,0.26,0.29
+Honduras,Latin America and Caribbean,2010,5.87,8.47,0.8,62.3,0.65,0.1,0.82,0.75,0.26,0.3
+Honduras,Latin America and Caribbean,2011,4.96,8.49,0.77,62.1,0.78,0.09,0.88,0.76,0.31,0.29
+Honduras,Latin America and Caribbean,2012,4.6,8.51,0.78,61.9,0.7,0,0.87,0.8,0.29,0.26
+Honduras,Latin America and Caribbean,2013,4.71,8.52,0.79,61.7,0.7,-0.03,0.87,0.79,0.28,0.25
+Honduras,Latin America and Caribbean,2014,5.06,8.53,0.79,61.5,0.7,0.01,0.83,0.79,0.3,0.33
+Honduras,Latin America and Caribbean,2015,4.85,8.55,0.77,61.3,0.53,-0.1,0.85,0.83,0.31,0.3
+Honduras,Latin America and Caribbean,2016,5.65,8.57,0.77,61.72,0.85,0.08,0.79,0.79,0.3,0.39
+Honduras,Latin America and Caribbean,2017,6.02,8.6,0.84,62.15,0.9,0.07,0.78,0.8,0.25,0.5
+Honduras,Latin America and Caribbean,2018,5.91,8.62,0.83,62.58,0.87,0.1,0.8,0.82,0.29,0.4
+Honduras,Latin America and Caribbean,2019,5.93,8.63,0.8,63,0.85,0.06,0.81,0.79,0.28,0.36
+Honduras,Latin America and Caribbean,2021,6.11,8.63,0.81,63.85,0.84,0.11,0.85,0.81,0.27,0.23
+Honduras,Latin America and Caribbean,2022,5.93,8.64,0.73,64.28,0.85,0.08,0.83,0.77,0.29,
+Hong Kong S.A.R. of China,East Asia,2006,5.51,10.75,0.81,,0.91,0.15,0.36,0.59,0.24,0.66
+Hong Kong S.A.R. of China,East Asia,2008,5.14,10.82,0.84,,0.92,0.29,0.27,0.58,0.24,0.68
+Hong Kong S.A.R. of China,East Asia,2009,5.4,10.79,0.83,,0.92,0.3,0.27,0.61,0.21,0.62
+Hong Kong S.A.R. of China,East Asia,2010,5.64,10.85,0.86,,0.89,0.33,0.26,0.6,0.18,0.63
+Hong Kong S.A.R. of China,East Asia,2011,5.47,10.89,0.85,,0.89,0.23,0.24,0.58,0.2,0.58
+Hong Kong S.A.R. of China,East Asia,2012,5.48,10.89,0.83,,0.88,0.22,0.38,0.58,0.18,0.5
+Hong Kong S.A.R. of China,East Asia,2014,5.46,10.94,0.83,,0.84,0.22,0.42,0.6,0.24,0.46
+Hong Kong S.A.R. of China,East Asia,2016,5.5,10.97,0.83,,0.8,0.1,0.4,0.57,0.21,0.45
+Hong Kong S.A.R. of China,East Asia,2017,5.36,11,0.83,,0.83,0.14,0.42,0.54,0.2,0.55
+Hong Kong S.A.R. of China,East Asia,2019,5.66,11,0.86,,0.73,0.06,0.43,0.52,0.36,0.33
+Hong Kong S.A.R. of China,East Asia,2020,5.3,10.93,0.81,,0.71,-0.07,0.38,0.52,0.21,0.44
+Hong Kong S.A.R. of China,East Asia,2021,5.32,11,0.82,,0.67,0.02,0.39,0.53,0.22,0.5
+Hungary,Central and Eastern Europe,2005,5.19,10.1,0.93,65,0.7,,0.9,0.58,0.29,0.36
+Hungary,Central and Eastern Europe,2007,4.95,10.15,0.93,65.32,0.54,-0.16,0.9,0.6,0.23,0.25
+Hungary,Central and Eastern Europe,2009,4.89,10.09,0.9,65.64,0.46,-0.13,0.91,0.58,0.23,0.2
+Hungary,Central and Eastern Europe,2010,4.73,10.11,0.9,65.8,0.51,-0.15,0.98,0.57,0.23,0.25
+Hungary,Central and Eastern Europe,2011,4.92,10.13,0.89,65.96,0.63,-0.09,0.94,0.59,0.3,0.36
+Hungary,Central and Eastern Europe,2012,4.68,10.12,0.91,66.12,0.57,-0.14,0.93,0.58,0.32,0.21
+Hungary,Central and Eastern Europe,2013,4.91,10.14,0.88,66.28,0.67,-0.12,0.91,0.65,0.31,0.33
+Hungary,Central and Eastern Europe,2014,5.18,10.18,0.84,66.44,0.49,-0.15,0.86,0.58,0.24,0.31
+Hungary,Central and Eastern Europe,2015,5.34,10.22,0.86,66.6,0.56,-0.2,0.91,0.65,0.24,0.28
+Hungary,Central and Eastern Europe,2016,5.45,10.25,0.9,66.75,0.55,-0.19,0.92,0.59,0.24,0.3
+Hungary,Central and Eastern Europe,2017,6.07,10.29,0.88,66.9,0.66,-0.14,0.89,0.64,0.18,0.38
+Hungary,Central and Eastern Europe,2018,5.94,10.35,0.94,67.05,0.69,-0.25,0.91,0.59,0.2,0.39
+Hungary,Central and Eastern Europe,2019,6,10.39,0.95,67.2,0.8,-0.2,0.88,0.65,0.18,0.48
+Hungary,Central and Eastern Europe,2020,6.04,10.35,0.94,67.35,0.77,-0.13,0.84,0.66,0.24,0.43
+Hungary,Central and Eastern Europe,2021,6.23,10.42,0.95,67.5,0.73,-0.04,0.83,0.67,0.19,0.42
+Hungary,Central and Eastern Europe,2022,5.86,10.48,0.94,67.65,0.78,-0.01,0.85,0.63,0.25,
+Iceland,Western Europe,2008,6.89,10.88,0.98,71.2,0.89,0.27,0.71,0.85,0.15,0.24
+Iceland,Western Europe,2012,7.59,10.79,0.98,71.6,0.9,0.24,0.76,0.82,0.16,0.26
+Iceland,Western Europe,2013,7.5,10.82,0.97,71.7,0.92,0.3,0.71,0.8,0.16,0.46
+Iceland,Western Europe,2015,7.5,10.86,0.98,71.9,0.94,0.3,0.64,0.79,0.18,0.43
+Iceland,Western Europe,2016,7.51,10.91,0.98,71.93,0.95,0.28,0.72,0.81,0.16,0.36
+Iceland,Western Europe,2017,7.48,10.93,0.97,71.95,0.94,0.24,0.73,0.82,0.15,0.37
+Iceland,Western Europe,2019,7.53,10.95,0.98,72,0.96,,0.7,0.79,0.18,0.52
+Iceland,Western Europe,2020,7.58,10.86,0.98,72.03,0.95,0.15,0.64,0.81,0.17,0.59
+Iceland,Western Europe,2021,7.56,10.89,0.98,72.05,0.92,0.26,0.66,0.81,0.16,0.63
+Iceland,Western Europe,2022,7.45,10.94,0.98,72.07,0.94,0.22,0.69,0.77,0.18,
+India,South Asia,2006,5.35,8.14,0.71,55.86,0.77,,0.85,0.58,0.2,0.65
+India,South Asia,2007,5.03,8.2,0.57,56.22,0.73,-0.05,0.86,0.54,0.25,0.82
+India,South Asia,2008,5.15,8.22,0.68,56.58,0.76,-0.07,0.89,0.57,0.26,0.62
+India,South Asia,2009,4.52,8.28,0.65,56.94,0.68,-0.03,0.89,0.64,0.3,0.7
+India,South Asia,2010,4.99,8.35,0.6,57.3,0.78,0.06,0.86,0.58,0.27,0.67
+India,South Asia,2011,4.63,8.38,0.55,57.66,0.84,-0.04,0.91,0.48,0.23,0.58
+India,South Asia,2012,4.72,8.42,0.51,58.02,0.61,0.07,0.83,0.54,0.29,0.54
+India,South Asia,2013,4.43,8.47,0.55,58.38,0.74,0.08,0.83,0.61,0.33,0.53
+India,South Asia,2014,4.42,8.53,0.62,58.74,0.81,-0.03,0.83,0.65,0.28,0.73
+India,South Asia,2015,4.34,8.6,0.61,59.1,0.78,-0.01,0.78,0.66,0.32,0.69
+India,South Asia,2016,4.18,8.66,0.61,59.4,0.82,0.04,0.76,0.65,0.35,0.73
+India,South Asia,2017,4.05,8.72,0.61,59.7,0.89,-0.04,0.78,0.58,0.32,0.84
+India,South Asia,2018,3.82,8.77,0.64,60,0.89,0.08,0.81,0.59,0.36,0.75
+India,South Asia,2019,3.25,8.8,0.56,60.3,0.88,0.11,0.75,0.56,0.47,0.79
+India,South Asia,2020,4.22,8.72,0.62,60.6,0.91,0.07,0.78,0.69,0.38,0.8
+India,South Asia,2021,3.56,8.79,0.57,60.9,0.87,0.06,0.76,0.55,0.43,0.79
+India,South Asia,2022,3.93,8.85,0.61,61.2,0.89,0.09,0.77,0.6,0.43,
+Indonesia,Southeast Asia,2006,4.95,8.84,0.77,60.32,0.71,0.35,0.92,0.72,0.27,0.6
+Indonesia,Southeast Asia,2007,5.1,8.89,0.7,60.54,0.6,0.31,0.96,0.7,0.24,0.52
+Indonesia,Southeast Asia,2008,4.82,8.93,0.68,60.76,0.6,0.16,0.97,0.68,0.24,0.66
+Indonesia,Southeast Asia,2009,5.47,8.97,0.78,60.98,0.78,0.19,0.91,0.77,0.19,0.81
+Indonesia,Southeast Asia,2010,5.46,9.01,0.82,61.2,0.7,0.45,0.95,0.72,0.22,0.64
+Indonesia,Southeast Asia,2011,5.17,9.06,0.82,61.42,0.88,0.44,0.96,0.75,0.27,0.74
+Indonesia,Southeast Asia,2012,5.37,9.11,0.83,61.64,0.77,0.35,0.96,0.76,0.23,0.67
+Indonesia,Southeast Asia,2013,5.29,9.15,0.79,61.86,0.78,0.37,0.97,0.78,0.25,0.68
+Indonesia,Southeast Asia,2014,5.6,9.19,0.9,62.08,0.72,0.41,0.97,0.76,0.24,0.65
+Indonesia,Southeast Asia,2015,5.04,9.22,0.81,62.3,0.78,0.47,0.95,0.8,0.27,0.65
+Indonesia,Southeast Asia,2016,5.14,9.26,0.79,62.42,0.83,0.5,0.89,0.75,0.34,0.8
+Indonesia,Southeast Asia,2017,5.1,9.3,0.8,62.55,0.87,0.48,0.9,0.78,0.32,0.83
+Indonesia,Southeast Asia,2018,5.34,9.34,0.81,62.67,0.88,0.51,0.87,0.8,0.3,0.84
+Indonesia,Southeast Asia,2019,5.35,9.38,0.8,62.8,0.87,0.55,0.86,0.8,0.3,0.78
+Indonesia,Southeast Asia,2020,4.83,9.35,0.75,62.92,0.85,0.53,0.91,0.74,0.35,0.77
+Indonesia,Southeast Asia,2021,5.43,9.38,0.82,63.05,0.88,0.54,0.85,0.8,0.27,0.84
+Indonesia,Southeast Asia,2022,5.58,9.43,0.83,63.17,0.9,0.52,0.86,0.82,0.27,
+Iran,Middle East and North Africa,2005,5.31,9.5,0.77,64.3,0.65,,0.64,0.51,0.46,0.55
+Iran,Middle East and North Africa,2007,5.34,9.59,0.72,64.58,0.53,0.05,0.87,0.55,0.36,0.5
+Iran,Middle East and North Africa,2008,5.13,9.58,0.63,64.72,0.6,0.04,0.87,0.54,0.35,0.56
+Iran,Middle East and North Africa,2011,4.77,9.64,0.58,65.14,0.8,0.19,0.66,0.51,0.36,0.8
+Iran,Middle East and North Africa,2012,4.61,9.58,0.6,65.28,0.76,,0.68,0.53,0.52,0.72
+Iran,Middle East and North Africa,2013,5.14,9.55,0.66,65.42,0.73,0.2,0.69,0.57,0.55,0.69
+Iran,Middle East and North Africa,2014,4.68,9.58,0.64,65.56,0.77,0.23,0.64,0.55,0.51,0.74
+Iran,Middle East and North Africa,2015,4.75,9.55,0.57,65.7,0.78,0.17,0.7,0.55,0.52,0.75
+Iran,Middle East and North Africa,2016,4.65,9.61,0.57,65.85,0.77,0.18,0.71,0.59,0.53,0.71
+Iran,Middle East and North Africa,2017,4.72,9.63,0.71,66,0.73,0.21,0.71,0.59,0.44,
+Iran,Middle East and North Africa,2018,4.28,9.59,0.67,66.15,0.6,0.08,0.7,0.48,0.49,0.55
+Iran,Middle East and North Africa,2019,5.01,9.55,0.7,66.3,0.62,0.13,0.73,0.52,0.45,0.52
+Iran,Middle East and North Africa,2020,4.86,9.58,0.76,66.45,0.6,0.13,0.71,0.5,0.47,0.47
+Iran,Middle East and North Africa,2021,4.79,9.62,0.77,66.6,0.61,0.17,0.76,0.52,0.43,0.62
+Iran,Middle East and North Africa,2022,4.98,9.64,0.8,66.75,0.57,0.21,0.77,0.52,0.47,
+Iraq,Middle East and North Africa,2008,4.59,8.98,0.74,60.94,0.39,-0.06,0.91,0.53,0.45,0.48
+Iraq,Middle East and North Africa,2009,4.78,8.98,0.86,60.92,0.43,-0.2,0.85,0.5,0.4,0.49
+Iraq,Middle East and North Africa,2010,5.07,9.01,0.85,60.9,0.42,-0.12,0.86,0.5,0.43,0.34
+Iraq,Middle East and North Africa,2011,4.73,9.05,0.75,60.88,0.35,-0.06,0.78,0.47,0.56,0.37
+Iraq,Middle East and North Africa,2012,4.66,9.13,0.73,60.86,0.31,-0.02,0.79,0.41,0.45,0.34
+Iraq,Middle East and North Africa,2013,4.73,9.16,0.73,60.84,,-0.04,0.71,,0.55,0.5
+Iraq,Middle East and North Africa,2014,4.54,9.13,0.73,60.82,0.65,0,0.73,0.54,0.56,0.51
+Iraq,Middle East and North Africa,2015,4.49,9.15,0.68,60.8,0.6,0.02,0.76,0.48,0.58,0.44
+Iraq,Middle East and North Africa,2016,4.41,9.25,0.72,61.28,0.67,-0.05,0.8,0.47,0.57,0.42
+Iraq,Middle East and North Africa,2017,4.46,9.21,0.7,61.75,0.63,0,0.76,0.49,0.59,0.42
+Iraq,Middle East and North Africa,2018,4.89,9.21,0.76,62.22,0.6,-0.07,0.89,0.55,0.48,0.31
+Iraq,Middle East and North Africa,2020,4.79,9.1,0.71,63.17,0.7,-0.02,0.85,0.59,0.53,0.43
+Iraq,Middle East and North Africa,2021,5.09,9.1,0.73,63.65,0.59,0.01,0.9,0.58,0.47,0.42
+Ireland,Western Europe,2006,7.14,10.98,0.97,69.62,0.94,0.24,0.47,0.81,0.21,0.63
+Ireland,Western Europe,2008,7.57,10.94,0.98,69.86,0.89,0.32,0.49,0.75,0.15,0.51
+Ireland,Western Europe,2009,7.05,10.88,0.96,69.98,0.83,0.31,0.58,0.75,0.23,0.29
+Ireland,Western Europe,2010,7.26,10.89,0.97,70.1,0.86,0.34,0.62,0.76,0.2,0.33
+Ireland,Western Europe,2011,7.01,10.89,0.98,70.22,0.95,0.38,0.59,0.79,0.19,0.53
+Ireland,Western Europe,2012,6.96,10.89,0.96,70.34,0.9,0.3,0.57,0.72,0.24,0.35
+Ireland,Western Europe,2013,6.76,10.89,0.96,70.46,0.88,0.33,0.56,0.74,0.25,0.29
+Ireland,Western Europe,2014,7.02,10.97,0.97,70.58,0.92,0.26,0.41,0.74,0.23,0.46
+Ireland,Western Europe,2015,6.83,11.18,0.95,70.7,0.89,0.23,0.41,0.75,0.23,0.57
+Ireland,Western Europe,2016,7.04,11.19,0.96,70.8,0.87,0.17,0.4,0.74,0.21,0.57
+Ireland,Western Europe,2017,7.06,11.26,0.94,70.9,0.91,0.21,0.34,0.77,0.21,0.6
+Ireland,Western Europe,2018,6.96,11.33,0.94,71,0.86,0.14,0.36,0.75,0.21,0.62
+Ireland,Western Europe,2019,7.25,11.37,0.94,71.1,0.89,0.07,0.37,0.76,0.22,0.58
+Ireland,Western Europe,2020,7.03,11.42,0.96,71.2,0.88,0,0.36,0.75,0.25,0.59
+Ireland,Western Europe,2021,6.83,11.54,0.85,71.3,0.85,0.13,0.36,0.73,0.25,0.62
+Ireland,Western Europe,2022,6.87,11.62,0.91,71.4,0.9,0.14,0.36,0.74,0.23,
+Israel,Middle East and North Africa,2006,7.17,10.36,0.93,71.08,0.82,,0.91,0.64,0.31,0.34
+Israel,Middle East and North Africa,2007,6.84,10.4,0.87,71.16,0.68,0.22,0.87,0.64,0.32,0.22
+Israel,Middle East and North Africa,2008,7.26,10.41,0.86,71.24,0.66,0.14,0.9,0.64,0.35,0.18
+Israel,Middle East and North Africa,2009,7.35,10.4,0.94,71.32,0.59,0.17,0.92,0.62,0.33,0.4
+Israel,Middle East and North Africa,2010,7.36,10.44,0.88,71.4,0.56,0.15,0.9,0.63,0.36,0.45
+Israel,Middle East and North Africa,2011,7.43,10.47,0.89,71.48,0.72,0.14,0.89,0.65,0.38,0.27
+Israel,Middle East and North Africa,2012,7.11,10.48,0.9,71.56,0.68,0.15,0.86,0.61,0.32,0.34
+Israel,Middle East and North Africa,2013,7.32,10.5,0.91,71.64,0.74,0.15,0.85,0.65,0.41,0.45
+Israel,Middle East and North Africa,2014,7.4,10.52,0.89,71.72,0.71,0.09,0.82,0.57,0.27,0.44
+Israel,Middle East and North Africa,2015,7.08,10.53,0.86,71.8,0.75,0.1,0.79,0.65,0.26,0.41
+Israel,Middle East and North Africa,2016,7.16,10.55,0.89,71.95,0.77,0.15,0.8,0.6,0.26,0.44
+Israel,Middle East and North Africa,2017,7.33,10.57,0.92,72.1,0.77,0.14,0.79,0.62,0.28,0.39
+Israel,Middle East and North Africa,2018,6.93,10.6,0.91,72.25,0.72,0.05,0.77,0.61,0.28,0.42
+Israel,Middle East and North Africa,2019,7.33,10.62,0.95,72.4,0.83,0.08,0.74,0.6,0.27,0.5
+Israel,Middle East and North Africa,2020,7.19,10.58,0.96,72.55,0.83,-0.06,0.75,0.56,0.24,0.39
+Israel,Middle East and North Africa,2021,7.58,10.65,0.92,72.7,0.82,-0.01,0.73,0.56,0.22,0.44
+Israel,Middle East and North Africa,2022,7.66,10.69,0.95,72.85,0.77,0,0.65,0.58,0.18,
+Italy,Western Europe,2005,6.85,10.7,0.93,70.6,0.8,,0.94,0.61,0.29,0.24
+Italy,Western Europe,2007,6.57,10.72,0.91,70.8,0.68,0.11,0.92,0.65,0.3,0.3
+Italy,Western Europe,2008,6.78,10.71,0.88,70.9,0.54,0.05,0.95,0.59,0.27,0.36
+Italy,Western Europe,2009,6.33,10.65,0.88,71,0.7,0.24,0.89,0.72,0.28,0.4
+Italy,Western Europe,2010,6.35,10.66,0.87,71.1,0.74,-0.06,0.92,0.54,0.24,0.33
+Italy,Western Europe,2011,6.06,10.67,0.91,71.2,0.57,-0.02,0.93,0.61,0.27,0.26
+Italy,Western Europe,2012,5.84,10.63,0.87,71.3,0.57,0.11,0.91,0.65,0.39,0.28
+Italy,Western Europe,2013,6.01,10.6,0.92,71.4,0.5,-0.11,0.94,0.7,0.36,0.15
+Italy,Western Europe,2014,6.03,10.59,0.9,71.5,0.62,-0.07,0.92,0.66,0.36,0.31
+Italy,Western Europe,2015,5.85,10.6,0.91,71.6,0.57,-0.07,0.91,0.65,0.33,0.26
+Italy,Western Europe,2016,5.95,10.62,0.93,71.68,0.62,-0.08,0.9,0.63,0.34,0.24
+Italy,Western Europe,2017,6.2,10.64,0.92,71.75,0.63,-0.04,0.87,0.61,0.32,0.23
+Italy,Western Europe,2018,6.52,10.65,0.91,71.82,0.65,-0.03,0.89,0.6,0.4,0.21
+Italy,Western Europe,2019,6.45,10.66,0.84,71.9,0.71,-0.09,0.87,0.57,0.33,0.22
+Italy,Western Europe,2020,6.49,10.57,0.89,71.97,0.72,-0.15,0.84,0.61,0.31,0.37
+Italy,Western Europe,2021,6.47,10.64,0.89,72.05,0.7,-0.09,0.86,0.63,0.32,0.35
+Italy,Western Europe,2022,6.26,10.69,0.87,72.13,0.71,0.03,0.82,0.62,0.3,
+Ivory Coast,Sub-Saharan Africa,2009,4.2,8.16,0.67,48.9,0.76,-0.15,0.9,0.55,0.19,0.42
+Ivory Coast,Sub-Saharan Africa,2013,3.74,8.27,0.71,51.3,0.74,-0.03,0.69,0.66,0.31,0.57
+Ivory Coast,Sub-Saharan Africa,2014,3.57,8.33,0.71,51.9,0.78,-0.08,0.67,0.6,0.29,0.63
+Ivory Coast,Sub-Saharan Africa,2015,4.45,8.38,0.7,52.5,0.8,-0.05,0.74,0.61,0.35,0.64
+Ivory Coast,Sub-Saharan Africa,2016,4.54,8.42,0.62,53.08,0.77,-0.04,0.76,0.69,0.38,0.71
+Ivory Coast,Sub-Saharan Africa,2017,5.04,8.47,0.66,53.65,0.73,-0.11,0.77,0.66,0.36,0.52
+Ivory Coast,Sub-Saharan Africa,2018,5.27,8.51,0.62,54.22,0.71,-0.05,0.79,0.66,0.39,0.54
+Ivory Coast,Sub-Saharan Africa,2019,5.39,8.54,0.68,54.8,0.74,-0.02,0.8,0.66,0.43,0.61
+Ivory Coast,Sub-Saharan Africa,2020,5.26,8.54,0.61,55.38,0.77,0.02,0.78,0.66,0.34,0.55
+Ivory Coast,Sub-Saharan Africa,2021,5.06,8.58,0.55,55.95,0.72,0,0.72,0.63,0.34,0.67
+Ivory Coast,Sub-Saharan Africa,2022,4.85,8.61,0.54,56.53,0.71,-0.01,0.74,0.63,0.4,
+Jamaica,Latin America and Caribbean,2006,6.21,9.25,0.91,66.6,0.74,-0.01,0.95,0.75,0.2,0.18
+Jamaica,Latin America and Caribbean,2011,5.37,9.19,0.85,66.6,0.8,-0.07,0.91,0.76,0.24,0.36
+Jamaica,Latin America and Caribbean,2013,5.71,9.18,0.86,66.6,0.79,-0.03,0.93,0.69,0.31,0.29
+Jamaica,Latin America and Caribbean,2014,5.31,9.18,0.87,66.6,0.81,-0.01,0.86,0.71,0.31,0.28
+Jamaica,Latin America and Caribbean,2017,5.89,9.21,0.91,66.6,0.86,-0.14,0.88,0.7,0.24,0.35
+Jamaica,Latin America and Caribbean,2019,6.31,9.23,0.88,66.6,0.89,-0.14,0.89,0.72,0.2,0.44
+Jamaica,Latin America and Caribbean,2020,5.42,9.13,0.87,66.6,0.86,-0.15,0.84,0.71,0.27,0.59
+Jamaica,Latin America and Caribbean,2021,5.81,9.17,0.86,66.6,0.73,-0.08,0.88,0.69,0.31,0.33
+Jamaica,Latin America and Caribbean,2022,5.87,9.2,0.87,66.6,0.87,-0.09,0.91,0.72,0.27,
+Japan,East Asia,2005,6.52,10.55,0.93,72.4,0.87,,0.7,0.69,0.15,0.35
+Japan,East Asia,2007,6.24,10.58,0.94,72.64,0.8,-0.1,0.81,0.68,0.21,0.24
+Japan,East Asia,2008,5.91,10.57,0.89,72.76,0.77,-0.14,0.82,0.7,0.19,0.22
+Japan,East Asia,2009,5.84,10.51,0.89,72.88,0.73,-0.22,0.74,0.71,0.17,0.25
+Japan,East Asia,2010,6.06,10.55,0.9,73,0.77,-0.15,0.77,0.78,0.19,0.27
+Japan,East Asia,2011,6.26,10.55,0.92,73.12,0.81,-0.06,0.73,0.71,0.18,0.23
+Japan,East Asia,2012,5.97,10.56,0.91,73.24,0.75,,0.69,0.71,0.17,0.17
+Japan,East Asia,2013,5.96,10.59,0.92,73.36,0.82,-0.15,0.65,0.72,0.17,0.36
+Japan,East Asia,2014,5.92,10.59,0.9,73.48,0.84,-0.14,0.62,0.69,0.19,0.38
+Japan,East Asia,2015,5.88,10.61,0.92,73.6,0.83,-0.16,0.65,0.7,0.18,0.35
+Japan,East Asia,2016,5.95,10.61,0.9,73.72,0.84,-0.07,0.7,0.69,0.19,0.36
+Japan,East Asia,2017,5.91,10.63,0.88,73.85,0.85,-0.21,0.66,0.69,0.18,0.41
+Japan,East Asia,2018,5.79,10.64,0.89,73.97,0.77,-0.27,0.69,0.65,0.19,0.38
+Japan,East Asia,2019,5.91,10.64,0.88,74.1,0.81,-0.26,0.62,0.69,0.19,0.41
+Japan,East Asia,2020,6.12,10.6,0.89,74.22,0.81,-0.26,0.61,0.68,0.19,0.42
+Japan,East Asia,2021,6.09,10.62,0.9,74.35,0.8,-0.21,0.67,0.67,0.19,0.29
+Japan,East Asia,2022,6.18,10.64,0.9,74.47,0.79,-0.24,0.64,0.67,0.16,
+Jordan,Middle East and North Africa,2005,6.29,9.28,0.92,65.8,,,0.67,0.63,0.24,0.8
+Jordan,Middle East and North Africa,2007,5.6,9.31,0.84,66.16,0.65,-0.11,0.66,,0.24,0.77
+Jordan,Middle East and North Africa,2008,4.93,9.35,0.77,66.34,,-0.13,0.71,0.66,0.33,
+Jordan,Middle East and North Africa,2009,6,9.38,0.9,66.52,0.77,-0.08,0.74,0.59,0.26,
+Jordan,Middle East and North Africa,2010,5.57,9.38,0.92,66.7,0.79,-0.05,,0.56,0.34,
+Jordan,Middle East and North Africa,2011,5.54,9.38,0.88,66.88,0.76,-0.15,,0.55,0.26,
+Jordan,Middle East and North Africa,2012,5.13,9.39,0.83,67.06,0.69,-0.17,,0.47,0.35,
+Jordan,Middle East and North Africa,2013,5.17,9.35,0.84,67.24,0.69,-0.13,,0.6,0.29,
+Jordan,Middle East and North Africa,2014,5.33,9.27,0.82,67.42,0.73,-0.11,,0.6,0.31,
+Jordan,Middle East and North Africa,2015,5.4,9.2,0.83,67.6,0.77,-0.05,,0.62,0.31,
+Jordan,Middle East and North Africa,2016,5.27,9.17,0.82,67.6,0.77,-0.04,,0.6,0.31,
+Jordan,Middle East and North Africa,2017,4.81,9.17,0.81,67.6,0.77,-0.15,,0.55,0.39,
+Jordan,Middle East and North Africa,2021,3.91,9.13,0.7,67.6,0.77,-0.15,0.66,0.48,0.43,0.79
+Jordan,Middle East and North Africa,2022,4.36,9.13,0.77,67.6,0.76,-0.15,0.71,0.52,0.43,
+Kazakhstan,Commonwealth of Independent States,2006,5.48,9.8,0.87,58,0.73,-0.28,0.86,0.6,0.19,0.73
+Kazakhstan,Commonwealth of Independent States,2007,5.72,9.88,0.86,58.6,0.81,-0.25,0.87,0.56,0.18,0.71
+Kazakhstan,Commonwealth of Independent States,2008,5.89,9.89,0.84,59.2,0.73,-0.22,0.9,0.61,0.16,0.69
+Kazakhstan,Commonwealth of Independent States,2009,5.38,9.88,0.89,59.8,0.86,-0.25,0.84,0.59,0.13,0.71
+Kazakhstan,Commonwealth of Independent States,2010,5.51,9.94,0.9,60.4,0.78,-0.22,0.82,0.66,0.15,0.71
+Kazakhstan,Commonwealth of Independent States,2011,5.74,10,0.9,61,0.88,-0.24,0.8,0.62,0.15,0.72
+Kazakhstan,Commonwealth of Independent States,2012,5.76,10.03,0.89,61.6,0.84,-0.17,0.88,0.67,0.18,0.73
+Kazakhstan,Commonwealth of Independent States,2013,5.84,10.07,0.89,62.2,0.78,-0.23,0.82,0.63,0.16,0.66
+Kazakhstan,Commonwealth of Independent States,2014,5.97,10.1,0.8,62.8,0.8,0,0.81,0.67,0.17,0.6
+Kazakhstan,Commonwealth of Independent States,2015,5.95,10.1,0.93,63.4,0.74,-0.04,0.71,0.68,0.17,0.82
+Kazakhstan,Commonwealth of Independent States,2016,5.53,10.09,0.93,63.8,0.78,-0.04,0.7,0.64,0.16,0.76
+Kazakhstan,Commonwealth of Independent States,2017,5.88,10.12,0.91,64.2,0.75,-0.04,0.76,0.7,0.17,0.76
+Kazakhstan,Commonwealth of Independent States,2018,6.01,10.15,0.94,64.6,0.84,-0.1,0.82,0.61,0.16,0.62
+Kazakhstan,Commonwealth of Independent States,2019,6.27,10.18,0.95,65,0.85,-0.06,0.71,0.71,0.14,0.67
+Kazakhstan,Commonwealth of Independent States,2020,6.17,10.14,0.97,65.4,0.87,-0.06,0.66,0.62,0.15,0.72
+Kazakhstan,Commonwealth of Independent States,2021,6.26,10.17,0.91,65.8,0.81,0.04,0.78,0.66,0.12,0.54
+Kazakhstan,Commonwealth of Independent States,2022,6.01,10.19,0.92,66.2,0.88,0.02,0.72,0.65,0.13,
+Kenya,Sub-Saharan Africa,2006,4.22,8.16,0.91,51.42,0.62,-0.03,0.86,0.66,0.2,0.39
+Kenya,Sub-Saharan Africa,2007,4.58,8.2,0.84,51.94,0.75,0.04,0.8,0.7,0.16,0.66
+Kenya,Sub-Saharan Africa,2008,4.02,8.17,0.83,52.46,0.62,-0.02,0.91,0.73,0.15,0.51
+Kenya,Sub-Saharan Africa,2009,4.27,8.18,0.79,52.98,0.58,0.09,0.91,0.68,0.18,0.24
+Kenya,Sub-Saharan Africa,2010,4.26,8.23,0.81,53.5,0.64,0.01,0.92,0.76,0.12,0.34
+Kenya,Sub-Saharan Africa,2011,4.41,8.25,0.85,54.02,0.71,0.01,0.92,0.71,0.23,0.46
+Kenya,Sub-Saharan Africa,2012,4.55,8.27,0.83,54.54,0.63,0.06,0.91,0.67,0.19,0.4
+Kenya,Sub-Saharan Africa,2013,3.8,8.28,0.82,55.06,0.71,0.2,0.86,0.73,0.16,0.61
+Kenya,Sub-Saharan Africa,2014,4.9,8.31,0.77,55.58,0.82,0.16,0.85,0.78,0.22,0.64
+Kenya,Sub-Saharan Africa,2015,4.36,8.33,0.78,56.1,0.79,0.21,0.85,0.67,0.17,0.75
+Kenya,Sub-Saharan Africa,2016,4.4,8.35,0.71,56.5,0.75,0.29,0.83,0.73,0.23,0.58
+Kenya,Sub-Saharan Africa,2017,4.48,8.37,0.71,56.9,0.85,0.23,0.85,0.75,0.23,0.64
+Kenya,Sub-Saharan Africa,2018,4.66,8.4,0.71,57.3,0.82,0.28,0.84,0.75,0.24,0.68
+Kenya,Sub-Saharan Africa,2019,4.62,8.43,0.68,57.7,0.82,0.3,0.79,0.73,0.25,0.68
+Kenya,Sub-Saharan Africa,2020,4.55,8.41,0.67,58.1,0.7,0.25,0.84,0.74,0.3,0.49
+Kenya,Sub-Saharan Africa,2021,4.46,8.46,0.7,58.5,0.68,0.32,0.84,0.74,0.25,0.51
+Kenya,Sub-Saharan Africa,2022,4.45,8.5,0.69,58.9,0.71,0.29,0.88,0.72,0.28,
+Kosovo,Central and Eastern Europe,2007,5.1,,0.85,,0.38,,0.89,0.61,0.24,0.38
+Kosovo,Central and Eastern Europe,2008,5.52,8.86,0.88,,,0.1,0.85,0.5,0.32,0.55
+Kosovo,Central and Eastern Europe,2009,5.89,8.9,0.83,,0.51,0.21,0.97,0.53,0.17,
+Kosovo,Central and Eastern Europe,2010,5.18,8.94,0.71,,0.45,0.17,0.97,0.67,0.12,
+Kosovo,Central and Eastern Europe,2011,4.86,8.99,0.76,,0.59,0.01,0.92,0.6,0.12,
+Kosovo,Central and Eastern Europe,2012,5.64,9,0.76,,0.64,0.03,0.95,0.56,0.1,0.31
+Kosovo,Central and Eastern Europe,2013,6.13,9.05,0.72,,0.57,0.12,0.94,0.65,0.2,0.36
+Kosovo,Central and Eastern Europe,2014,5,9.08,0.71,,0.44,0.01,0.78,0.55,0.21,0.34
+Kosovo,Central and Eastern Europe,2015,5.08,9.15,0.81,,0.56,0.18,0.85,0.68,0.18,0.33
+Kosovo,Central and Eastern Europe,2016,5.76,9.21,0.82,,0.83,0.12,0.94,0.59,0.15,0.31
+Kosovo,Central and Eastern Europe,2017,6.15,9.25,0.79,,0.86,0.11,0.93,0.62,0.19,0.3
+Kosovo,Central and Eastern Europe,2018,6.39,9.28,0.82,,0.89,0.27,0.92,0.64,0.17,0.35
+Kosovo,Central and Eastern Europe,2019,6.43,9.33,0.84,,0.84,0.24,0.92,0.61,0.14,0.31
+Kosovo,Central and Eastern Europe,2020,6.29,9.28,0.79,,0.88,0.3,0.91,0.59,0.2,0.25
+Kosovo,Central and Eastern Europe,2021,6.65,9.38,0.85,,0.84,0.26,0.84,0.58,0.12,0.58
+Kosovo,Central and Eastern Europe,2022,6.16,9.42,0.89,,0.86,0.21,0.85,0.55,0.14,
+Kuwait,Middle East and North Africa,2006,6.08,11.23,0.92,68.4,0.77,-0.24,0.33,0.79,0.18,0.8
+Kuwait,Middle East and North Africa,2009,6.59,11.07,0.93,69,0.82,0,0.68,0.69,0.25,
+Kuwait,Middle East and North Africa,2010,6.8,11,0.89,69.2,0.7,-0.04,0.49,0.69,0.2,
+Kuwait,Middle East and North Africa,2011,6.38,11.02,0.88,69.4,0.77,,0.56,0.73,0.18,
+Kuwait,Middle East and North Africa,2012,6.22,11.01,0.89,69.6,0.93,,,0.79,0.1,
+Kuwait,Middle East and North Africa,2013,6.48,10.95,0.86,69.8,0.75,,,0.69,0.28,
+Kuwait,Middle East and North Africa,2015,6.15,10.89,0.82,70.2,0.82,0.08,,0.68,0.32,
+Kuwait,Middle East and North Africa,2016,5.95,10.89,0.85,70.18,0.84,-0.08,,0.64,0.31,
+Kuwait,Middle East and North Africa,2017,6.09,10.82,0.85,70.15,0.88,-0.01,,0.65,0.31,
+Kuwait,Middle East and North Africa,2019,6.11,10.76,0.84,70.1,0.87,-0.1,,0.64,0.3,
+Kyrgyzstan,Commonwealth of Independent States,2006,4.64,8.19,0.84,59.92,0.68,-0.14,0.88,0.55,0.16,0.48
+Kyrgyzstan,Commonwealth of Independent States,2007,4.7,8.26,0.83,60.34,0.68,-0.09,0.93,0.59,0.13,0.45
+Kyrgyzstan,Commonwealth of Independent States,2008,4.74,8.33,0.79,60.76,0.72,-0.1,0.92,0.59,0.15,0.46
+Kyrgyzstan,Commonwealth of Independent States,2009,5.07,8.35,0.85,61.18,0.7,-0.14,0.9,0.55,0.16,0.64
+Kyrgyzstan,Commonwealth of Independent States,2010,5,8.33,0.89,61.6,0.72,-0.07,0.93,0.52,0.12,0.3
+Kyrgyzstan,Commonwealth of Independent States,2011,4.92,8.37,0.89,62.02,0.75,-0.16,0.93,0.58,0.15,0.44
+Kyrgyzstan,Commonwealth of Independent States,2012,5.21,8.36,0.86,62.44,0.7,-0.08,0.89,0.58,0.18,0.51
+Kyrgyzstan,Commonwealth of Independent States,2013,5.4,8.44,0.85,62.86,0.76,-0.09,0.9,0.6,0.13,0.44
+Kyrgyzstan,Commonwealth of Independent States,2014,5.25,8.46,0.9,63.28,0.74,0.35,0.9,0.62,0.19,0.37
+Kyrgyzstan,Commonwealth of Independent States,2015,4.91,8.48,0.86,63.7,0.81,0.2,0.86,0.66,0.17,0.58
+Kyrgyzstan,Commonwealth of Independent States,2016,4.86,8.5,0.91,64.22,0.81,0.05,0.92,0.67,0.13,0.53
+Kyrgyzstan,Commonwealth of Independent States,2017,5.63,8.53,0.88,64.75,0.86,0.14,0.87,0.64,0.16,0.56
+Kyrgyzstan,Commonwealth of Independent States,2018,5.3,8.54,0.9,65.28,0.94,0.26,0.91,0.62,0.2,0.5
+Kyrgyzstan,Commonwealth of Independent States,2019,5.69,8.57,0.88,65.8,0.92,0,0.88,0.62,0.21,0.51
+Kyrgyzstan,Commonwealth of Independent States,2020,6.25,8.46,0.9,66.32,0.93,0.1,0.93,0.67,0.26,0.49
+Kyrgyzstan,Commonwealth of Independent States,2021,5.56,8.48,0.9,66.85,0.92,0.2,0.9,0.66,0.23,0.58
+Kyrgyzstan,Commonwealth of Independent States,2022,5.67,8.52,0.93,67.38,0.95,0.24,0.88,0.65,0.2,
+Laos,Southeast Asia,2006,5.08,8.23,0.81,55.88,0.93,0.44,0.69,0.79,0.16,0.92
+Laos,Southeast Asia,2007,5.36,8.29,0.79,56.26,0.87,0.48,0.58,0.75,0.14,0.91
+Laos,Southeast Asia,2008,5.04,8.35,0.81,56.64,0.89,0.42,0.64,0.73,0.2,0.92
+Laos,Southeast Asia,2011,4.7,8.54,0.69,57.78,0.88,0.46,0.59,0.75,0.23,0.98
+Laos,Southeast Asia,2012,4.88,8.6,0.69,58.16,,0.23,,0.74,0.39,
+Laos,Southeast Asia,2017,4.62,8.88,0.71,59.9,0.89,0.07,0.59,0.71,0.34,0.84
+Laos,Southeast Asia,2018,4.86,8.93,0.7,60.2,0.91,0.14,0.63,0.71,0.33,
+Laos,Southeast Asia,2019,5.2,8.97,0.73,60.5,0.91,0.06,0.62,0.72,0.31,
+Laos,Southeast Asia,2020,5.28,8.96,0.66,60.8,0.92,0.14,0.75,0.71,0.36,
+Laos,Southeast Asia,2021,4.93,8.97,0.65,61.1,0.93,0.04,0.67,0.7,0.29,
+Latvia,Central and Eastern Europe,2006,4.71,10.04,0.88,63.1,0.64,-0.23,0.94,0.59,0.23,0.29
+Latvia,Central and Eastern Europe,2007,4.67,10.15,0.84,63.4,0.7,-0.17,0.92,0.59,0.25,0.28
+Latvia,Central and Eastern Europe,2008,5.15,10.12,0.86,63.7,0.63,-0.21,0.93,0.63,0.21,0.19
+Latvia,Central and Eastern Europe,2009,4.67,9.99,0.81,64,0.44,-0.18,0.94,0.54,0.24,0.1
+Latvia,Central and Eastern Europe,2011,4.97,10,0.84,64.6,0.56,0,0.93,0.56,0.22,0.11
+Latvia,Central and Eastern Europe,2012,5.13,10.08,0.85,64.9,0.56,-0.04,0.89,0.59,0.23,0.19
+Latvia,Central and Eastern Europe,2013,5.07,10.12,0.83,65.2,0.63,-0.08,0.84,0.6,0.23,0.23
+Latvia,Central and Eastern Europe,2014,5.73,10.14,0.88,65.5,0.67,-0.05,0.8,0.6,0.23,0.23
+Latvia,Central and Eastern Europe,2015,5.88,10.19,0.88,65.8,0.66,-0.08,0.81,0.56,0.23,0.3
+Latvia,Central and Eastern Europe,2016,5.94,10.22,0.92,65.9,0.69,-0.16,0.87,0.58,0.23,0.32
+Latvia,Central and Eastern Europe,2017,5.98,10.26,0.9,66,0.7,-0.16,0.8,0.56,0.23,0.26
+Latvia,Central and Eastern Europe,2018,5.9,10.31,0.91,66.1,0.61,-0.22,0.8,0.52,0.19,0.2
+Latvia,Central and Eastern Europe,2019,5.97,10.34,0.94,66.2,0.7,-0.2,0.79,0.54,0.21,0.24
+Latvia,Central and Eastern Europe,2020,6.23,10.33,0.93,66.3,0.82,-0.08,0.81,0.67,0.2,0.31
+Latvia,Central and Eastern Europe,2021,6.35,10.38,0.95,66.4,0.82,-0.1,0.84,0.72,0.19,0.29
+Latvia,Central and Eastern Europe,2022,6.05,10.41,0.93,66.5,0.82,0.02,0.84,0.63,0.16,
+Lebanon,Middle East and North Africa,2005,5.49,9.57,0.8,65.1,0.7,,0.95,0.56,0.29,
+Lebanon,Middle East and North Africa,2006,4.65,9.57,0.85,65.16,0.67,0.07,0.9,0.5,0.32,0.4
+Lebanon,Middle East and North Africa,2008,4.59,9.71,0.72,65.28,0.52,0.03,0.93,0.48,0.37,0.31
+Lebanon,Middle East and North Africa,2009,5.21,9.8,0.74,65.34,0.66,0.07,0.94,0.47,0.4,0.37
+Lebanon,Middle East and North Africa,2010,5.03,9.86,0.72,65.4,0.68,0.07,0.95,0.46,0.34,
+Lebanon,Middle East and North Africa,2011,5.19,9.86,0.73,65.46,0.66,0,0.91,0.51,0.32,
+Lebanon,Middle East and North Africa,2012,4.57,9.86,0.71,65.52,0.62,-0.01,0.86,0.44,0.34,
+Lebanon,Middle East and North Africa,2013,4.98,9.81,0.71,65.58,0.65,-0.01,0.92,0.45,0.41,
+Lebanon,Middle East and North Africa,2014,5.23,9.73,0.76,65.64,0.66,-0.02,0.94,0.52,0.27,0.24
+Lebanon,Middle East and North Africa,2015,5.17,9.72,0.74,65.7,0.6,0.07,0.89,0.52,0.24,0.19
+Lebanon,Middle East and North Africa,2016,5.27,9.76,0.83,65.78,0.66,0.02,0.85,0.51,0.26,0.14
+Lebanon,Middle East and North Africa,2017,5.15,9.79,0.78,65.85,0.6,-0.09,0.91,0.47,0.24,0.22
+Lebanon,Middle East and North Africa,2018,5.17,9.8,0.83,65.93,0.61,-0.08,0.91,0.42,0.27,0.22
+Lebanon,Middle East and North Africa,2019,4.02,9.75,0.87,66,0.45,-0.1,0.89,0.31,0.49,0.15
+Lebanon,Middle East and North Africa,2020,2.63,9.53,0.55,66.07,0.55,-0.14,0.88,0.35,0.48,0.12
+Lebanon,Middle East and North Africa,2021,2.18,9.47,0.51,66.15,0.42,-0.16,0.91,0.26,0.57,0.11
+Lebanon,Middle East and North Africa,2022,2.35,9.43,0.53,66.22,0.45,-0.13,0.88,0.3,0.43,
+Lesotho,Sub-Saharan Africa,2011,4.9,7.79,0.82,41.52,0.62,-0.09,0.77,0.75,0.17,0.4
+Lesotho,Sub-Saharan Africa,2016,3.81,7.9,0.8,42.25,0.73,-0.1,0.74,0.68,0.27,0.61
+Lesotho,Sub-Saharan Africa,2017,3.8,7.85,0.77,42.9,0.76,-0.14,0.8,0.71,0.26,0.7
+Lesotho,Sub-Saharan Africa,2019,3.51,7.84,0.79,44.2,0.72,-0.13,0.91,0.71,0.27,0.31
+Liberia,Sub-Saharan Africa,2007,3.7,7.18,0.59,51.86,0.79,0.12,0.78,0.6,0.44,0.73
+Liberia,Sub-Saharan Africa,2008,4.22,7.21,0.62,51.94,0.72,-0.03,0.84,0.63,0.26,0.51
+Liberia,Sub-Saharan Africa,2010,4.2,7.26,0.83,52.1,0.82,-0.04,0.82,0.55,0.22,0.54
+Liberia,Sub-Saharan Africa,2014,4.57,7.39,0.71,52.42,0.59,-0.03,0.87,0.57,0.44,0.35
+Liberia,Sub-Saharan Africa,2015,2.7,7.37,0.64,52.5,0.67,-0.06,0.9,0.52,0.39,0.47
+Liberia,Sub-Saharan Africa,2016,3.35,7.33,0.64,53.1,0.76,0.03,0.9,0.63,0.51,0.54
+Liberia,Sub-Saharan Africa,2017,4.42,7.34,0.68,53.7,0.73,-0.01,0.87,0.67,0.39,0.55
+Liberia,Sub-Saharan Africa,2018,4.13,7.33,0.73,54.3,0.77,0.05,0.87,0.66,0.44,0.7
+Liberia,Sub-Saharan Africa,2019,5.12,7.28,0.71,54.9,0.71,0.05,0.83,0.64,0.39,0.55
+Liberia,Sub-Saharan Africa,2022,4.04,7.28,0.6,56.7,0.73,0.15,0.83,0.64,0.44,
+Libya,Middle East and North Africa,2012,5.75,10.38,0.85,65.14,0.71,-0.07,0.79,0.63,0.32,
+Libya,Middle East and North Africa,2015,5.62,9.86,0.87,64.3,0.77,-0.09,,0.65,0.37,
+Libya,Middle East and North Africa,2016,5.43,9.83,0.88,64.53,0.82,-0.13,,0.64,0.38,
+Libya,Middle East and North Africa,2017,5.65,10.09,0.82,64.75,0.78,-0.07,0.67,0.64,0.38,
+Libya,Middle East and North Africa,2018,5.49,10.16,0.82,64.97,0.78,-0.14,0.65,0.64,0.4,
+Libya,Middle East and North Africa,2019,5.33,10.02,0.83,65.2,0.76,-0.1,0.69,0.63,0.4,
+Lithuania,Central and Eastern Europe,2006,5.95,10.04,0.93,63.5,0.57,-0.3,0.97,0.57,0.25,0.21
+Lithuania,Central and Eastern Europe,2007,5.81,10.16,0.94,63.7,0.59,-0.29,0.97,0.52,0.28,0.27
+Lithuania,Central and Eastern Europe,2008,5.55,10.2,0.91,63.9,0.62,-0.26,0.96,0.5,0.28,0.16
+Lithuania,Central and Eastern Europe,2009,5.47,10.05,0.93,64.1,0.5,-0.31,0.98,0.53,0.27,0.13
+Lithuania,Central and Eastern Europe,2010,5.07,10.08,0.88,64.3,0.52,-0.28,0.96,0.46,0.27,0.11
+Lithuania,Central and Eastern Europe,2011,5.43,10.16,0.91,64.5,0.57,-0.15,0.96,0.56,0.27,0.18
+Lithuania,Central and Eastern Europe,2012,5.77,10.22,0.92,64.7,0.5,-0.28,0.96,0.56,0.28,0.15
+Lithuania,Central and Eastern Europe,2013,5.6,10.26,0.91,64.9,0.56,-0.24,0.94,0.54,0.29,0.38
+Lithuania,Central and Eastern Europe,2014,6.13,10.3,0.91,65.1,0.51,-0.27,0.96,0.56,0.29,0.34
+Lithuania,Central and Eastern Europe,2015,5.71,10.33,0.93,65.3,0.64,-0.26,0.92,0.53,0.28,0.37
+Lithuania,Central and Eastern Europe,2016,5.87,10.37,0.94,65.65,0.61,-0.27,0.95,0.55,0.25,0.28
+Lithuania,Central and Eastern Europe,2017,6.27,10.43,0.93,66,0.75,-0.18,0.79,0.59,0.2,0.32
+Lithuania,Central and Eastern Europe,2018,6.31,10.48,0.93,66.35,0.7,-0.24,0.85,0.52,0.21,0.32
+Lithuania,Central and Eastern Europe,2019,6.06,10.52,0.92,66.7,0.78,-0.26,0.78,0.57,0.28,0.41
+Lithuania,Central and Eastern Europe,2020,6.39,10.52,0.95,67.05,0.82,-0.13,0.83,0.63,0.2,0.47
+Lithuania,Central and Eastern Europe,2021,6.86,10.58,0.93,67.4,0.71,-0.12,0.88,0.67,0.19,0.3
+Lithuania,Central and Eastern Europe,2022,7.04,10.6,0.94,67.75,0.71,-0.19,0.68,0.47,0.13,
+Luxembourg,Western Europe,2009,6.96,11.63,0.94,70.3,0.94,0.12,0.43,0.71,0.24,0.82
+Luxembourg,Western Europe,2010,7.1,11.65,0.95,70.5,0.91,0.09,0.42,0.72,0.22,0.77
+Luxembourg,Western Europe,2011,7.1,11.64,0.93,70.7,0.96,0.1,0.39,0.74,0.2,0.77
+Luxembourg,Western Europe,2012,6.96,11.63,0.91,70.9,0.92,0.05,0.4,0.73,0.23,0.74
+Luxembourg,Western Europe,2013,7.13,11.64,0.92,71.1,0.79,-0.06,0.3,0.6,0.18,0.74
+Luxembourg,Western Europe,2014,6.89,11.64,0.88,71.3,0.94,0.1,0.37,0.76,0.17,0.66
+Luxembourg,Western Europe,2015,6.7,11.64,0.93,71.5,0.93,0.05,0.38,0.73,0.19,0.69
+Luxembourg,Western Europe,2016,6.97,11.66,0.94,71.53,0.88,0.01,0.36,0.71,0.19,0.68
+Luxembourg,Western Europe,2017,7.06,11.65,0.91,71.55,0.9,0.04,0.33,0.73,0.18,0.74
+Luxembourg,Western Europe,2018,7.24,11.65,0.9,71.57,0.88,-0.03,0.39,0.71,0.2,0.76
+Luxembourg,Western Europe,2019,7.4,11.65,0.91,71.6,0.93,-0.05,0.39,0.74,0.21,0.78
+Luxembourg,Western Europe,2022,7.23,11.66,0.88,71.68,0.92,0.02,0.35,0.72,0.22,
+Madagascar,Sub-Saharan Africa,2006,3.98,7.35,0.71,54.14,,-0.04,,0.56,0.16,0.71
+Madagascar,Sub-Saharan Africa,2008,4.64,7.41,0.78,54.62,0.33,-0.1,0.77,0.58,0.21,0.78
+Madagascar,Sub-Saharan Africa,2011,4.38,7.31,0.82,55.34,0.55,-0.06,0.9,0.52,0.23,0.65
+Madagascar,Sub-Saharan Africa,2012,3.55,7.31,0.67,55.58,0.49,-0.05,0.85,0.59,0.19,0.35
+Madagascar,Sub-Saharan Africa,2013,3.82,7.31,0.67,55.82,0.48,-0.02,0.87,0.6,0.24,0.4
+Madagascar,Sub-Saharan Africa,2014,3.68,7.31,0.66,56.06,0.53,-0.02,0.79,0.64,0.19,0.51
+Madagascar,Sub-Saharan Africa,2015,3.59,7.32,0.65,56.3,0.54,-0.04,0.86,0.67,0.23,0.48
+Madagascar,Sub-Saharan Africa,2016,3.66,7.33,0.75,56.55,0.57,-0.07,0.86,0.67,0.2,0.49
+Madagascar,Sub-Saharan Africa,2017,4.08,7.34,0.63,56.8,0.57,-0.03,0.85,0.7,0.37,0.54
+Madagascar,Sub-Saharan Africa,2018,4.07,7.35,0.67,57.05,0.55,0,0.89,0.72,0.36,0.44
+Madagascar,Sub-Saharan Africa,2019,4.34,7.37,0.7,57.3,0.55,-0.01,0.72,0.7,0.3,0.66
+Madagascar,Sub-Saharan Africa,2022,4.02,7.29,0.64,58.05,0.52,0.08,0.74,0.69,0.35,
+Malawi,Sub-Saharan Africa,2006,3.83,7.02,0.55,45.36,0.77,0.17,0.68,0.61,0.22,0.69
+Malawi,Sub-Saharan Africa,2007,4.89,7.08,0.6,46.42,0.91,0.18,0.69,0.69,0.18,0.76
+Malawi,Sub-Saharan Africa,2009,5.15,7.18,0.72,48.54,0.88,0.15,0.69,0.69,0.13,0.83
+Malawi,Sub-Saharan Africa,2011,3.95,7.23,0.61,50.66,0.73,0.07,0.85,0.62,0.27,0.42
+Malawi,Sub-Saharan Africa,2012,4.28,7.22,0.6,51.72,0.64,0.14,0.89,0.72,0.2,0.47
+Malawi,Sub-Saharan Africa,2013,4.04,7.25,0.56,52.78,0.75,0.05,0.86,0.7,0.25,0.64
+Malawi,Sub-Saharan Africa,2014,4.56,7.27,0.51,53.84,0.79,0.04,0.82,0.65,0.26,0.62
+Malawi,Sub-Saharan Africa,2015,3.87,7.27,0.49,54.9,0.8,0.03,0.83,0.6,0.26,0.57
+Malawi,Sub-Saharan Africa,2016,3.48,7.27,0.52,55.45,0.81,0.04,0.82,0.58,0.32,0.55
+Malawi,Sub-Saharan Africa,2017,3.42,7.28,0.56,56,0.85,0,0.73,0.59,0.31,0.62
+Malawi,Sub-Saharan Africa,2018,3.33,7.3,0.53,56.55,0.8,0.05,0.77,0.55,0.36,0.57
+Malawi,Sub-Saharan Africa,2019,3.87,7.32,0.55,57.1,0.76,-0.02,0.68,0.52,0.35,0.57
+Malawi,Sub-Saharan Africa,2021,3.64,7.31,0.56,58.2,0.76,-0.01,0.74,0.55,0.33,0.51
+Malawi,Sub-Saharan Africa,2022,3.36,7.3,0.5,58.75,0.74,0.02,0.75,0.54,0.33,
+Malaysia,Southeast Asia,2006,6.01,9.83,0.87,65.08,0.84,0.2,0.74,0.69,0.24,0.78
+Malaysia,Southeast Asia,2007,6.24,9.87,0.87,65.16,0.84,0.09,0.8,0.72,0.16,0.75
+Malaysia,Southeast Asia,2008,5.81,9.89,0.8,65.24,0.78,0.04,0.88,0.73,0.19,0.66
+Malaysia,Southeast Asia,2009,5.38,9.86,0.79,65.32,0.87,-0.01,0.86,0.74,0.16,0.82
+Malaysia,Southeast Asia,2010,5.58,9.91,0.84,65.4,0.77,0.03,0.84,0.75,0.19,0.73
+Malaysia,Southeast Asia,2011,5.79,9.95,0.77,65.48,0.84,-0.02,0.84,0.79,0.15,0.79
+Malaysia,Southeast Asia,2012,5.91,9.98,0.84,65.56,0.85,0.01,0.85,0.74,0.18,0.76
+Malaysia,Southeast Asia,2013,5.77,10.01,0.83,65.64,0.79,0.26,0.76,0.66,0.32,0.75
+Malaysia,Southeast Asia,2014,5.96,10.06,0.86,65.72,0.81,0.24,0.84,0.71,0.26,0.63
+Malaysia,Southeast Asia,2015,6.32,10.09,0.82,65.8,0.67,0.22,0.84,0.73,0.31,0.44
+Malaysia,Southeast Asia,2018,5.34,10.2,0.79,65.72,0.87,0.13,0.89,0.72,0.2,0.73
+Malaysia,Southeast Asia,2019,5.43,10.23,0.84,65.7,0.92,0.12,0.78,0.73,0.18,0.72
+Malaysia,Southeast Asia,2020,6.01,10.16,0.8,65.68,0.88,0.1,0.75,0.72,0.29,0.75
+Malaysia,Southeast Asia,2021,6.01,10.18,0.79,65.65,0.88,0.22,0.77,0.73,0.18,
+Mali,Sub-Saharan Africa,2006,4.01,7.56,0.76,49.94,0.56,-0.07,0.76,0.75,0.21,0.65
+Mali,Sub-Saharan Africa,2008,4.11,7.58,0.75,50.62,0.49,-0.01,0.92,0.72,0.16,0.32
+Mali,Sub-Saharan Africa,2009,3.98,7.59,0.73,50.96,0.63,0.01,0.82,0.73,0.15,0.48
+Mali,Sub-Saharan Africa,2010,3.76,7.61,0.75,51.3,0.75,-0.03,0.81,0.76,0.16,0.71
+Mali,Sub-Saharan Africa,2011,4.67,7.61,0.8,51.64,0.82,-0.1,0.73,0.75,0.13,0.71
+Mali,Sub-Saharan Africa,2012,4.31,7.57,0.82,51.98,0.7,-0.09,0.79,0.65,0.11,0.49
+Mali,Sub-Saharan Africa,2013,3.68,7.57,0.82,52.32,0.66,-0.05,0.75,0.72,0.19,0.6
+Mali,Sub-Saharan Africa,2014,3.97,7.6,0.84,52.66,0.65,-0.04,0.66,0.72,0.19,0.62
+Mali,Sub-Saharan Africa,2015,4.58,7.63,0.83,53,0.63,-0.07,0.8,0.7,0.24,0.57
+Mali,Sub-Saharan Africa,2016,4.02,7.66,0.84,53.4,0.7,-0.07,0.86,0.74,0.31,0.52
+Mali,Sub-Saharan Africa,2017,4.74,7.68,0.74,53.8,0.75,-0.07,0.86,0.66,0.39,0.5
+Mali,Sub-Saharan Africa,2018,4.42,7.69,0.69,54.2,0.74,-0.03,0.79,0.69,0.37,0.51
+Mali,Sub-Saharan Africa,2019,4.99,7.7,0.75,54.6,0.67,-0.04,0.85,0.65,0.36,0.48
+Mali,Sub-Saharan Africa,2020,4.27,7.66,0.57,55,0.65,-0.07,0.89,0.65,0.44,0.44
+Mali,Sub-Saharan Africa,2021,4.11,7.66,0.57,55.4,0.67,0,0.9,0.64,0.44,0.5
+Mali,Sub-Saharan Africa,2022,4.21,7.65,0.64,55.8,0.82,-0.02,0.75,0.66,0.41,
+Malta,Western Europe,2009,6.33,10.35,0.92,70.22,0.8,0.46,,0.63,0.36,0.44
+Malta,Western Europe,2010,5.77,10.4,0.91,70.4,0.8,0.28,,0.62,0.38,0.41
+Malta,Western Europe,2011,6.15,10.4,0.92,70.58,0.88,0.29,,0.64,0.34,0.49
+Malta,Western Europe,2012,5.96,10.43,0.92,70.76,0.86,0.35,,0.64,0.39,0.5
+Malta,Western Europe,2013,6.38,10.47,0.94,70.94,0.91,0.4,,0.63,0.37,0.66
+Malta,Western Europe,2014,6.45,10.53,0.94,71.12,0.9,0.4,0.67,0.61,0.35,0.72
+Malta,Western Europe,2015,6.61,10.59,0.92,71.3,0.91,0.34,0.66,0.64,0.36,0.73
+Malta,Western Europe,2016,6.59,10.6,0.93,71.35,0.92,0.34,0.7,0.64,0.36,0.62
+Malta,Western Europe,2017,6.68,10.68,0.94,71.4,0.92,0.25,0.69,0.67,0.3,0.75
+Malta,Western Europe,2018,6.91,10.71,0.93,71.45,0.93,0.17,0.6,0.67,0.3,0.76
+Malta,Western Europe,2019,6.73,10.72,0.92,71.5,0.92,0.08,0.69,0.64,0.36,0.7
+Malta,Western Europe,2020,6.16,10.61,0.94,71.55,0.93,0,0.67,0.58,0.41,0.81
+Malta,Western Europe,2021,6.44,10.71,0.9,71.6,0.89,0.24,0.75,0.64,0.38,0.66
+Malta,Western Europe,2022,6.3,,0.93,71.65,0.84,,0.76,0.67,0.37,
+Mauritania,Sub-Saharan Africa,2007,4.15,8.53,0.68,56.5,0.57,-0.07,0.59,0.73,0.17,0.52
+Mauritania,Sub-Saharan Africa,2008,4.25,8.5,0.67,56.8,0.59,-0.02,0.84,0.75,0.18,0.43
+Mauritania,Sub-Saharan Africa,2009,4.5,8.47,0.82,57.1,0.74,0.04,0.85,0.72,0.17,0.37
+Mauritania,Sub-Saharan Africa,2010,4.77,8.47,0.86,57.4,0.67,0.05,0.73,0.74,0.13,0.49
+Mauritania,Sub-Saharan Africa,2011,4.78,8.48,0.75,57.7,0.57,0.05,0.75,0.73,0.17,0.43
+Mauritania,Sub-Saharan Africa,2012,4.67,8.49,0.76,58,0.49,-0.02,0.71,0.75,0.16,0.38
+Mauritania,Sub-Saharan Africa,2013,4.2,8.51,0.74,58.3,0.6,-0.08,0.68,0.74,0.2,0.45
+Mauritania,Sub-Saharan Africa,2014,4.48,8.52,0.85,58.6,0.47,-0.06,0.59,0.74,0.16,0.35
+Mauritania,Sub-Saharan Africa,2015,3.92,8.55,0.87,58.9,0.45,0.05,0.72,0.8,0.19,0.29
+Mauritania,Sub-Saharan Africa,2016,4.47,8.53,0.78,59.13,0.47,-0.18,0.84,0.71,0.22,0.21
+Mauritania,Sub-Saharan Africa,2017,4.68,8.57,0.78,59.35,0.53,-0.16,0.78,0.63,0.27,0.29
+Mauritania,Sub-Saharan Africa,2018,4.31,8.59,0.8,59.58,0.47,-0.12,0.71,0.67,0.28,0.26
+Mauritania,Sub-Saharan Africa,2019,4.15,8.61,0.8,59.8,0.63,-0.11,0.74,0.69,0.26,0.31
+Mauritania,Sub-Saharan Africa,2022,4.72,8.59,0.65,60.47,0.62,-0.01,0.66,0.63,0.39,
+Mauritius,Sub-Saharan Africa,2011,5.48,9.8,0.8,63.52,0.85,0.19,0.85,0.65,0.25,0.67
+Mauritius,Sub-Saharan Africa,2014,5.65,9.9,0.78,63.88,0.82,0.17,0.88,0.74,0.22,0.56
+Mauritius,Sub-Saharan Africa,2016,5.61,9.97,0.84,63.97,0.82,0.13,0.89,0.71,0.25,0.57
+Mauritius,Sub-Saharan Africa,2017,6.17,10.01,0.91,63.95,0.91,0.08,0.82,0.68,0.17,0.61
+Mauritius,Sub-Saharan Africa,2018,5.88,10.04,0.91,63.92,0.87,-0.08,0.79,0.71,0.16,0.62
+Mauritius,Sub-Saharan Africa,2019,6.24,10.07,0.91,63.9,0.89,-0.06,0.81,0.73,0.15,0.63
+Mauritius,Sub-Saharan Africa,2020,6.02,9.91,0.89,63.88,0.84,-0.04,0.77,0.7,0.14,0.54
+Mauritius,Sub-Saharan Africa,2021,5.95,9.95,0.89,63.85,0.8,-0.01,0.78,0.67,0.14,0.53
+Mauritius,Sub-Saharan Africa,2022,5.74,10.01,0.89,63.83,0.8,-0.04,0.77,0.72,0.17,
+Mexico,Latin America and Caribbean,2005,6.58,9.79,0.9,64.4,0.81,,0.76,0.76,0.22,0.43
+Mexico,Latin America and Caribbean,2007,6.53,9.83,0.88,64.68,0.67,-0.1,0.75,0.75,0.25,0.42
+Mexico,Latin America and Caribbean,2008,6.83,9.83,0.88,64.82,0.68,-0.13,0.78,0.77,0.2,0.41
+Mexico,Latin America and Caribbean,2009,6.96,9.76,0.87,64.96,0.68,-0.08,0.76,0.76,0.2,0.45
+Mexico,Latin America and Caribbean,2010,6.8,9.8,0.88,65.1,0.78,-0.05,0.69,0.75,0.22,0.37
+Mexico,Latin America and Caribbean,2011,6.91,9.82,0.82,65.24,0.83,-0.1,0.7,0.7,0.23,0.38
+Mexico,Latin America and Caribbean,2012,7.32,9.84,0.77,65.38,0.79,-0.1,0.63,0.72,0.28,0.36
+Mexico,Latin America and Caribbean,2013,7.44,9.84,0.76,65.52,0.74,-0.17,0.61,0.75,0.22,0.4
+Mexico,Latin America and Caribbean,2014,6.68,9.86,0.78,65.66,0.78,-0.1,0.63,0.76,0.23,0.33
+Mexico,Latin America and Caribbean,2015,6.24,9.88,0.76,65.8,0.72,-0.16,0.71,0.71,0.24,0.26
+Mexico,Latin America and Caribbean,2016,6.82,9.89,0.89,65.8,0.75,-0.16,0.81,0.8,0.22,0.28
+Mexico,Latin America and Caribbean,2017,6.41,9.91,0.8,65.8,0.86,-0.21,0.8,0.78,0.23,0.26
+Mexico,Latin America and Caribbean,2018,6.55,9.92,0.86,65.8,0.82,-0.18,0.81,0.82,0.21,0.29
+Mexico,Latin America and Caribbean,2019,6.43,9.91,0.85,65.8,0.9,-0.15,0.81,0.8,0.25,0.5
+Mexico,Latin America and Caribbean,2020,5.96,9.82,0.78,65.8,0.87,-0.13,0.78,0.74,0.29,0.46
+Mexico,Latin America and Caribbean,2021,5.99,9.86,0.78,65.8,0.84,-0.03,0.75,0.75,0.31,0.48
+Mexico,Latin America and Caribbean,2022,7.04,9.88,0.86,65.8,0.86,-0.12,0.78,0.82,0.21,
+Moldova,Commonwealth of Independent States,2006,5.1,8.94,0.81,59.48,0.55,-0.17,0.93,0.55,0.25,0.41
+Moldova,Commonwealth of Independent States,2007,4.77,8.97,0.8,59.86,0.7,-0.19,0.93,0.52,0.31,0.3
+Moldova,Commonwealth of Independent States,2008,5.5,9.04,0.87,60.24,0.64,-0.06,0.93,0.57,0.28,0.21
+Moldova,Commonwealth of Independent States,2009,5.55,8.98,0.86,60.62,0.55,-0.1,0.93,0.54,0.31,0.24
+Moldova,Commonwealth of Independent States,2010,5.59,9.05,0.85,61,0.6,-0.09,0.93,0.56,0.28,0.27
+Moldova,Commonwealth of Independent States,2011,5.79,9.11,0.87,61.38,0.63,-0.08,0.96,0.55,0.28,0.24
+Moldova,Commonwealth of Independent States,2012,6,9.1,0.83,61.76,0.6,-0.05,0.96,0.56,0.31,0.21
+Moldova,Commonwealth of Independent States,2013,5.76,9.19,0.8,62.14,0.66,-0.07,0.94,0.55,0.26,0.15
+Moldova,Commonwealth of Independent States,2014,5.92,9.24,0.8,62.52,0.62,-0.12,0.92,0.55,0.26,0.18
+Moldova,Commonwealth of Independent States,2015,6.02,9.25,0.84,62.9,0.6,-0.09,0.94,0.56,0.28,0.17
+Moldova,Commonwealth of Independent States,2016,5.58,9.3,0.84,63.3,0.56,-0.05,0.97,0.59,0.27,0.08
+Moldova,Commonwealth of Independent States,2017,5.33,9.36,0.83,63.7,0.55,-0.06,0.93,0.56,0.26,0.13
+Moldova,Commonwealth of Independent States,2018,5.68,9.42,0.89,64.1,0.82,-0.09,0.93,0.58,0.27,0.24
+Moldova,Commonwealth of Independent States,2019,5.8,9.48,0.81,64.5,0.78,-0.1,0.88,0.6,0.26,0.31
+Moldova,Commonwealth of Independent States,2020,5.81,9.41,0.87,64.9,0.86,-0.06,0.94,0.7,0.27,0.18
+Moldova,Commonwealth of Independent States,2021,5.96,9.55,0.88,65.3,0.83,-0.1,0.88,0.63,0.27,0.36
+Moldova,Commonwealth of Independent States,2022,5.69,9.54,0.82,65.7,0.83,-0.09,0.88,0.55,0.28,
+Mongolia,East Asia,2007,4.61,8.83,0.88,56.54,0.78,0.06,0.92,0.48,0.2,0.38
+Mongolia,East Asia,2008,4.49,8.9,0.92,56.96,0.48,0.07,0.96,0.51,0.17,0.39
+Mongolia,East Asia,2010,4.59,8.93,0.9,57.8,0.63,0.1,0.93,0.56,0.15,0.31
+Mongolia,East Asia,2011,5.03,9.07,0.95,58.22,0.7,0.15,0.93,0.56,0.15,0.29
+Mongolia,East Asia,2012,4.89,9.17,0.92,58.64,0.69,0.1,0.93,0.52,0.18,0.31
+Mongolia,East Asia,2013,4.91,9.26,0.93,59.06,0.75,0.13,0.93,0.55,0.18,0.37
+Mongolia,East Asia,2014,4.82,9.32,0.94,59.48,0.75,0.14,0.91,0.51,0.17,0.34
+Mongolia,East Asia,2015,4.98,9.32,0.91,59.9,0.69,0.17,0.9,0.53,0.21,0.23
+Mongolia,East Asia,2016,5.06,9.31,0.95,60,0.76,0.09,0.9,0.55,0.17,0.35
+Mongolia,East Asia,2017,5.33,9.34,0.92,60.1,0.67,0.11,0.86,0.55,0.21,0.28
+Mongolia,East Asia,2018,5.46,9.4,0.94,60.2,0.7,0.05,0.85,0.52,0.19,0.27
+Mongolia,East Asia,2019,5.56,9.43,0.95,60.3,0.71,0.14,0.87,0.56,0.17,0.21
+Mongolia,East Asia,2020,6.01,9.36,0.92,60.4,0.72,0.14,0.84,0.57,0.26,0.33
+Mongolia,East Asia,2021,5.72,9.36,0.93,60.5,0.67,0.22,0.85,0.56,0.2,0.26
+Mongolia,East Asia,2022,5.79,9.39,0.95,60.6,0.72,0.21,0.85,0.55,0.21,
+Montenegro,Central and Eastern Europe,2007,5.2,9.7,0.83,65.96,0.51,-0.14,0.81,0.54,0.34,0.5
+Montenegro,Central and Eastern Europe,2009,4.8,9.7,0.82,66.12,0.56,-0.1,0.84,0.53,0.42,
+Montenegro,Central and Eastern Europe,2010,5.46,9.73,0.8,66.2,0.55,-0.21,0.76,0.51,0.41,
+Montenegro,Central and Eastern Europe,2011,5.22,9.76,0.82,66.28,0.55,-0.23,0.76,0.51,0.38,
+Montenegro,Central and Eastern Europe,2012,5.22,9.73,0.7,66.36,0.46,-0.2,0.76,0.47,0.38,0.36
+Montenegro,Central and Eastern Europe,2013,5.07,9.76,0.74,66.44,0.5,-0.18,0.69,0.49,0.33,0.39
+Montenegro,Central and Eastern Europe,2014,5.28,9.78,0.86,66.52,0.5,0.09,0.77,0.54,0.37,0.4
+Montenegro,Central and Eastern Europe,2015,5.12,9.81,0.74,66.6,0.58,-0.15,0.78,0.53,0.34,0.4
+Montenegro,Central and Eastern Europe,2016,5.3,9.84,0.87,66.7,0.57,-0.09,0.85,0.55,0.34,0.33
+Montenegro,Central and Eastern Europe,2017,5.61,9.89,0.88,66.8,0.63,-0.09,0.76,0.49,0.35,0.35
+Montenegro,Central and Eastern Europe,2018,5.65,9.94,0.86,66.9,0.63,-0.05,0.77,0.53,0.35,0.4
+Montenegro,Central and Eastern Europe,2019,5.39,9.98,0.83,67,0.69,-0.11,0.82,0.55,0.37,0.41
+Montenegro,Central and Eastern Europe,2020,5.72,9.81,0.89,67.1,0.8,0.06,0.84,0.56,0.41,0.47
+Morocco,Middle East and North Africa,2010,4.38,8.67,,62.5,0.66,-0.16,0.9,,,
+Morocco,Middle East and North Africa,2011,5.08,8.71,0.83,62.66,0.58,-0.22,0.88,0.69,0.19,
+Morocco,Middle East and North Africa,2012,4.97,8.73,0.68,62.82,0.76,-0.18,0.84,0.64,0.28,0.53
+Morocco,Middle East and North Africa,2013,5.14,8.76,0.6,62.98,0.57,-0.21,0.77,0.71,0.24,0.38
+Morocco,Middle East and North Africa,2015,5.16,8.95,0.61,63.3,0.71,-0.24,0.84,0.6,0.26,
+Morocco,Middle East and North Africa,2016,5.39,8.94,0.66,63.4,0.82,-0.25,0.72,0.66,0.21,
+Morocco,Middle East and North Africa,2017,5.31,8.98,0.64,63.5,0.81,-0.22,0.84,0.5,0.32,
+Morocco,Middle East and North Africa,2018,4.9,9,0.55,63.6,0.77,-0.24,0.84,0.57,0.42,
+Morocco,Middle East and North Africa,2019,5.06,9.01,0.53,63.7,0.76,-0.25,0.76,0.53,0.41,
+Morocco,Middle East and North Africa,2020,4.8,8.93,0.55,63.8,0.82,-0.24,0.8,0.55,0.26,
+Morocco,Middle East and North Africa,2021,5.33,8.99,0.5,63.9,0.76,-0.2,0.82,0.55,0.34,
+Morocco,Middle East and North Africa,2022,4.6,9,0.56,64,0.79,-0.25,0.8,0.57,0.41,
+Mozambique,Sub-Saharan Africa,2006,4.59,6.79,0.88,44.82,0.68,0.04,0.76,0.6,0.33,0.56
+Mozambique,Sub-Saharan Africa,2007,4.83,6.84,0.75,45.24,0.64,0.07,0.85,0.63,0.24,0.59
+Mozambique,Sub-Saharan Africa,2008,4.65,6.88,0.76,45.66,0.51,0,0.86,0.61,0.28,0.54
+Mozambique,Sub-Saharan Africa,2011,4.97,7,0.82,46.92,0.64,-0.03,0.72,0.57,0.24,0.63
+Mozambique,Sub-Saharan Africa,2015,4.55,7.15,0.67,48.6,0.81,0.09,0.63,0.56,0.34,0.71
+Mozambique,Sub-Saharan Africa,2017,4.28,7.16,0.68,49.5,0.82,-0.03,0.68,0.64,0.35,0.76
+Mozambique,Sub-Saharan Africa,2018,4.65,7.16,0.74,49.95,0.9,0.05,0.69,0.62,0.4,0.83
+Mozambique,Sub-Saharan Africa,2019,4.93,7.16,0.74,50.4,0.87,0.07,0.68,0.59,0.38,0.79
+Mozambique,Sub-Saharan Africa,2021,5.18,7.11,0.66,51.3,0.84,0.05,0.63,0.58,0.38,0.73
+Mozambique,Sub-Saharan Africa,2022,4.74,7.12,0.71,51.75,0.88,0.05,0.69,0.63,0.35,
+Myanmar,Southeast Asia,2012,4.44,8.07,0.61,58.16,0.69,0.65,0.69,0.57,0.21,
+Myanmar,Southeast Asia,2013,4.18,8.13,0.76,58.64,0.78,0.69,0.64,0.68,0.22,
+Myanmar,Southeast Asia,2014,4.79,8.2,0.77,59.12,0.87,0.7,0.59,0.71,0.11,0.89
+Myanmar,Southeast Asia,2015,4.22,8.23,0.75,59.6,0.81,0.69,0.63,0.73,0.27,0.78
+Myanmar,Southeast Asia,2016,4.62,8.32,0.79,59.92,0.88,0.68,0.61,0.67,0.3,0.92
+Myanmar,Southeast Asia,2017,4.15,8.37,0.8,60.25,0.89,0.65,0.62,0.62,0.28,0.82
+Myanmar,Southeast Asia,2018,4.41,8.42,0.77,60.58,0.91,0.5,0.65,0.64,0.3,0.88
+Myanmar,Southeast Asia,2019,4.43,8.48,0.76,60.9,0.9,0.56,0.68,0.64,0.29,0.85
+Myanmar,Southeast Asia,2020,4.43,8.51,0.8,61.22,0.82,0.47,0.65,0.7,0.29,0.85
+Myanmar,Southeast Asia,2021,4.31,8.3,0.78,61.55,0.63,0.51,0.67,0.64,0.27,0.31
+Namibia,Sub-Saharan Africa,2007,4.89,9.07,0.83,51.88,0.78,-0.1,0.84,0.77,0.16,0.82
+Namibia,Sub-Saharan Africa,2014,4.57,9.26,0.76,54.26,0.85,-0.19,0.79,0.72,0.24,0.78
+Namibia,Sub-Saharan Africa,2017,4.44,9.24,0.83,55.35,0.81,-0.2,0.83,0.7,0.28,0.75
+Namibia,Sub-Saharan Africa,2018,4.83,9.24,0.86,55.72,0.75,-0.17,0.85,0.7,0.24,0.62
+Namibia,Sub-Saharan Africa,2019,4.44,9.21,0.84,56.1,0.74,-0.18,0.88,0.64,0.26,0.56
+Namibia,Sub-Saharan Africa,2020,4.45,9.11,0.74,56.47,0.67,-0.11,0.81,0.65,0.25,0.59
+Namibia,Sub-Saharan Africa,2021,4.49,9.12,0.81,56.85,0.66,-0.15,0.83,0.64,0.23,0.53
+Namibia,Sub-Saharan Africa,2022,4.95,9.13,0.81,57.22,0.68,-0.12,0.85,0.68,0.26,
+Nepal,South Asia,2006,4.57,7.73,0.87,59.66,0.69,,0.9,0.58,0.17,0.43
+Nepal,South Asia,2007,4.75,7.76,0.79,59.72,0.41,0.31,0.89,0.5,0.15,0.32
+Nepal,South Asia,2008,4.44,7.81,0.82,59.78,0.62,0.28,0.9,0.59,0.15,0.68
+Nepal,South Asia,2009,4.92,7.85,0.81,59.84,0.62,0.03,0.95,0.48,0.22,0.42
+Nepal,South Asia,2010,4.35,7.89,0.78,59.9,0.52,0.08,0.91,0.54,0.23,0.45
+Nepal,South Asia,2011,3.81,7.92,0.74,59.96,0.52,-0.02,0.93,0.53,0.21,0.33
+Nepal,South Asia,2012,4.23,7.97,0.73,60.02,0.64,0.06,0.88,0.54,0.23,0.44
+Nepal,South Asia,2013,4.6,8,0.74,60.08,0.72,0.14,0.88,0.5,0.28,0.45
+Nepal,South Asia,2014,4.98,8.06,0.79,60.14,0.71,0.11,0.84,0.49,0.29,0.59
+Nepal,South Asia,2015,4.81,8.09,0.75,60.2,0.76,0.22,0.82,0.44,0.36,0.47
+Nepal,South Asia,2016,5.1,8.08,0.84,60.47,0.84,0.16,0.82,0.52,0.37,0.49
+Nepal,South Asia,2017,4.74,8.16,0.82,60.75,0.85,0.12,0.77,0.46,0.38,0.56
+Nepal,South Asia,2018,4.91,8.22,0.77,61.03,0.77,0.11,0.74,0.46,0.39,0.65
+Nepal,South Asia,2019,5.45,8.27,0.77,61.3,0.79,0.15,0.71,0.44,0.36,0.63
+Nepal,South Asia,2020,5.98,8.23,0.79,61.58,0.77,0.14,0.81,0.48,0.34,0.47
+Nepal,South Asia,2021,4.62,8.25,0.7,61.85,0.82,0.15,0.77,0.41,0.35,0.62
+Nepal,South Asia,2022,5.47,8.29,0.75,62.13,0.84,0.15,0.76,0.47,0.34,
+Netherlands,Western Europe,2005,7.46,10.81,0.95,70.7,0.9,,0.57,0.7,0.23,0.43
+Netherlands,Western Europe,2007,7.45,10.88,0.94,70.78,0.9,0.34,0.45,0.72,0.21,0.66
+Netherlands,Western Europe,2008,7.63,10.89,0.94,70.82,0.88,0.36,0.42,0.68,0.18,0.62
+Netherlands,Western Europe,2010,7.5,10.86,0.96,70.9,0.92,0.35,0.4,0.75,0.21,0.64
+Netherlands,Western Europe,2011,7.56,10.87,0.94,70.94,0.93,0.33,0.36,0.77,0.18,0.6
+Netherlands,Western Europe,2012,7.47,10.86,0.94,70.98,0.88,0.28,0.43,0.75,0.23,0.57
+Netherlands,Western Europe,2013,7.41,10.85,0.92,71.02,0.92,0.3,0.5,0.76,0.24,0.54
+Netherlands,Western Europe,2014,7.32,10.86,0.91,71.06,0.91,0.33,0.46,0.78,0.22,0.53
+Netherlands,Western Europe,2015,7.32,10.88,0.88,71.1,0.9,0.26,0.41,0.74,0.2,0.58
+Netherlands,Western Europe,2016,7.54,10.89,0.93,71.18,0.91,0.23,0.43,0.74,0.21,0.57
+Netherlands,Western Europe,2017,7.46,10.92,0.94,71.25,0.92,0.25,0.36,0.73,0.18,0.67
+Netherlands,Western Europe,2018,7.46,10.93,0.94,71.32,0.92,0.16,0.37,0.75,0.2,0.66
+Netherlands,Western Europe,2019,7.43,10.95,0.94,71.4,0.89,0.21,0.36,0.73,0.23,0.62
+Netherlands,Western Europe,2020,7.5,10.9,0.94,71.47,0.93,0.15,0.28,0.69,0.25,0.78
+Netherlands,Western Europe,2021,7.31,10.94,0.92,71.55,0.86,0.27,0.4,0.71,0.2,0.58
+Netherlands,Western Europe,2022,7.39,10.98,0.93,71.63,0.87,0.22,0.46,0.71,0.2,
+New Zealand,North America and ANZ,2006,7.31,10.54,0.95,69.72,0.93,0.31,0.22,0.82,0.22,0.63
+New Zealand,North America and ANZ,2007,7.6,10.56,0.97,69.74,0.88,0.27,0.29,0.8,0.24,0.59
+New Zealand,North America and ANZ,2008,7.38,10.54,0.94,69.76,0.89,0.29,0.33,0.78,0.23,0.46
+New Zealand,North America and ANZ,2010,7.22,10.53,0.98,69.8,0.92,0.25,0.32,0.78,0.23,0.64
+New Zealand,North America and ANZ,2011,7.19,10.55,0.95,69.82,0.93,0.28,0.27,0.78,0.21,0.64
+New Zealand,North America and ANZ,2012,7.25,10.57,0.93,69.84,0.9,0.28,0.29,0.79,0.21,0.61
+New Zealand,North America and ANZ,2013,7.28,10.58,0.96,69.86,0.94,0.23,0.31,0.78,0.15,0.54
+New Zealand,North America and ANZ,2014,7.31,10.61,0.94,69.88,0.93,0.34,0.27,0.81,0.2,0.63
+New Zealand,North America and ANZ,2015,7.42,10.62,0.99,69.9,0.94,0.32,0.19,0.79,0.16,0.62
+New Zealand,North America and ANZ,2016,7.23,10.64,0.94,69.97,0.93,0.26,0.28,0.78,0.21,0.57
+New Zealand,North America and ANZ,2017,7.33,10.65,0.95,70.05,0.94,0.29,0.22,0.76,0.17,0.61
+New Zealand,North America and ANZ,2018,7.37,10.67,0.95,70.13,0.95,0.12,0.21,0.79,0.17,0.64
+New Zealand,North America and ANZ,2019,7.21,10.67,0.94,70.2,0.91,0.15,0.23,0.77,0.19,0.68
+New Zealand,North America and ANZ,2020,7.26,10.64,0.95,70.28,0.92,0.12,0.28,0.8,0.21,0.63
+New Zealand,North America and ANZ,2021,7.14,10.67,0.95,70.35,0.91,0.22,0.25,0.75,0.21,0.63
+New Zealand,North America and ANZ,2022,6.97,10.68,0.96,70.43,0.83,0.19,0.28,0.71,0.21,
+Nicaragua,Latin America and Caribbean,2006,4.46,8.4,0.88,64.3,0.75,0.01,0.84,0.78,0.29,0.22
+Nicaragua,Latin America and Caribbean,2007,4.94,8.43,0.87,64.4,0.84,0.14,0.83,0.79,0.29,0.41
+Nicaragua,Latin America and Caribbean,2008,5.1,8.45,0.86,64.5,0.79,0.07,0.82,0.77,0.29,0.34
+Nicaragua,Latin America and Caribbean,2009,5.35,8.4,0.83,64.6,0.75,0.07,0.79,0.74,0.3,0.37
+Nicaragua,Latin America and Caribbean,2010,5.69,8.43,0.86,64.7,0.79,0.02,0.8,0.75,0.27,0.4
+Nicaragua,Latin America and Caribbean,2011,5.39,8.48,0.8,64.8,0.78,-0.02,0.76,0.75,0.31,0.54
+Nicaragua,Latin America and Caribbean,2012,5.45,8.53,0.89,64.9,0.85,0.02,0.64,0.76,0.25,0.57
+Nicaragua,Latin America and Caribbean,2013,5.77,8.56,0.87,65,0.86,0.04,0.64,0.8,0.27,0.61
+Nicaragua,Latin America and Caribbean,2014,6.28,8.59,0.84,65.1,0.82,0.1,0.7,0.78,0.33,0.58
+Nicaragua,Latin America and Caribbean,2015,5.92,8.62,0.83,65.2,0.81,0.08,0.73,0.77,0.35,0.6
+Nicaragua,Latin America and Caribbean,2016,6.01,8.65,0.85,65.28,0.72,0.04,0.73,0.79,0.38,0.59
+Nicaragua,Latin America and Caribbean,2017,6.48,8.69,0.84,65.35,0.92,0.01,0.67,0.79,0.31,0.59
+Nicaragua,Latin America and Caribbean,2018,5.82,8.64,0.85,65.43,0.8,0.01,0.71,0.74,0.41,0.34
+Nicaragua,Latin America and Caribbean,2019,6.11,8.58,0.87,65.5,0.88,0.03,0.62,0.79,0.34,0.51
+Nicaragua,Latin America and Caribbean,2020,6.29,8.55,0.86,65.57,0.82,0.04,0.63,0.78,0.32,0.51
+Nicaragua,Latin America and Caribbean,2021,6.1,8.64,0.85,65.65,0.9,0.02,0.67,0.8,0.29,0.59
+Nicaragua,Latin America and Caribbean,2022,6.39,8.66,0.84,65.72,0.91,0,0.57,0.79,0.34,
+Niger,Sub-Saharan Africa,2006,3.74,6.87,0.68,50.14,0.75,0.08,0.75,0.75,0.18,0.6
+Niger,Sub-Saharan Africa,2007,4.28,6.87,0.73,50.58,0.58,-0.06,0.75,0.72,0.16,0.47
+Niger,Sub-Saharan Africa,2008,4.24,6.9,0.61,51.02,0.65,-0.05,0.75,0.69,0.19,0.5
+Niger,Sub-Saharan Africa,2009,4.27,6.89,0.77,51.46,0.88,-0.01,0.48,0.71,0.12,0.58
+Niger,Sub-Saharan Africa,2010,4.1,6.93,0.65,51.9,0.82,-0.02,0.53,0.72,0.13,0.78
+Niger,Sub-Saharan Africa,2011,4.56,6.92,0.82,52.34,0.78,-0.06,0.55,0.71,0.17,0.79
+Niger,Sub-Saharan Africa,2012,3.8,6.98,0.7,52.78,0.73,-0.06,0.78,0.58,0.14,0.53
+Niger,Sub-Saharan Africa,2013,3.72,6.99,0.7,53.22,0.83,-0.08,0.71,0.64,0.21,0.64
+Niger,Sub-Saharan Africa,2014,4.18,7.02,0.75,53.66,0.69,-0.05,0.6,0.63,0.2,0.58
+Niger,Sub-Saharan Africa,2015,3.67,7.03,0.71,54.1,0.73,-0.03,0.7,0.66,0.22,0.58
+Niger,Sub-Saharan Africa,2016,4.23,7.04,0.68,54.45,0.7,-0.02,0.81,0.65,0.33,0.57
+Niger,Sub-Saharan Africa,2017,4.62,7.05,0.58,54.8,0.68,-0.03,0.78,0.7,0.43,0.6
+Niger,Sub-Saharan Africa,2018,5.16,7.08,0.61,55.15,0.79,0.01,0.64,0.76,0.5,0.75
+Niger,Sub-Saharan Africa,2019,5,7.1,0.68,55.5,0.83,0.02,0.73,0.79,0.3,0.73
+Niger,Sub-Saharan Africa,2022,4.5,7.09,0.59,56.55,0.79,0.03,0.74,0.79,0.37,
+Nigeria,Sub-Saharan Africa,2006,4.71,8.31,0.74,50.22,0.65,0.08,0.87,0.77,0.18,0.25
+Nigeria,Sub-Saharan Africa,2007,4.89,8.35,0.72,50.54,0.64,0.14,0.92,0.81,0.14,0.39
+Nigeria,Sub-Saharan Africa,2008,4.94,8.39,0.78,50.86,0.58,0.12,0.89,0.76,0.24,0.46
+Nigeria,Sub-Saharan Africa,2009,4.98,8.44,0.72,51.18,0.54,0.07,0.91,0.73,0.23,0.23
+Nigeria,Sub-Saharan Africa,2010,4.76,8.49,0.82,51.5,0.57,0.07,0.91,0.76,0.19,0.29
+Nigeria,Sub-Saharan Africa,2012,5.49,8.53,0.82,52.14,0.65,0.07,0.9,0.78,0.21,0.3
+Nigeria,Sub-Saharan Africa,2013,4.82,8.56,0.66,52.46,0.62,0.05,0.91,0.65,0.29,0.3
+Nigeria,Sub-Saharan Africa,2015,4.93,8.6,0.81,53.1,0.68,-0.04,0.93,0.71,0.25,0.41
+Nigeria,Sub-Saharan Africa,2016,5.22,8.56,0.8,53.42,0.8,0.04,0.9,0.75,0.25,0.41
+Nigeria,Sub-Saharan Africa,2017,5.32,8.54,0.73,53.75,0.83,0.12,0.83,0.68,0.24,0.56
+Nigeria,Sub-Saharan Africa,2018,5.25,8.53,0.74,54.08,0.79,-0.01,0.87,0.76,0.26,0.45
+Nigeria,Sub-Saharan Africa,2019,4.27,8.53,0.73,54.4,0.75,0.02,0.87,0.7,0.23,0.4
+Nigeria,Sub-Saharan Africa,2020,5.5,8.49,0.74,54.72,0.71,0.1,0.91,0.74,0.32,0.31
+Nigeria,Sub-Saharan Africa,2021,4.48,8.5,0.74,55.05,0.73,0.05,0.91,0.67,0.19,0.25
+North Macedonia,Central and Eastern Europe,2007,4.49,9.43,0.81,64.66,0.44,0.08,0.87,0.56,0.25,0.4
+North Macedonia,Central and Eastern Europe,2009,4.43,9.48,0.73,64.82,0.55,-0.05,0.84,0.49,0.37,
+North Macedonia,Central and Eastern Europe,2010,4.18,9.51,0.69,64.9,0.51,-0.06,0.86,0.47,0.31,
+North Macedonia,Central and Eastern Europe,2011,4.9,9.53,0.78,64.98,0.61,-0.09,0.87,0.5,0.36,
+North Macedonia,Central and Eastern Europe,2012,4.64,9.53,0.8,65.06,0.61,-0.09,0.92,0.55,0.42,0.37
+North Macedonia,Central and Eastern Europe,2013,5.19,9.55,0.83,65.14,0.64,0.02,0.86,0.52,0.33,0.43
+North Macedonia,Central and Eastern Europe,2014,5.2,9.59,0.79,65.22,0.64,0.03,0.86,0.58,0.31,0.44
+North Macedonia,Central and Eastern Europe,2015,4.98,9.63,0.77,65.3,0.66,-0.05,0.82,0.55,0.3,0.37
+North Macedonia,Central and Eastern Europe,2016,5.35,9.65,0.87,65.5,0.71,0.08,0.87,0.59,0.29,0.26
+North Macedonia,Central and Eastern Europe,2017,5.23,9.66,0.8,65.7,0.75,-0.06,0.86,0.45,0.3,0.44
+North Macedonia,Central and Eastern Europe,2018,5.24,9.69,0.85,65.9,0.74,-0.05,0.91,0.51,0.3,0.4
+North Macedonia,Central and Eastern Europe,2019,5.02,9.73,0.81,66.1,0.72,0.02,0.92,0.52,0.3,0.27
+North Macedonia,Central and Eastern Europe,2020,5.05,9.67,0.75,66.3,0.79,0.13,0.88,0.54,0.37,0.32
+North Macedonia,Central and Eastern Europe,2021,5.53,9.71,0.81,66.5,0.79,0.19,0.88,0.56,0.3,0.36
+North Macedonia,Central and Eastern Europe,2022,5.17,9.73,0.85,66.7,0.72,0.07,0.94,0.55,0.28,
+Norway,Western Europe,2006,7.42,11.05,0.96,69.4,0.96,0.1,0.4,0.77,0.2,0.68
+Norway,Western Europe,2008,7.63,11.06,0.94,69.8,0.95,0.01,0.5,0.76,0.16,0.54
+Norway,Western Europe,2012,7.68,11.03,0.95,70.6,0.95,0.14,0.37,0.8,0.21,0.66
+Norway,Western Europe,2014,7.44,11.04,0.94,71,0.96,0.18,0.4,0.8,0.19,0.7
+Norway,Western Europe,2015,7.6,11.05,0.95,71.2,0.95,0.25,0.3,0.8,0.21,0.59
+Norway,Western Europe,2016,7.6,11.05,0.96,71.25,0.95,0.13,0.41,0.81,0.21,0.66
+Norway,Western Europe,2017,7.58,11.07,0.95,71.3,0.95,0.23,0.25,0.8,0.2,0.72
+Norway,Western Europe,2018,7.44,11.07,0.97,71.35,0.96,0.09,0.27,0.79,0.21,0.68
+Norway,Western Europe,2019,7.44,11.07,0.94,71.4,0.95,0.11,0.27,0.78,0.2,0.6
+Norway,Western Europe,2020,7.29,11.06,0.96,71.45,0.96,0.07,0.27,0.78,0.22,0.83
+Norway,Western Europe,2021,7.36,11.09,0.95,71.5,0.94,0.17,0.26,0.77,0.21,0.77
+Norway,Western Europe,2022,7.29,11.11,0.93,71.55,0.94,0.18,0.31,0.76,0.21,
+Oman,Western Europe,2011,6.85,10.54,,62.34,0.92,0.01,,,0.3,
+Pakistan,South Asia,2005,5.22,8.25,0.59,53.2,0.63,,0.84,,0.24,0.58
+Pakistan,South Asia,2007,5.67,8.31,0.48,53.72,0.4,0.08,0.79,0.58,0.31,0.44
+Pakistan,South Asia,2008,4.41,8.31,0.37,53.98,0.34,0.1,0.85,0.53,0.32,0.41
+Pakistan,South Asia,2009,5.21,8.32,0.52,54.24,0.39,0.07,0.87,0.52,0.35,0.36
+Pakistan,South Asia,2010,5.79,8.31,0.57,54.5,0.36,0.3,0.85,0.53,0.37,0.31
+Pakistan,South Asia,2011,5.27,8.31,0.51,54.76,0.38,0.02,0.86,0.47,0.36,0.28
+Pakistan,South Asia,2012,5.13,8.33,0.54,55.02,0.37,0.16,0.84,0.51,0.33,0.23
+Pakistan,South Asia,2013,5.14,8.36,0.61,55.28,0.45,0.09,0.79,0.47,0.27,0.26
+Pakistan,South Asia,2014,5.44,8.39,0.55,55.54,0.54,0.13,0.68,0.48,0.3,0.43
+Pakistan,South Asia,2015,4.82,8.42,0.56,55.8,0.59,0.08,0.72,0.47,0.33,0.46
+Pakistan,South Asia,2016,5.55,8.47,0.63,56.08,0.63,0.09,0.79,0.5,0.33,0.46
+Pakistan,South Asia,2017,5.83,8.5,0.69,56.35,0.71,0.04,0.71,0.49,0.31,0.56
+Pakistan,South Asia,2018,5.47,8.54,0.69,56.63,0.77,0.06,0.8,0.47,0.38,0.59
+Pakistan,South Asia,2019,4.44,8.55,0.62,56.9,0.68,0.11,0.78,0.49,0.42,0.51
+Pakistan,South Asia,2020,4.62,8.52,0.59,57.17,0.77,0.01,0.83,0.47,0.38,
+Pakistan,South Asia,2021,4.49,8.56,0.61,57.45,0.76,0.01,0.74,0.52,0.31,
+Panama,Latin America and Caribbean,2006,6.13,9.77,0.95,66.86,0.88,-0.05,0.91,0.83,0.23,0.36
+Panama,Latin America and Caribbean,2007,6.89,9.87,0.94,67.02,0.64,0.08,0.92,0.79,0.15,0.25
+Panama,Latin America and Caribbean,2008,6.93,9.94,0.92,67.18,0.71,0.06,0.88,0.78,0.15,0.31
+Panama,Latin America and Caribbean,2009,7.03,9.93,0.91,67.34,0.72,0.01,0.89,0.84,0.14,0.6
+Panama,Latin America and Caribbean,2010,7.32,9.97,0.93,67.5,0.75,-0.01,0.88,0.84,0.15,0.54
+Panama,Latin America and Caribbean,2011,7.25,10.06,0.88,67.66,0.83,0,0.84,0.85,0.18,0.46
+Panama,Latin America and Caribbean,2012,6.86,10.14,0.9,67.82,0.78,-0.01,0.8,0.84,0.21,0.36
+Panama,Latin America and Caribbean,2013,6.87,10.19,0.9,67.98,0.81,0.01,0.81,0.86,0.23,0.42
+Panama,Latin America and Caribbean,2014,6.63,10.22,0.87,68.14,0.89,0,0.85,0.8,0.25,0.44
+Panama,Latin America and Caribbean,2015,6.61,10.26,0.88,68.3,0.85,-0.01,0.81,0.78,0.26,0.38
+Panama,Latin America and Caribbean,2016,6.12,10.29,0.88,68.4,0.88,-0.11,0.84,0.81,0.24,0.33
+Panama,Latin America and Caribbean,2017,6.57,10.33,0.91,68.5,0.9,-0.17,0.84,0.8,0.24,0.39
+Panama,Latin America and Caribbean,2018,6.28,10.35,0.9,68.6,0.86,-0.13,0.84,0.84,0.22,0.28
+Panama,Latin America and Caribbean,2019,6.09,10.36,0.89,68.7,0.88,-0.2,0.87,0.84,0.24,0.41
+Panama,Latin America and Caribbean,2021,6.55,10.28,0.9,68.9,0.81,-0.15,0.86,0.83,0.22,0.33
+Panama,Latin America and Caribbean,2022,5.98,10.33,0.89,69,0.9,-0.12,0.89,0.82,0.26,
+Paraguay,Latin America and Caribbean,2006,4.73,9.15,0.9,64.88,0.69,0.06,0.84,0.75,0.3,0.31
+Paraguay,Latin America and Caribbean,2007,5.27,9.2,0.86,64.96,0.7,0.12,0.93,0.81,0.22,0.17
+Paraguay,Latin America and Caribbean,2008,5.57,9.25,0.89,65.04,0.65,0.05,0.89,0.8,0.26,0.24
+Paraguay,Latin America and Caribbean,2009,5.58,9.24,0.9,65.12,0.72,0.02,0.86,0.8,0.19,0.52
+Paraguay,Latin America and Caribbean,2010,5.84,9.33,0.89,65.2,0.73,0.07,0.78,0.83,0.18,0.48
+Paraguay,Latin America and Caribbean,2011,5.68,9.36,0.87,65.28,0.67,0.18,0.76,0.82,0.19,0.37
+Paraguay,Latin America and Caribbean,2012,5.82,9.34,0.93,65.36,0.75,0.19,0.77,0.85,0.21,0.3
+Paraguay,Latin America and Caribbean,2013,5.94,9.41,0.94,65.44,0.91,0.04,0.9,0.87,0.22,0.37
+Paraguay,Latin America and Caribbean,2014,5.12,9.44,0.96,65.52,0.76,-0.01,0.76,0.88,0.22,0.19
+Paraguay,Latin America and Caribbean,2015,5.56,9.46,0.91,65.6,0.81,-0.02,0.86,0.83,0.22,0.18
+Paraguay,Latin America and Caribbean,2016,5.8,9.49,0.94,65.65,0.85,-0.08,0.76,0.83,0.2,0.28
+Paraguay,Latin America and Caribbean,2017,5.71,9.52,0.9,65.7,0.89,-0.01,0.81,0.82,0.23,0.38
+Paraguay,Latin America and Caribbean,2019,5.65,9.52,0.89,65.8,0.88,0.02,0.88,0.79,0.28,0.21
+Paraguay,Latin America and Caribbean,2020,5.5,9.5,0.91,65.85,0.87,0.06,0.83,0.77,0.27,0.23
+Paraguay,Latin America and Caribbean,2021,5.58,9.52,0.91,65.9,0.89,0.02,0.86,0.81,0.25,0.29
+Paraguay,Latin America and Caribbean,2022,6.14,9.51,0.9,65.95,0.92,-0.01,0.84,0.82,0.24,
+Peru,Latin America and Caribbean,2006,4.81,8.98,0.87,66.46,0.67,-0.07,0.9,0.68,0.42,0.17
+Peru,Latin America and Caribbean,2007,5.21,9.05,0.76,66.72,0.64,-0.08,0.93,0.73,0.36,0.22
+Peru,Latin America and Caribbean,2008,5.13,9.13,0.78,66.98,0.64,-0.07,0.9,0.7,0.35,0.17
+Peru,Latin America and Caribbean,2009,5.52,9.14,0.8,67.24,0.64,-0.08,0.88,0.76,0.32,0.17
+Peru,Latin America and Caribbean,2010,5.61,9.21,0.81,67.5,0.76,-0.06,0.88,0.74,0.33,0.19
+Peru,Latin America and Caribbean,2011,5.89,9.26,0.76,67.76,0.77,-0.13,0.82,0.74,0.33,0.29
+Peru,Latin America and Caribbean,2012,5.82,9.31,0.76,68.02,0.7,-0.08,0.87,0.71,0.4,0.27
+Peru,Latin America and Caribbean,2013,5.78,9.36,0.8,68.28,0.7,-0.07,0.87,0.74,0.39,0.22
+Peru,Latin America and Caribbean,2014,5.87,9.37,0.82,68.54,0.72,-0.14,0.88,0.74,0.32,0.24
+Peru,Latin America and Caribbean,2015,5.58,9.39,0.8,68.8,0.8,-0.09,0.88,0.74,0.38,0.18
+Peru,Latin America and Caribbean,2016,5.7,9.42,0.8,68.97,0.83,-0.14,0.87,0.79,0.34,0.28
+Peru,Latin America and Caribbean,2017,5.71,9.43,0.83,69.15,0.83,-0.16,0.9,0.77,0.39,0.25
+Peru,Latin America and Caribbean,2018,5.68,9.45,0.85,69.32,0.83,-0.18,0.91,0.78,0.38,0.2
+Peru,Latin America and Caribbean,2019,6,9.45,0.81,69.5,0.81,-0.13,0.87,0.79,0.37,0.23
+Peru,Latin America and Caribbean,2020,4.99,9.32,0.75,69.68,0.81,-0.09,0.91,0.74,0.48,0.17
+Peru,Latin America and Caribbean,2021,5.69,9.43,0.82,69.85,0.81,-0.09,0.88,0.78,0.37,0.3
+Peru,Latin America and Caribbean,2022,5.89,9.45,0.82,70.03,0.76,-0.18,0.88,0.76,0.38,
+Philippines,Southeast Asia,2006,4.67,8.56,0.8,61.36,0.83,0.06,0.84,0.76,,0.57
+Philippines,Southeast Asia,2007,5.07,8.61,0.8,61.42,0.85,-0.02,0.88,0.74,0.38,0.62
+Philippines,Southeast Asia,2008,4.59,8.63,0.8,61.48,0.86,0.08,0.82,0.77,0.38,0.57
+Philippines,Southeast Asia,2009,4.88,8.63,0.78,61.54,0.87,0,0.8,0.79,0.31,0.6
+Philippines,Southeast Asia,2010,4.94,8.68,0.8,61.6,0.89,0.03,0.81,0.83,0.29,0.55
+Philippines,Southeast Asia,2011,4.99,8.7,0.79,61.66,0.88,0.07,0.78,0.81,0.36,0.72
+Philippines,Southeast Asia,2012,5,8.75,0.81,61.72,0.91,0.05,0.77,0.81,0.35,0.76
+Philippines,Southeast Asia,2013,4.98,8.8,0.85,61.78,0.91,0.02,0.76,0.8,0.33,0.75
+Philippines,Southeast Asia,2014,5.31,8.84,0.81,61.84,0.9,-0.02,0.79,0.79,0.33,0.69
+Philippines,Southeast Asia,2015,5.55,8.89,0.85,61.9,0.91,-0.05,0.76,0.8,0.35,0.67
+Philippines,Southeast Asia,2016,5.43,8.94,0.82,61.92,0.91,-0.07,0.79,0.81,0.29,0.77
+Philippines,Southeast Asia,2017,5.59,8.99,0.85,61.95,0.93,-0.14,0.71,0.75,0.34,0.84
+Philippines,Southeast Asia,2018,5.87,9.03,0.85,61.97,0.92,-0.11,0.73,0.76,0.39,0.8
+Philippines,Southeast Asia,2019,6.27,9.07,0.85,62,0.91,-0.08,0.75,0.76,0.34,0.8
+Philippines,Southeast Asia,2020,5.08,8.96,0.78,62.03,0.93,-0.11,0.74,0.79,0.33,0.8
+Philippines,Southeast Asia,2021,5.97,9,0.78,62.05,0.91,-0.01,0.72,0.79,0.32,0.76
+Poland,Central and Eastern Europe,2005,5.59,9.84,0.92,66.2,0.78,,0.98,0.61,0.28,0.07
+Poland,Central and Eastern Europe,2007,5.89,9.97,0.91,66.56,0.77,-0.05,0.93,0.67,0.24,0.19
+Poland,Central and Eastern Europe,2009,5.77,10.04,0.92,66.92,0.82,0.07,0.9,0.65,0.25,0.28
+Poland,Central and Eastern Europe,2010,5.89,10.07,0.96,67.1,0.79,0,0.9,0.69,0.23,0.33
+Poland,Central and Eastern Europe,2011,5.65,10.12,0.9,67.28,0.87,-0.07,0.91,0.66,0.22,0.27
+Poland,Central and Eastern Europe,2012,5.88,10.14,0.94,67.46,0.81,-0.03,0.89,0.71,0.27,0.27
+Poland,Central and Eastern Europe,2013,5.75,10.15,0.91,67.64,0.78,-0.14,0.92,0.67,0.24,0.16
+Poland,Central and Eastern Europe,2014,5.75,10.18,0.92,67.82,0.88,-0.07,0.9,0.68,0.22,0.25
+Poland,Central and Eastern Europe,2015,6.01,10.23,0.89,68,0.79,-0.1,0.81,0.63,0.24,0.21
+Poland,Central and Eastern Europe,2016,6.16,10.26,0.92,68.18,0.87,-0.09,0.85,0.67,0.22,0.38
+Poland,Central and Eastern Europe,2017,6.2,10.31,0.88,68.35,0.83,-0.13,0.64,0.57,0.2,0.5
+Poland,Central and Eastern Europe,2018,6.11,10.37,0.86,68.53,0.87,-0.26,0.72,0.62,0.18,0.43
+Poland,Central and Eastern Europe,2019,6.24,10.41,0.88,68.7,0.88,-0.23,0.7,0.61,0.17,0.5
+Poland,Central and Eastern Europe,2020,6.14,10.39,0.95,68.88,0.77,-0.01,0.79,0.68,0.33,0.27
+Poland,Central and Eastern Europe,2021,5.98,10.46,0.94,69.05,0.73,0.12,0.74,0.7,0.28,0.26
+Poland,Central and Eastern Europe,2022,6.67,10.51,0.89,69.22,0.8,-0.21,0.67,0.59,0.14,
+Portugal,Western Europe,2006,5.41,10.36,0.91,68.34,0.88,-0.18,0.88,0.65,0.33,0.45
+Portugal,Western Europe,2008,5.72,10.38,0.89,68.82,0.65,-0.22,0.93,0.67,0.31,0.34
+Portugal,Western Europe,2010,5.09,10.37,0.86,69.3,0.72,-0.11,0.95,0.68,0.27,0.26
+Portugal,Western Europe,2011,5.22,10.35,0.86,69.54,0.88,-0.18,0.96,0.67,0.28,0.21
+Portugal,Western Europe,2012,4.99,10.31,0.87,69.78,0.77,-0.1,0.96,0.63,0.37,0.23
+Portugal,Western Europe,2013,5.16,10.31,0.87,70.02,0.79,-0.12,0.95,0.66,0.35,0.18
+Portugal,Western Europe,2014,5.13,10.32,0.86,70.26,0.85,-0.13,0.94,0.66,0.36,0.23
+Portugal,Western Europe,2015,5.08,10.35,0.87,70.5,0.8,-0.17,0.94,0.63,0.37,0.22
+Portugal,Western Europe,2016,5.45,10.37,0.9,70.63,0.84,-0.23,0.92,0.66,0.33,0.35
+Portugal,Western Europe,2017,5.71,10.41,0.9,70.75,0.91,-0.18,0.88,0.61,0.29,0.5
+Portugal,Western Europe,2018,5.92,10.44,0.89,70.88,0.88,-0.27,0.88,0.65,0.32,0.52
+Portugal,Western Europe,2019,6.1,10.46,0.88,71,0.88,-0.24,0.92,0.68,0.3,0.44
+Portugal,Western Europe,2020,5.77,10.37,0.87,71.13,0.91,-0.24,0.87,0.61,0.38,0.61
+Portugal,Western Europe,2021,6.18,10.42,0.89,71.25,0.89,-0.21,0.87,0.63,0.28,0.58
+Portugal,Western Europe,2022,5.95,10.49,0.86,71.38,0.9,-0.14,0.89,0.64,0.32,
+Qatar,Western Europe,2009,6.42,11.43,0.89,64.36,0.86,0.23,0.18,0.67,0.26,0.89
+Qatar,Western Europe,2011,6.59,11.63,0.86,65.04,0.9,0,,0.66,0.33,
+Qatar,Western Europe,2012,6.61,11.62,0.84,65.38,0.92,0.15,,0.68,0.32,
+Romania,Central and Eastern Europe,2005,5.05,9.73,0.84,64.5,0.8,,0.96,0.58,0.35,0.27
+Romania,Central and Eastern Europe,2007,5.39,9.9,0.74,64.86,0.69,-0.19,0.95,0.58,0.28,0.2
+Romania,Central and Eastern Europe,2009,5.37,9.96,0.81,65.22,0.61,-0.2,0.97,0.54,0.27,0.23
+Romania,Central and Eastern Europe,2010,4.91,9.92,0.69,65.4,0.57,-0.09,0.97,0.54,0.34,0.09
+Romania,Central and Eastern Europe,2011,5.02,9.97,0.75,65.58,0.65,-0.15,0.96,0.5,0.29,0.12
+Romania,Central and Eastern Europe,2012,5.17,10,0.74,65.76,0.64,-0.12,0.96,0.52,0.34,0.24
+Romania,Central and Eastern Europe,2013,5.08,10,0.78,65.94,0.65,-0.13,0.95,0.54,0.33,0.24
+Romania,Central and Eastern Europe,2014,5.73,10.05,0.75,66.12,0.75,-0.1,0.96,0.56,0.33,0.24
+Romania,Central and Eastern Europe,2015,5.78,10.08,0.79,66.3,0.8,-0.14,0.96,0.63,0.31,0.25
+Romania,Central and Eastern Europe,2016,5.97,10.12,0.81,66.43,0.82,-0.12,0.95,0.61,0.26,0.18
+Romania,Central and Eastern Europe,2017,6.09,10.2,0.81,66.55,0.84,-0.16,0.93,0.63,0.23,0.3
+Romania,Central and Eastern Europe,2018,6.15,10.27,0.82,66.68,0.85,-0.22,0.92,0.65,0.3,0.23
+Romania,Central and Eastern Europe,2019,6.13,10.31,0.84,66.8,0.85,-0.23,0.95,0.6,0.24,0.16
+Romania,Central and Eastern Europe,2020,6.79,10.28,0.87,66.93,0.86,-0.16,0.92,0.67,0.26,0.23
+Romania,Central and Eastern Europe,2021,6.55,10.33,0.83,67.05,0.87,-0.18,0.93,0.67,0.26,0.19
+Romania,Central and Eastern Europe,2022,6.44,10.4,0.83,67.18,0.84,-0.17,0.94,0.62,0.26,
+Russia,Commonwealth of Independent States,2006,4.96,9.99,0.89,58.74,0.64,-0.31,0.94,0.53,0.23,0.37
+Russia,Commonwealth of Independent States,2007,5.22,10.07,0.88,59.18,0.59,-0.29,0.93,0.55,0.19,0.37
+Russia,Commonwealth of Independent States,2008,5.62,10.12,0.88,59.62,0.64,-0.31,0.92,0.57,0.17,0.56
+Russia,Commonwealth of Independent States,2009,5.16,10.04,0.91,60.06,0.62,-0.29,0.95,0.54,0.17,0.55
+Russia,Commonwealth of Independent States,2010,5.38,10.08,0.91,60.5,0.61,-0.3,0.94,0.57,0.17,0.51
+Russia,Commonwealth of Independent States,2011,5.39,10.13,0.88,60.94,0.63,-0.28,0.94,0.56,0.17,0.48
+Russia,Commonwealth of Independent States,2012,5.62,10.16,0.9,61.38,0.61,-0.3,0.94,0.56,0.17,0.45
+Russia,Commonwealth of Independent States,2013,5.54,10.18,0.88,61.82,0.66,-0.29,0.93,0.59,0.18,0.39
+Russia,Commonwealth of Independent States,2014,6.04,10.17,0.93,62.26,0.74,-0.27,0.87,0.62,0.15,0.64
+Russia,Commonwealth of Independent States,2015,6,10.15,0.92,62.7,0.69,-0.17,0.91,0.61,0.13,0.65
+Russia,Commonwealth of Independent States,2016,5.85,10.15,0.91,63.08,0.71,-0.18,0.93,0.59,0.14,0.58
+Russia,Commonwealth of Independent States,2017,5.58,10.16,0.9,63.45,0.73,-0.15,0.86,0.65,0.19,0.56
+Russia,Commonwealth of Independent States,2018,5.51,10.19,0.91,63.83,0.73,-0.15,0.87,0.62,0.2,0.46
+Russia,Commonwealth of Independent States,2019,5.44,10.21,0.91,64.2,0.71,-0.12,0.85,0.63,0.2,0.44
+Russia,Commonwealth of Independent States,2020,5.5,10.19,0.89,64.57,0.71,-0.08,0.82,0.62,0.19,0.48
+Russia,Commonwealth of Independent States,2021,5.45,10.24,0.86,64.95,0.67,0.06,0.81,0.59,0.19,0.46
+Russia,Commonwealth of Independent States,2022,6.04,10.2,0.92,65.32,0.78,-0.07,0.77,0.61,0.21,
+Rwanda,Sub-Saharan Africa,2006,4.21,7.09,0.72,53.5,0.92,,0.3,0.7,0.19,0.97
+Rwanda,Sub-Saharan Africa,2008,4.36,7.21,0.49,54.7,0.75,0.02,0.29,0.63,0.22,0.92
+Rwanda,Sub-Saharan Africa,2009,4.03,7.25,0.56,55.3,0.77,0,0.41,0.66,0.11,0.95
+Rwanda,Sub-Saharan Africa,2011,4.1,7.34,0.57,56.5,0.83,-0.04,0.16,0.61,0.15,
+Rwanda,Sub-Saharan Africa,2012,3.33,7.4,0.64,57.1,0.84,-0.01,0.08,0.62,0.13,
+Rwanda,Sub-Saharan Africa,2013,3.47,7.42,0.75,57.7,0.9,-0.03,0.12,0.73,0.17,
+Rwanda,Sub-Saharan Africa,2014,3.6,7.46,0.75,58.3,0.89,-0.02,0.08,0.75,0.13,
+Rwanda,Sub-Saharan Africa,2015,3.48,7.52,0.68,58.9,0.91,0.03,0.09,0.69,0.21,
+Rwanda,Sub-Saharan Africa,2016,3.33,7.55,0.67,59.22,0.91,0.03,0.16,0.71,0.29,0.99
+Rwanda,Sub-Saharan Africa,2017,3.11,7.57,0.52,59.55,0.91,0.05,0.21,0.72,0.36,0.98
+Rwanda,Sub-Saharan Africa,2018,3.56,7.63,0.62,59.88,0.92,0.06,0.16,0.77,0.31,0.99
+Rwanda,Sub-Saharan Africa,2019,3.27,7.69,0.49,60.2,0.87,0.06,0.17,0.72,0.42,0.99
+Saudi Arabia,Middle East and North Africa,2005,7.08,10.67,0.87,61.2,,,0.51,0.68,0.24,
+Saudi Arabia,Middle East and North Africa,2007,7.27,10.64,0.89,61.6,0.62,0,,0.72,0.23,
+Saudi Arabia,Middle East and North Africa,2008,6.81,10.66,0.82,61.8,0.53,-0.02,0.51,0.61,0.2,
+Saudi Arabia,Middle East and North Africa,2009,6.15,10.61,0.92,62,0.64,-0.11,0.45,0.68,0.32,
+Saudi Arabia,Middle East and North Africa,2010,6.31,10.62,0.88,62.2,0.68,-0.03,,0.65,0.3,
+Saudi Arabia,Middle East and North Africa,2011,6.7,10.69,0.83,62.4,0.6,-0.14,,0.7,0.24,
+Saudi Arabia,Middle East and North Africa,2012,6.4,10.72,0.87,62.6,0.56,-0.12,,0.69,0.22,
+Saudi Arabia,Middle East and North Africa,2013,6.5,10.73,0.83,62.8,0.66,-0.08,,0.69,0.28,
+Saudi Arabia,Middle East and North Africa,2014,6.28,10.74,0.82,63,0.76,-0.07,,0.66,0.31,
+Saudi Arabia,Middle East and North Africa,2015,6.35,10.77,0.82,63.2,0.82,-0.05,,0.67,0.33,
+Saudi Arabia,Middle East and North Africa,2016,6.47,10.76,0.89,63.4,0.77,-0.13,,0.72,0.27,
+Saudi Arabia,Middle East and North Africa,2017,6.29,10.73,0.84,63.6,0.81,-0.13,,0.7,0.31,
+Saudi Arabia,Middle East and North Africa,2018,6.36,10.73,0.87,63.8,0.85,-0.19,,0.7,0.29,
+Saudi Arabia,Middle East and North Africa,2019,6.56,10.71,0.91,64,0.89,-0.15,,0.67,0.24,
+Saudi Arabia,Middle East and North Africa,2020,6.56,10.67,0.89,64.2,0.88,-0.11,,0.7,0.25,
+Saudi Arabia,Middle East and North Africa,2021,6.45,10.7,0.86,64.4,0.9,-0.1,,0.73,0.23,
+Saudi Arabia,Middle East and North Africa,2022,6.38,10.78,0.9,64.6,,-0.03,,0.68,0.2,
+Senegal,Sub-Saharan Africa,2006,4.42,7.93,0.76,55.5,0.74,-0.06,0.81,0.69,0.22,0.37
+Senegal,Sub-Saharan Africa,2007,4.68,7.93,0.72,55.8,0.7,-0.01,0.83,0.72,0.2,0.35
+Senegal,Sub-Saharan Africa,2008,4.68,7.94,0.76,56.1,0.61,-0.03,0.88,0.67,0.25,0.29
+Senegal,Sub-Saharan Africa,2009,4.34,7.94,0.81,56.4,0.56,-0.04,0.92,0.71,0.23,0.26
+Senegal,Sub-Saharan Africa,2010,4.37,7.95,0.76,56.7,0.78,-0.08,0.85,0.67,0.14,0.29
+Senegal,Sub-Saharan Africa,2011,3.83,7.93,0.6,57,0.64,-0.16,0.87,0.7,0.18,0.3
+Senegal,Sub-Saharan Africa,2012,3.67,7.95,0.71,57.3,0.67,-0.04,0.85,0.72,0.21,0.65
+Senegal,Sub-Saharan Africa,2013,3.65,7.94,0.82,57.6,0.64,-0.05,0.84,0.69,0.17,0.61
+Senegal,Sub-Saharan Africa,2014,4.39,7.98,0.86,57.9,0.69,-0.05,0.7,0.7,0.16,0.66
+Senegal,Sub-Saharan Africa,2015,4.62,8.01,0.7,58.2,0.72,-0.11,0.77,0.71,0.21,0.62
+Senegal,Sub-Saharan Africa,2016,4.59,8.05,0.84,58.5,0.74,-0.09,0.79,0.78,0.24,0.63
+Senegal,Sub-Saharan Africa,2017,4.68,8.09,0.74,58.8,0.69,-0.05,0.83,0.75,0.29,0.61
+Senegal,Sub-Saharan Africa,2018,4.77,8.12,0.74,59.1,0.63,-0.08,0.8,0.72,0.25,0.59
+Senegal,Sub-Saharan Africa,2019,5.49,8.14,0.69,59.4,0.76,-0.02,0.8,0.77,0.33,0.64
+Senegal,Sub-Saharan Africa,2020,4.76,8.13,0.62,59.7,0.8,-0.05,0.86,0.82,0.27,0.57
+Senegal,Sub-Saharan Africa,2021,4.9,8.16,0.65,60,0.76,0.03,0.82,0.81,0.26,0.45
+Senegal,Sub-Saharan Africa,2022,4.91,8.18,0.61,60.3,0.76,0.05,0.85,0.81,0.29,
+Serbia,Central and Eastern Europe,2007,4.75,9.54,0.84,65.28,0.45,-0.17,0.9,0.53,0.33,0.34
+Serbia,Central and Eastern Europe,2009,4.38,9.57,0.77,65.56,0.37,-0.18,0.96,0.47,0.44,
+Serbia,Central and Eastern Europe,2010,4.46,9.58,0.73,65.7,0.46,-0.17,0.97,0.45,0.42,
+Serbia,Central and Eastern Europe,2011,4.82,9.61,0.77,65.84,0.44,-0.19,0.98,0.46,0.41,
+Serbia,Central and Eastern Europe,2012,5.15,9.61,0.82,65.98,0.46,-0.13,0.95,0.45,0.37,0.22
+Serbia,Central and Eastern Europe,2013,5.1,9.64,0.83,66.12,0.53,-0.1,0.91,0.5,0.4,0.34
+Serbia,Central and Eastern Europe,2014,5.11,9.63,0.78,66.26,0.53,0.07,0.91,0.47,0.33,0.45
+Serbia,Central and Eastern Europe,2015,5.32,9.65,0.82,66.4,0.55,-0.07,0.86,0.47,0.3,0.39
+Serbia,Central and Eastern Europe,2016,5.75,9.69,0.89,66.53,0.61,-0.07,0.89,0.49,0.3,0.45
+Serbia,Central and Eastern Europe,2017,5.12,9.72,0.88,66.65,0.68,-0.08,0.85,0.48,0.33,0.51
+Serbia,Central and Eastern Europe,2018,5.94,9.77,0.85,66.78,0.74,-0.1,0.86,0.53,0.3,0.48
+Serbia,Central and Eastern Europe,2019,6.24,9.82,0.9,66.9,0.75,-0.04,0.81,0.47,0.24,0.47
+Serbia,Central and Eastern Europe,2020,6.04,9.81,0.85,67.03,0.84,0.14,0.82,0.58,0.36,0.52
+Serbia,Central and Eastern Europe,2021,6.25,9.9,0.89,67.15,0.85,0.26,0.81,0.57,0.31,0.61
+Sierra Leone,Sub-Saharan Africa,2006,3.63,7.13,0.56,46.28,0.68,0.1,0.84,0.53,0.38,0.54
+Sierra Leone,Sub-Saharan Africa,2007,3.59,7.19,0.69,46.66,0.72,0.25,0.83,0.63,0.29,0.56
+Sierra Leone,Sub-Saharan Africa,2008,3,7.22,0.59,47.04,0.72,0.15,0.92,0.59,0.37,0.69
+Sierra Leone,Sub-Saharan Africa,2010,4.13,7.25,0.81,47.8,0.73,0.01,0.91,0.5,0.29,0.65
+Sierra Leone,Sub-Saharan Africa,2011,4.5,7.28,0.78,48.18,0.77,0,0.85,0.49,0.3,0.58
+Sierra Leone,Sub-Saharan Africa,2013,4.51,7.56,0.71,48.94,0.72,-0.07,0.86,0.54,0.42,0.56
+Sierra Leone,Sub-Saharan Africa,2014,4.5,7.58,0.87,49.32,0.68,0.03,0.79,0.62,0.33,0.59
+Sierra Leone,Sub-Saharan Africa,2015,4.91,7.32,0.61,49.7,0.62,0.05,0.82,0.63,0.41,0.65
+Sierra Leone,Sub-Saharan Africa,2016,4.73,7.36,0.66,50.5,0.68,0.11,0.86,0.62,0.46,0.7
+Sierra Leone,Sub-Saharan Africa,2017,4.09,7.37,0.65,51.3,0.71,0.08,0.85,0.61,0.5,0.74
+Sierra Leone,Sub-Saharan Africa,2018,4.31,7.38,0.65,52.1,0.72,0.1,0.86,0.53,0.47,0.78
+Sierra Leone,Sub-Saharan Africa,2019,3.45,7.41,0.61,52.9,0.72,0.08,0.87,0.52,0.44,0.82
+Sierra Leone,Sub-Saharan Africa,2021,3.71,7.39,0.61,54.5,0.66,0.11,0.85,0.54,0.45,0.75
+Sierra Leone,Sub-Saharan Africa,2022,2.56,7.4,0.5,55.3,0.66,0.1,0.86,0.49,0.5,
+Singapore,Southeast Asia,2006,6.46,11.17,0.9,71.58,0.76,0.13,,0.69,0.27,0.91
+Singapore,Southeast Asia,2007,6.83,11.21,0.92,71.76,0.87,0.29,0.06,0.59,0.11,0.93
+Singapore,Southeast Asia,2008,6.64,11.18,0.85,71.94,0.66,0.04,0.07,0.63,0.26,0.91
+Singapore,Southeast Asia,2009,6.14,11.15,0.87,72.12,0.78,-0.08,0.04,0.45,0.21,0.97
+Singapore,Southeast Asia,2010,6.53,11.27,0.86,72.3,0.85,-0.02,0.06,0.53,0.13,0.9
+Singapore,Southeast Asia,2011,6.56,11.31,0.9,72.48,0.82,-0.15,0.1,0.4,0.14,0.83
+Singapore,Southeast Asia,2013,6.53,11.36,0.81,72.84,0.83,0.11,0.24,0.66,0.15,0.86
+Singapore,Southeast Asia,2014,7.06,11.38,0.82,73.02,0.83,0.15,0.13,0.77,0.18,0.84
+Singapore,Southeast Asia,2015,6.62,11.4,0.87,73.2,0.89,0.15,0.1,0.74,0.14,0.91
+Singapore,Southeast Asia,2016,6.03,11.42,0.93,73.3,0.9,0.14,0.05,0.75,0.11,0.93
+Singapore,Southeast Asia,2017,6.38,11.46,0.9,73.4,0.93,0.13,0.16,0.75,0.18,0.93
+Singapore,Southeast Asia,2018,6.37,11.5,0.9,73.5,0.92,-0.07,0.1,0.73,0.11,0.89
+Singapore,Southeast Asia,2019,6.38,11.5,0.92,73.6,0.94,0.02,0.07,0.67,0.14,0.93
+Singapore,Southeast Asia,2021,6.59,11.57,0.88,73.8,0.88,0.06,0.14,0.7,0.16,0.9
+Slovakia,Central and Eastern Europe,2006,5.26,9.99,0.95,65.62,0.54,-0.05,0.95,0.59,0.31,0.16
+Slovakia,Central and Eastern Europe,2010,6.05,10.15,0.92,66.5,0.64,-0.1,0.91,0.6,0.28,0.31
+Slovakia,Central and Eastern Europe,2011,5.95,10.17,0.92,66.72,0.73,0.01,0.91,0.59,0.29,0.28
+Slovakia,Central and Eastern Europe,2012,5.91,10.19,0.93,66.94,0.62,-0.03,0.91,0.58,0.3,0.37
+Slovakia,Central and Eastern Europe,2013,5.94,10.19,0.91,67.16,0.6,-0.05,0.91,0.61,0.28,0.28
+Slovakia,Central and Eastern Europe,2014,6.14,10.22,0.92,67.38,0.63,-0.13,0.91,0.62,0.27,0.31
+Slovakia,Central and Eastern Europe,2015,6.16,10.27,0.94,67.6,0.59,-0.13,0.93,0.63,0.27,0.28
+Slovakia,Central and Eastern Europe,2016,5.99,10.28,0.95,67.82,0.7,-0.06,0.92,0.69,0.23,0.37
+Slovakia,Central and Eastern Europe,2017,6.37,10.31,0.91,68.05,0.71,-0.06,0.92,0.71,0.21,0.34
+Slovakia,Central and Eastern Europe,2018,6.24,10.35,0.92,68.28,0.76,-0.17,0.91,0.67,0.25,0.33
+Slovakia,Central and Eastern Europe,2019,6.24,10.37,0.93,68.5,0.77,-0.13,0.93,0.68,0.25,0.23
+Slovakia,Central and Eastern Europe,2020,6.52,10.34,0.95,68.72,0.76,-0.08,0.9,0.69,0.27,0.31
+Slovakia,Central and Eastern Europe,2021,6.42,10.37,0.95,68.95,0.74,0.05,0.9,0.69,0.24,0.22
+Slovenia,Central and Eastern Europe,2006,5.81,10.4,0.94,68.56,0.94,0.04,0.71,0.61,0.31,0.48
+Slovenia,Central and Eastern Europe,2009,5.83,10.41,0.92,69.04,0.9,-0.02,0.8,0.58,0.3,0.37
+Slovenia,Central and Eastern Europe,2010,6.08,10.41,0.92,69.2,0.9,0.03,0.84,0.59,0.3,0.33
+Slovenia,Central and Eastern Europe,2011,6.04,10.42,0.93,69.36,0.91,-0.03,0.89,0.59,0.29,0.18
+Slovenia,Central and Eastern Europe,2012,6.06,10.39,0.92,69.52,0.9,-0.02,0.89,0.6,0.28,0.24
+Slovenia,Central and Eastern Europe,2013,5.97,10.38,0.93,69.68,0.89,0.03,0.92,0.62,0.27,0.16
+Slovenia,Central and Eastern Europe,2014,5.68,10.41,0.91,69.84,0.89,0.05,0.91,0.59,0.29,0.18
+Slovenia,Central and Eastern Europe,2015,5.74,10.43,0.9,70,0.9,0,0.89,0.64,0.26,0.2
+Slovenia,Central and Eastern Europe,2016,5.94,10.46,0.93,70.18,0.9,-0.06,0.84,0.6,0.27,0.25
+Slovenia,Central and Eastern Europe,2017,6.17,10.51,0.93,70.35,0.92,-0.03,0.83,0.58,0.29,0.24
+Slovenia,Central and Eastern Europe,2018,6.25,10.55,0.94,70.53,0.94,-0.12,0.84,0.6,0.28,0.24
+Slovenia,Central and Eastern Europe,2019,6.67,10.57,0.95,70.7,0.95,-0.11,0.79,0.62,0.23,0.4
+Slovenia,Central and Eastern Europe,2020,6.46,10.52,0.95,70.88,0.96,-0.09,0.8,0.57,0.31,0.45
+Slovenia,Central and Eastern Europe,2021,6.76,10.6,0.96,71.05,0.85,0.03,0.75,0.64,0.26,0.34
+Slovenia,Central and Eastern Europe,2022,6.72,10.64,0.94,71.22,0.93,0.1,0.76,0.62,0.24,0.7
+Somalia,Central and Eastern Europe,2014,5.53,6.83,0.61,47.66,0.87,0.02,0.46,0.69,0.21,0.63
+Somalia,Central and Eastern Europe,2015,5.35,6.94,0.6,48.1,0.97,0.02,0.41,0.76,0.19,0.78
+Somalia,Central and Eastern Europe,2016,4.67,6.98,0.59,48.5,0.92,0.07,0.44,0.77,0.19,0.7
+South Africa,Sub-Saharan Africa,2006,5.08,9.46,0.91,46,0.65,-0.09,0.87,0.72,0.22,0.6
+South Africa,Sub-Saharan Africa,2007,5.2,9.5,0.79,46.9,0.69,-0.17,0.86,0.66,0.21,0.66
+South Africa,Sub-Saharan Africa,2008,5.35,9.52,0.81,47.8,0.75,-0.1,0.87,0.71,0.21,0.46
+South Africa,Sub-Saharan Africa,2009,5.22,9.49,0.88,48.7,0.74,-0.16,0.9,0.66,0.23,0.52
+South Africa,Sub-Saharan Africa,2010,4.65,9.51,0.92,49.6,0.74,-0.21,0.79,0.7,0.12,0.59
+South Africa,Sub-Saharan Africa,2011,4.93,9.53,0.86,50.5,0.84,-0.16,0.82,0.72,0.23,0.63
+South Africa,Sub-Saharan Africa,2012,5.13,9.54,0.91,51.4,0.59,-0.17,0.84,0.71,0.18,0.43
+South Africa,Sub-Saharan Africa,2013,3.66,9.55,0.84,52.3,0.71,-0.09,0.8,0.74,0.17,0.51
+South Africa,Sub-Saharan Africa,2014,4.83,9.55,0.88,53.2,0.79,-0.13,0.82,0.73,0.24,0.49
+South Africa,Sub-Saharan Africa,2015,4.89,9.54,0.9,54.1,0.86,-0.14,0.85,0.72,0.16,0.58
+South Africa,Sub-Saharan Africa,2016,4.77,9.54,0.88,54.63,0.77,-0.08,0.81,0.74,0.3,0.48
+South Africa,Sub-Saharan Africa,2017,4.51,9.54,0.87,55.15,0.79,-0.14,0.86,0.71,0.27,0.42
+South Africa,Sub-Saharan Africa,2018,4.88,9.55,0.84,55.67,0.75,-0.06,0.84,0.74,0.28,0.52
+South Africa,Sub-Saharan Africa,2019,5.03,9.54,0.85,56.2,0.74,-0.14,0.82,0.73,0.27,0.5
+South Africa,Sub-Saharan Africa,2020,4.95,9.46,0.89,56.72,0.76,-0.03,0.91,0.76,0.29,0.52
+South Africa,Sub-Saharan Africa,2021,5.6,9.5,0.92,57.25,0.7,-0.15,0.89,0.78,0.17,0.51
+South Korea,East Asia,2006,5.33,10.31,0.78,70.02,0.72,-0.06,0.8,0.55,0.34,0.23
+South Korea,East Asia,2007,5.77,10.36,0.83,70.24,0.66,-0.06,0.8,0.61,0.23,0.24
+South Korea,East Asia,2008,5.39,10.38,0.75,70.46,0.52,-0.11,0.77,0.55,0.24,0.27
+South Korea,East Asia,2009,5.65,10.38,0.81,70.68,0.6,-0.1,0.79,0.6,0.21,0.27
+South Korea,East Asia,2010,6.12,10.45,0.82,70.9,0.68,-0.04,0.75,0.63,0.13,0.32
+South Korea,East Asia,2011,6.95,10.47,0.81,71.12,0.68,-0.05,0.83,0.59,0.17,0.28
+South Korea,East Asia,2012,6,10.49,0.78,71.34,0.62,,0.84,0.61,0.21,0.23
+South Korea,East Asia,2013,5.96,10.52,0.8,71.56,0.64,-0.05,0.83,0.59,0.19,0.35
+South Korea,East Asia,2014,5.8,10.54,0.74,71.78,0.62,-0.05,0.83,0.58,0.28,0.28
+South Korea,East Asia,2015,5.78,10.57,0.77,72,0.62,-0.04,0.84,0.56,0.24,0.26
+South Korea,East Asia,2016,5.97,10.59,0.81,72.28,0.59,0.02,0.86,0.58,0.23,0.24
+South Korea,East Asia,2017,5.87,10.62,0.81,72.55,0.54,0.01,0.85,0.55,0.23,0.36
+South Korea,East Asia,2018,5.84,10.64,0.8,72.82,0.6,-0.09,0.8,0.58,0.22,0.39
+South Korea,East Asia,2019,5.9,10.66,0.78,73.1,0.71,-0.06,0.72,0.59,0.24,0.38
+South Korea,East Asia,2020,5.79,10.65,0.81,73.38,0.71,-0.11,0.66,0.55,0.25,0.45
+South Korea,East Asia,2021,6.11,10.7,0.81,73.65,0.72,-0.03,0.69,0.57,0.22,0.43
+South Korea,East Asia,2022,5.95,10.73,0.81,73.93,0.72,0,0.75,0.58,0.23,0.3
+Spain,Western Europe,2010,6.19,10.53,0.95,71,0.8,-0.14,0.84,0.65,0.32,0.3
+Spain,Western Europe,2011,6.52,10.51,0.94,71.12,0.82,-0.13,0.85,0.67,0.36,0.31
+Spain,Western Europe,2012,6.29,10.48,0.94,71.24,0.75,-0.06,0.84,0.64,0.37,0.34
+Spain,Western Europe,2013,6.15,10.47,0.93,71.36,0.76,-0.11,0.92,0.66,0.37,0.18
+Spain,Western Europe,2014,6.46,10.49,0.95,71.48,0.74,-0.03,0.85,0.68,0.34,0.21
+Spain,Western Europe,2015,6.38,10.53,0.96,71.6,0.73,-0.08,0.82,0.7,0.28,0.28
+Spain,Western Europe,2016,6.32,10.56,0.94,71.72,0.77,-0.05,0.82,0.63,0.3,0.3
+Spain,Western Europe,2017,6.23,10.58,0.9,71.85,0.76,-0.04,0.79,0.6,0.3,0.27
+Spain,Western Europe,2018,6.51,10.6,0.91,71.97,0.72,-0.08,0.78,0.64,0.36,0.29
+Spain,Western Europe,2019,6.46,10.62,0.95,72.1,0.78,-0.05,0.73,0.64,0.32,0.37
+Spain,Western Europe,2020,6.5,10.49,0.93,72.22,0.78,-0.12,0.73,0.67,0.32,0.38
+Spain,Western Europe,2021,6.47,10.54,0.93,72.35,0.78,-0.07,0.73,0.64,0.32,0.37
+Spain,Western Europe,2022,6.34,10.59,0.93,72.47,0.78,0,0.67,0.64,0.32,0.72
+Sri Lanka,South Asia,2006,4.34,8.95,0.86,62.28,0.72,0.06,0.84,0.64,0.22,0.68
+Sri Lanka,South Asia,2007,4.41,9,0.84,62.76,0.74,0.1,0.85,0.59,0.22,0.73
+Sri Lanka,South Asia,2008,4.43,9.05,0.82,63.24,0.83,0.16,0.86,0.66,0.15,0.72
+Sri Lanka,South Asia,2009,4.21,9.08,0.83,63.72,0.8,0.3,0.69,0.66,0.17,0.92
+Sri Lanka,South Asia,2010,3.98,9.15,0.81,64.2,0.74,0.25,0.77,0.7,0.16,0.81
+Sri Lanka,South Asia,2011,4.18,9.23,0.84,64.68,0.82,0.14,0.76,0.73,0.17,0.86
+Sri Lanka,South Asia,2012,4.22,9.31,0.82,65.16,0.8,0.16,0.82,0.76,0.2,0.78
+Sri Lanka,South Asia,2013,4.36,9.34,0.81,65.64,0.83,0.26,0.84,0.78,0.21,0.75
+Sri Lanka,South Asia,2014,4.27,9.4,0.8,66.12,0.87,0.29,0.79,0.78,0.19,0.77
+Sri Lanka,South Asia,2015,4.61,9.43,0.86,66.6,0.9,0.31,0.86,0.79,0.23,0.74
+Sri Lanka,South Asia,2017,4.33,9.52,0.82,66.8,0.83,0.09,0.84,0.73,0.27,0.52
+Sri Lanka,South Asia,2018,4.44,9.53,0.83,66.9,0.86,0.1,0.86,0.77,0.3,0.58
+Sri Lanka,South Asia,2019,4.21,9.52,0.81,67,0.82,0.04,0.86,0.75,0.31,0.57
+Sri Lanka,South Asia,2020,4.78,9.48,0.84,67.1,0.8,-0.05,0.77,0.76,0.29,0.75
+Sri Lanka,South Asia,2021,4.1,9.5,0.81,67.2,0.77,-0.01,0.85,0.73,0.31,0.5
+State of Palestine,Western Europe,2006,4.72,8.2,0.82,61.78,0.55,,0.86,0.49,0.43,
+State of Palestine,Western Europe,2007,4.15,8.18,0.71,61.9,0.37,-0.08,0.84,0.52,0.41,
+State of Palestine,Western Europe,2008,4.39,8.28,0.67,62.01,0.36,-0.07,0.75,0.51,0.4,
+State of Palestine,Western Europe,2009,4.47,8.34,0.74,62.13,0.47,-0.09,0.8,0.47,0.47,
+State of Palestine,Western Europe,2010,4.7,8.36,0.82,62.25,0.5,-0.12,0.75,0.55,0.38,
+State of Palestine,Western Europe,2011,4.75,8.45,0.75,,0.52,-0.13,0.75,0.5,0.39,
+State of Palestine,Western Europe,2012,4.65,8.6,0.78,,0.54,-0.16,0.73,0.56,0.38,
+State of Palestine,Western Europe,2013,4.84,8.59,0.76,,0.45,-0.16,0.78,0.54,0.37,
+State of Palestine,Western Europe,2014,4.72,8.62,0.78,,0.66,-0.16,0.8,0.5,0.38,
+State of Palestine,Western Europe,2015,4.7,8.68,0.77,,0.56,-0.17,0.77,0.54,0.37,
+State of Palestine,Western Europe,2016,4.91,8.74,0.82,,0.61,-0.15,0.81,0.54,0.38,
+State of Palestine,Western Europe,2017,4.63,8.73,0.82,,0.63,-0.18,0.83,0.53,0.42,
+State of Palestine,Western Europe,2018,4.55,8.72,0.82,,0.65,-0.16,0.81,0.53,0.42,
+State of Palestine,Western Europe,2019,4.48,8.72,0.83,,0.65,-0.13,0.83,0.54,0.4,
+State of Palestine,Western Europe,2022,4.91,,0.86,,0.69,,0.84,0.58,0.36,
+Sudan,Western Europe,2009,4.45,8.46,0.91,57.46,0.71,0.05,0.7,0.69,0.24,
+Sudan,Western Europe,2010,4.44,8.46,0.85,57.7,0.65,-0.07,0.74,0.59,0.22,
+Sudan,Western Europe,2011,4.31,8.53,0.82,57.94,0.58,-0.05,0.66,0.53,0.25,
+Sudan,Western Europe,2012,4.55,8.46,0.81,58.18,0.41,-0.07,0.73,0.51,0.24,
+Sudan,Western Europe,2014,4.14,8.47,0.81,58.66,0.39,-0.08,0.79,0.46,0.3,
+Suriname,Western Europe,2012,6.27,9.87,0.8,62.84,0.89,-0.09,0.75,0.73,0.25,0.72
+Sweden,Western Europe,2005,7.38,10.72,0.95,71,0.96,,,0.74,0.15,0.44
+Sweden,Western Europe,2007,7.24,10.79,0.92,71.08,0.91,0.14,0.29,0.74,0.18,0.56
+Sweden,Western Europe,2008,7.52,10.78,0.92,71.12,0.91,0.12,0.31,0.76,0.13,0.52
+Sweden,Western Europe,2009,7.27,10.73,0.9,71.16,0.86,0.22,0.29,0.76,0.15,0.59
+Sweden,Western Europe,2010,7.5,10.77,0.97,71.2,0.9,0.14,0.25,0.79,0.2,0.6
+Sweden,Western Europe,2011,7.38,10.8,0.92,71.24,0.94,0.16,0.27,0.76,0.18,0.64
+Sweden,Western Europe,2012,7.56,10.79,0.93,71.28,0.94,0.13,0.25,0.8,0.17,0.63
+Sweden,Western Europe,2013,7.43,10.79,0.92,71.32,0.94,0.16,0.32,0.78,0.18,0.58
+Sweden,Western Europe,2014,7.24,10.8,0.93,71.36,0.95,0.2,0.25,0.79,0.21,0.56
+Sweden,Western Europe,2015,7.29,10.84,0.93,71.4,0.94,0.21,0.23,0.77,0.19,0.5
+Sweden,Western Europe,2016,7.37,10.85,0.91,71.53,0.92,0.14,0.25,0.75,0.2,0.49
+Sweden,Western Europe,2017,7.29,10.86,0.91,71.65,0.93,0.17,0.24,0.76,0.18,0.56
+Sweden,Western Europe,2018,7.37,10.87,0.93,71.78,0.94,0.07,0.26,0.75,0.16,0.49
+Sweden,Western Europe,2019,7.4,10.88,0.93,71.9,0.94,0.09,0.25,0.77,0.2,0.51
+Sweden,Western Europe,2020,7.31,10.85,0.94,72.03,0.95,0.09,0.2,0.72,0.22,0.67
+Sweden,Western Europe,2021,7.44,10.89,0.93,72.15,0.95,0.17,0.19,0.76,0.19,0.63
+Sweden,Western Europe,2022,7.43,10.91,0.95,72.28,0.94,0.23,0.21,0.75,0.16,
+Switzerland,Western Europe,2006,7.47,11.07,0.95,71.16,0.92,0.28,0.41,0.74,0.21,0.63
+Switzerland,Western Europe,2009,7.52,11.08,0.94,71.34,0.89,0.12,0.34,0.74,0.2,0.58
+Switzerland,Western Europe,2012,7.78,11.11,0.95,71.52,0.95,0.13,0.32,0.79,0.18,0.77
+Switzerland,Western Europe,2014,7.49,11.12,0.96,71.64,0.95,0.05,0.28,0.79,0.19,0.75
+Switzerland,Western Europe,2015,7.57,11.13,0.94,71.7,0.93,0.1,0.21,0.79,0.17,0.79
+Switzerland,Western Europe,2016,7.46,11.14,0.93,71.9,0.93,0.08,0.3,0.76,0.21,0.8
+Switzerland,Western Europe,2017,7.47,11.14,0.95,72.1,0.92,0.17,0.32,0.73,0.2,0.82
+Switzerland,Western Europe,2018,7.51,11.16,0.93,72.3,0.93,0.09,0.3,0.76,0.19,0.85
+Switzerland,Western Europe,2019,7.69,11.17,0.95,72.5,0.91,0.03,0.29,0.74,0.17,0.81
+Switzerland,Western Europe,2020,7.51,11.14,0.95,72.7,0.92,-0.07,0.28,0.73,0.19,0.85
+Switzerland,Western Europe,2021,7.33,11.17,0.93,72.9,0.91,0.02,0.29,0.75,0.18,0.84
+Switzerland,Western Europe,2022,6.88,11.18,0.88,73.1,0.85,0.13,0.23,0.71,0.18,
+Syria,Western Europe,2008,5.32,8.66,0.71,68.62,0.66,0.12,0.68,0.56,0.34,
+Syria,Western Europe,2009,4.98,8.66,0.84,66.86,0.75,0.08,0.69,0.49,0.29,
+Syria,Western Europe,2010,4.46,8.73,0.93,65.1,0.65,0.01,0.74,0.49,0.22,
+Syria,Western Europe,2011,4.04,8.74,0.58,63.34,0.53,0.13,0.74,0.52,0.5,
+Syria,Western Europe,2012,3.16,8.58,0.59,61.58,0.47,0.31,0.67,0.45,0.7,
+Syria,Western Europe,2013,2.69,8.42,0.59,59.82,0.45,0.22,0.66,0.35,0.62,
+Syria,Western Europe,2015,3.46,8.49,0.46,56.3,0.45,0.04,0.69,0.36,0.64,
+Taiwan Province of China,East Asia,2006,6.19,10.6,0.88,68.68,0.63,-0.03,0.85,0.68,0.09,0.28
+Taiwan Province of China,East Asia,2008,5.55,10.6,0.83,69.14,0.64,-0.02,0.78,0.68,0.17,0.42
+Taiwan Province of China,East Asia,2010,6.23,10.68,0.83,69.6,0.68,0,0.82,0.74,0.14,0.43
+Taiwan Province of China,East Asia,2011,6.31,10.69,0.86,,0.76,0.03,0.75,0.73,0.11,0.47
+Taiwan Province of China,East Asia,2012,6.13,10.72,0.83,,0.7,0.02,0.8,0.7,0.14,0.34
+Taiwan Province of China,East Asia,2013,6.34,10.72,0.82,,0.69,0,0.84,0.75,0.12,0.26
+Taiwan Province of China,East Asia,2014,6.36,10.75,0.87,,0.69,0.09,0.87,0.77,0.11,0.27
+Taiwan Province of China,East Asia,2015,6.45,10.78,0.89,,0.7,0.02,0.86,0.75,0.13,0.27
+Taiwan Province of China,East Asia,2016,6.51,10.77,0.89,,0.72,-0.05,0.81,0.74,0.11,0.4
+Taiwan Province of China,East Asia,2017,6.36,10.77,0.89,,0.76,-0.07,0.74,0.72,0.11,0.32
+Taiwan Province of China,East Asia,2018,6.47,10.78,0.9,,0.74,-0.18,0.74,0.75,0.09,0.31
+Taiwan Province of China,East Asia,2019,6.54,10.8,0.89,,0.81,-0.13,0.72,0.76,0.09,0.43
+Taiwan Province of China,East Asia,2020,6.75,,0.9,,0.8,,0.71,0.74,0.08,0.58
+Taiwan Province of China,East Asia,2021,6.25,,0.87,,0.82,,0.68,0.67,0.12,0.44
+Taiwan Province of China,East Asia,2022,6.61,,0.88,,0.8,,0.66,0.72,0.1,
+Tajikistan,Commonwealth of Independent States,2006,4.61,7.59,0.72,60.5,0.7,-0.09,0.77,0.49,0.19,0.8
+Tajikistan,Commonwealth of Independent States,2007,4.43,7.65,0.73,60.6,0.82,0,0.66,0.62,0.13,0.86
+Tajikistan,Commonwealth of Independent States,2008,5.06,7.7,0.7,60.7,0.82,0.01,0.72,0.49,0.16,0.88
+Tajikistan,Commonwealth of Independent States,2009,4.58,7.72,0.68,60.8,0.74,0,0.79,0.47,0.2,0.83
+Tajikistan,Commonwealth of Independent States,2010,4.38,7.77,0.76,60.9,0.78,0.06,0.68,0.48,0.19,0.91
+Tajikistan,Commonwealth of Independent States,2011,4.26,7.82,0.75,61,0.78,-0.12,0.67,0.57,0.17,0.89
+Tajikistan,Commonwealth of Independent States,2012,4.5,7.87,0.73,61.1,0.75,-0.08,0.72,0.58,0.2,0.92
+Tajikistan,Commonwealth of Independent States,2013,4.97,7.92,0.7,61.2,0.69,0.06,0.76,0.58,0.17,0.89
+Tajikistan,Commonwealth of Independent States,2014,4.9,7.96,0.81,61.3,0.85,0,0.7,0.59,0.2,0.83
+Tajikistan,Commonwealth of Independent States,2015,5.12,7.99,0.84,61.4,0.85,0.02,0.74,0.63,0.2,0.87
+Tajikistan,Commonwealth of Independent States,2016,5.1,8.04,0.86,61.55,0.7,0,0.63,0.59,0.22,0.84
+Tajikistan,Commonwealth of Independent States,2017,5.83,8.08,0.66,61.7,0.83,0.12,0.72,0.58,0.28,0.93
+Tajikistan,Commonwealth of Independent States,2018,5.5,8.13,0.88,61.85,,-0.07,0.58,0.63,0.22,
+Tajikistan,Commonwealth of Independent States,2019,5.46,8.18,0.88,62,,-0.05,0.49,0.66,0.18,
+Tajikistan,Commonwealth of Independent States,2020,5.37,8.2,0.79,62.15,,-0.05,0.55,0.65,0.34,
+Tajikistan,Commonwealth of Independent States,2021,5.29,8.27,0.88,62.3,,-0.07,0.5,0.66,0.24,
+Tanzania,Sub-Saharan Africa,2006,3.92,7.46,0.78,50.76,0.79,-0.03,0.65,0.73,0.21,0.81
+Tanzania,Sub-Saharan Africa,2007,4.32,7.5,0.71,51.42,0.72,-0.01,0.71,0.7,0.22,0.72
+Tanzania,Sub-Saharan Africa,2008,4.38,7.53,0.77,52.08,0.56,0.26,0.93,0.74,0.18,0.52
+Tanzania,Sub-Saharan Africa,2009,3.41,7.55,0.84,52.74,0.61,0.31,0.9,0.73,0.16,0.68
+Tanzania,Sub-Saharan Africa,2010,3.23,7.59,0.81,53.4,0.6,0.14,0.87,0.67,0.15,0.64
+Tanzania,Sub-Saharan Africa,2011,4.07,7.63,0.88,54.06,0.74,-0.05,0.82,0.72,0.15,0.56
+Tanzania,Sub-Saharan Africa,2012,4.01,7.65,0.83,54.72,0.58,0.21,0.89,0.64,0.2,0.41
+Tanzania,Sub-Saharan Africa,2013,3.85,7.68,0.8,55.38,0.65,0.05,0.86,0.71,0.19,0.52
+Tanzania,Sub-Saharan Africa,2014,3.48,7.72,0.79,56.04,0.65,0.11,0.88,0.69,0.24,0.65
+Tanzania,Sub-Saharan Africa,2015,3.66,7.74,0.79,56.7,0.76,0.15,0.91,0.61,0.19,0.68
+Tanzania,Sub-Saharan Africa,2016,2.9,7.78,0.64,57.15,0.78,0.18,0.74,0.65,0.25,0.9
+Tanzania,Sub-Saharan Africa,2017,3.35,7.81,0.71,57.6,0.8,0.12,0.65,0.66,0.26,0.91
+Tanzania,Sub-Saharan Africa,2018,3.45,7.83,0.68,58.05,0.81,0.15,0.61,0.7,0.22,0.91
+Tanzania,Sub-Saharan Africa,2019,3.64,7.85,0.69,58.5,0.85,0.1,0.59,0.68,0.24,0.91
+Tanzania,Sub-Saharan Africa,2020,3.79,7.84,0.74,58.95,0.83,0.3,0.52,0.67,0.27,0.91
+Tanzania,Sub-Saharan Africa,2021,3.68,7.86,0.62,59.4,0.82,0.11,0.55,0.65,0.25,0.89
+Tanzania,Sub-Saharan Africa,2022,3.62,7.87,0.6,59.85,0.86,0.14,0.58,0.71,0.2,
+Thailand,Southeast Asia,2006,5.89,9.45,0.89,66.38,0.86,0.33,0.93,0.75,0.16,0.5
+Thailand,Southeast Asia,2007,5.78,9.5,0.89,66.56,0.87,0.39,0.9,0.78,0.18,0.48
+Thailand,Southeast Asia,2008,5.64,9.51,0.83,66.74,0.87,0.42,0.93,0.78,0.15,0.41
+Thailand,Southeast Asia,2009,5.48,9.49,0.89,66.92,0.87,0.52,0.9,0.81,0.17,0.51
+Thailand,Southeast Asia,2010,6.22,9.56,0.9,67.1,0.86,0.53,0.92,0.82,0.18,0.68
+Thailand,Southeast Asia,2011,6.66,9.56,0.88,67.28,0.93,0.4,0.92,0.83,0.12,0.54
+Thailand,Southeast Asia,2012,6.3,9.62,0.91,67.46,0.85,0.38,0.91,0.73,0.14,0.7
+Thailand,Southeast Asia,2013,6.23,9.64,0.93,67.64,0.78,0.45,0.93,0.78,0.14,0.51
+Thailand,Southeast Asia,2014,6.99,9.65,0.93,67.82,0.9,0.55,0.92,0.77,0.17,0.72
+Thailand,Southeast Asia,2015,6.2,9.68,0.87,68,0.88,0.31,0.91,0.88,0.17,0.66
+Thailand,Southeast Asia,2016,6.07,9.7,0.91,68.07,0.92,0.35,0.88,0.81,0.22,0.65
+Thailand,Southeast Asia,2017,5.94,9.74,0.88,68.15,0.92,0.21,0.88,0.78,0.23,0.61
+Thailand,Southeast Asia,2018,6.01,9.78,0.87,68.22,0.9,0.26,0.91,0.78,0.2,0.61
+Thailand,Southeast Asia,2019,6.02,9.8,0.9,68.3,0.9,0.31,0.88,0.79,0.21,0.47
+Thailand,Southeast Asia,2020,5.88,9.73,0.87,68.38,0.84,0.27,0.92,0.77,0.33,0.33
+Thailand,Southeast Asia,2021,5.64,9.75,0.88,68.45,0.84,0.29,0.94,0.72,0.3,0.24
+Thailand,Southeast Asia,2022,6.01,9.78,0.87,68.53,0.88,0.3,0.87,0.77,0.22,
+Togo,Sub-Saharan Africa,2006,3.2,7.34,0.44,50.24,0.63,-0.03,0.85,0.57,0.35,0.32
+Togo,Sub-Saharan Africa,2008,2.81,7.31,0.29,51.12,0.29,-0.07,0.93,0.4,0.38,0.17
+Togo,Sub-Saharan Africa,2011,2.94,7.41,0.3,52.44,0.58,-0.09,0.83,0.48,0.4,0.51
+Togo,Sub-Saharan Africa,2014,2.84,7.51,0.44,53.76,0.66,-0.1,0.8,0.54,0.44,0.48
+Togo,Sub-Saharan Africa,2015,3.77,7.54,0.48,54.2,0.77,-0.09,0.73,0.6,0.42,0.5
+Togo,Sub-Saharan Africa,2016,3.88,7.57,0.51,54.7,0.73,-0.03,0.82,0.61,0.48,0.49
+Togo,Sub-Saharan Africa,2017,4.36,7.59,0.51,55.2,0.72,-0.06,0.73,0.61,0.43,0.48
+Togo,Sub-Saharan Africa,2018,4.02,7.61,0.6,55.7,0.61,-0.03,0.81,0.6,0.45,0.32
+Togo,Sub-Saharan Africa,2019,4.18,7.64,0.54,56.2,0.62,0.04,0.74,0.61,0.44,0.42
+Togo,Sub-Saharan Africa,2021,4.04,7.66,0.6,57.2,0.62,0.04,0.77,0.63,0.42,0.55
+Togo,Sub-Saharan Africa,2022,4.24,7.69,0.58,57.7,0.7,0.01,0.71,0.59,0.41,
+Trinidad and Tobago,Sub-Saharan Africa,2006,5.83,10.17,0.89,61.78,0.84,0.14,0.92,0.75,0.23,0.31
+Trinidad and Tobago,Sub-Saharan Africa,2008,6.7,10.24,0.86,62.54,0.84,0.09,0.96,0.8,0.18,0.29
+Trinidad and Tobago,Sub-Saharan Africa,2011,6.52,10.21,0.86,63.68,0.78,0.08,0.9,0.83,0.13,0.52
+Trinidad and Tobago,Sub-Saharan Africa,2013,6.17,10.29,0.88,64.44,0.85,0.12,0.95,0.76,0.29,0.38
+Trinidad and Tobago,Sub-Saharan Africa,2017,6.19,10.17,0.92,65.7,0.86,0.01,0.91,0.76,0.25,0.27
+Tunisia,Middle East and North Africa,2009,5.03,9.24,,66.22,0.78,-0.12,0.72,,,
+Tunisia,Middle East and North Africa,2010,5.13,9.26,0.86,66.3,0.62,-0.14,0.73,0.7,0.25,0.9
+Tunisia,Middle East and North Africa,2011,4.88,9.22,0.71,66.38,0.6,-0.2,0.91,0.51,0.25,0.47
+Tunisia,Middle East and North Africa,2012,4.46,9.25,0.61,66.46,0.57,-0.18,0.9,0.49,0.33,0.44
+Tunisia,Middle East and North Africa,2013,5.25,9.27,0.65,66.54,0.54,-0.21,0.89,0.43,0.24,0.32
+Tunisia,Middle East and North Africa,2014,4.76,9.28,0.68,66.62,0.59,-0.24,0.78,0.42,0.32,0.39
+Tunisia,Middle East and North Africa,2015,5.13,9.28,0.61,66.7,0.71,-0.23,0.81,0.51,0.32,0.48
+Tunisia,Middle East and North Africa,2016,4.52,9.28,0.7,66.75,0.61,-0.17,0.81,0.53,0.38,0.35
+Tunisia,Middle East and North Africa,2017,4.12,9.29,0.72,66.8,0.48,-0.22,0.87,0.37,0.38,0.25
+Tunisia,Middle East and North Africa,2018,4.74,9.31,0.73,66.85,0.65,-0.2,0.84,0.54,0.37,0.35
+Tunisia,Middle East and North Africa,2019,4.32,9.31,0.61,66.9,0.66,-0.21,0.89,0.46,0.43,0.29
+Tunisia,Middle East and North Africa,2020,4.73,9.22,0.72,66.95,0.67,-0.2,0.88,0.52,0.44,0.29
+Tunisia,Middle East and North Africa,2021,4.5,9.25,0.71,67,0.59,-0.2,0.93,0.45,0.34,0.32
+Tunisia,Middle East and North Africa,2022,4.26,9.27,0.75,67.05,0.47,-0.23,0.91,0.46,0.3,
+Turkiye,Middle East and North Africa,2005,4.72,9.8,0.82,66.1,0.62,,0.88,0.48,,
+Turkiye,Middle East and North Africa,2007,5.62,9.89,0.79,66.42,0.46,-0.18,0.8,0.59,0.4,
+Turkiye,Middle East and North Africa,2008,5.12,9.89,0.64,66.58,0.42,-0.19,0.79,0.51,0.35,
+Turkiye,Middle East and North Africa,2009,5.21,9.83,0.75,66.74,0.46,-0.23,0.85,0.45,0.32,
+Turkiye,Middle East and North Africa,2010,5.49,9.89,0.79,66.9,0.51,-0.19,0.81,0.53,0.33,
+Turkiye,Middle East and North Africa,2011,5.27,9.99,0.69,67.06,0.45,-0.24,0.65,0.51,0.38,
+Turkiye,Middle East and North Africa,2012,5.31,10.02,0.74,67.22,0.47,-0.22,0.7,0.51,0.33,
+Turkiye,Middle East and North Africa,2013,4.89,10.08,0.8,67.38,0.54,-0.23,0.7,0.55,0.39,
+Turkiye,Middle East and North Africa,2014,5.58,10.11,0.86,67.54,0.65,-0.03,0.76,0.41,0.38,
+Turkiye,Middle East and North Africa,2015,5.51,10.15,0.85,67.7,0.65,-0.02,0.81,0.39,0.38,
+Turkiye,Middle East and North Africa,2016,5.33,10.17,0.88,67.88,0.64,-0.07,0.76,0.41,0.39,
+Turkiye,Middle East and North Africa,2017,5.61,10.22,0.88,68.05,0.64,-0.24,0.67,0.39,0.31,
+Turkiye,Middle East and North Africa,2018,5.19,10.25,0.85,68.22,0.53,-0.18,0.8,0.38,0.35,
+Turkiye,Middle East and North Africa,2019,4.87,10.25,0.79,68.4,0.63,-0.14,0.76,0.35,0.37,
+Turkiye,Middle East and North Africa,2020,4.86,10.26,0.86,68.57,0.51,-0.12,0.77,0.33,0.44,
+Turkiye,Middle East and North Africa,2021,4.37,10.36,0.74,68.75,0.45,-0.04,0.81,0.3,0.47,
+Turkmenistan,Commonwealth of Independent States,2009,6.57,8.96,0.92,59.78,,-0.1,,0.7,0.15,
+Turkmenistan,Commonwealth of Independent States,2011,5.79,9.15,0.96,60.42,,0.02,,0.58,0.12,
+Turkmenistan,Commonwealth of Independent States,2012,5.46,9.23,0.95,60.74,0.79,-0.12,,0.54,0.12,
+Turkmenistan,Commonwealth of Independent States,2013,5.39,9.31,0.85,61.06,0.7,-0.07,,0.55,0.16,
+Turkmenistan,Commonwealth of Independent States,2014,5.79,9.39,0.91,61.38,0.8,0.03,,0.61,0.15,
+Turkmenistan,Commonwealth of Independent States,2015,5.79,9.44,0.96,61.7,0.7,0.09,,0.63,0.3,
+Turkmenistan,Commonwealth of Independent States,2016,5.89,9.48,0.93,61.8,0.75,0,,0.56,0.26,
+Turkmenistan,Commonwealth of Independent States,2017,5.23,9.53,0.91,61.9,0.72,0.07,,0.49,0.35,
+Turkmenistan,Commonwealth of Independent States,2018,4.62,9.57,0.98,62,0.86,0.26,,0.57,0.19,
+Turkmenistan,Commonwealth of Independent States,2019,5.47,9.62,0.98,62.1,0.89,0.28,,0.49,0.18,
+Uganda,Sub-Saharan Africa,2006,3.73,7.37,0.76,48.74,0.75,-0.04,0.81,0.55,0.25,0.58
+Uganda,Sub-Saharan Africa,2007,4.46,7.42,0.84,49.58,0.71,0,0.88,0.67,0.23,0.58
+Uganda,Sub-Saharan Africa,2008,4.57,7.48,0.81,50.42,0.58,-0.06,0.85,0.62,0.24,0.5
+Uganda,Sub-Saharan Africa,2009,4.61,7.51,0.85,51.26,0.76,-0.04,0.84,0.59,0.3,0.48
+Uganda,Sub-Saharan Africa,2010,4.19,7.54,0.83,52.1,0.8,-0.02,0.85,0.63,0.25,0.66
+Uganda,Sub-Saharan Africa,2011,4.83,7.6,0.88,52.94,0.73,0.03,0.83,0.62,0.25,0.52
+Uganda,Sub-Saharan Africa,2012,4.31,7.61,0.88,53.78,0.65,0.08,0.84,0.71,0.27,0.4
+Uganda,Sub-Saharan Africa,2013,3.71,7.61,0.88,54.62,0.76,0.05,0.82,0.65,0.35,0.58
+Uganda,Sub-Saharan Africa,2014,3.77,7.63,0.82,55.46,0.83,0.01,0.9,0.63,0.4,0.58
+Uganda,Sub-Saharan Africa,2015,4.24,7.65,0.75,56.3,0.76,0.13,0.87,0.68,0.35,0.6
+Uganda,Sub-Saharan Africa,2016,4.23,7.67,0.75,56.78,0.74,0.13,0.81,0.66,0.41,0.67
+Uganda,Sub-Saharan Africa,2017,4,7.66,0.74,57.25,0.77,0.06,0.82,0.69,0.4,0.66
+Uganda,Sub-Saharan Africa,2018,4.32,7.69,0.74,57.72,0.73,0.08,0.86,0.69,0.39,0.5
+Uganda,Sub-Saharan Africa,2019,4.95,7.72,0.81,58.2,0.7,0.13,0.83,0.69,0.39,0.56
+Uganda,Sub-Saharan Africa,2020,4.64,7.71,0.8,58.67,0.69,0.14,0.88,0.71,0.42,0.48
+Uganda,Sub-Saharan Africa,2021,4.22,7.72,0.79,59.15,0.71,0.08,0.84,0.7,0.36,0.56
+Ukraine,Commonwealth of Independent States,2006,4.8,9.41,0.85,60.92,0.62,-0.26,0.93,0.55,0.25,0.15
+Ukraine,Commonwealth of Independent States,2007,5.25,9.5,0.82,61.24,0.49,-0.25,0.97,0.56,0.21,0.08
+Ukraine,Commonwealth of Independent States,2008,5.17,9.53,0.86,61.56,0.49,-0.27,0.93,0.54,0.19,0.16
+Ukraine,Commonwealth of Independent States,2009,5.17,9.37,0.85,61.88,0.46,-0.25,0.96,0.54,0.19,0.09
+Ukraine,Commonwealth of Independent States,2010,5.06,9.41,0.88,62.2,0.48,-0.19,0.95,0.47,0.23,0.26
+Ukraine,Commonwealth of Independent States,2011,5.08,9.47,0.86,62.52,0.58,-0.23,0.93,0.54,0.22,0.24
+Ukraine,Commonwealth of Independent States,2012,5.03,9.47,0.9,62.84,0.56,-0.23,0.9,0.51,0.19,0.24
+Ukraine,Commonwealth of Independent States,2013,4.71,9.47,0.9,63.16,0.57,-0.22,0.94,0.57,0.22,0.19
+Ukraine,Commonwealth of Independent States,2014,4.3,9.42,0.88,63.48,0.53,0.08,0.93,0.54,0.25,0.24
+Ukraine,Commonwealth of Independent States,2015,3.96,9.33,0.91,63.8,0.43,-0.04,0.95,0.53,0.24,0.08
+Ukraine,Commonwealth of Independent States,2016,4.03,9.35,0.88,63.92,0.5,0.01,0.89,0.55,0.22,0.13
+Ukraine,Commonwealth of Independent States,2017,4.31,9.38,0.86,64.05,0.6,-0.01,0.94,0.53,0.23,0.11
+Ukraine,Commonwealth of Independent States,2018,4.66,9.42,0.9,64.18,0.66,-0.08,0.94,0.55,0.22,0.08
+Ukraine,Commonwealth of Independent States,2019,4.7,9.46,0.88,64.3,0.72,-0.08,0.89,0.55,0.2,0.37
+Ukraine,Commonwealth of Independent States,2020,5.27,9.43,0.88,64.43,0.78,0.12,0.95,0.63,0.28,0.23
+Ukraine,Commonwealth of Independent States,2021,5.31,9.47,0.88,64.55,0.77,0.17,0.92,0.57,0.25,0.21
+Ukraine,Commonwealth of Independent States,2022,4.64,9.05,0.86,64.68,0.83,0.43,0.85,0.53,0.39,
+United Arab Emirates,Middle East and North Africa,2006,6.73,11.43,0.9,64.86,0.9,-0.04,0.2,0.69,0.28,
+United Arab Emirates,Middle East and North Africa,2009,6.87,10.95,0.89,65.04,0.85,0.02,0.34,0.72,0.29,
+United Arab Emirates,Middle East and North Africa,2010,7.1,10.91,0.91,65.1,0.88,0.05,0.36,0.7,0.23,
+United Arab Emirates,Middle East and North Africa,2011,7.12,10.97,0.88,65.16,0.89,0.06,,0.7,0.22,
+United Arab Emirates,Middle East and North Africa,2012,7.22,11,0.86,65.22,0.92,,,0.72,0.22,
+United Arab Emirates,Middle East and North Africa,2013,6.62,11.04,0.86,65.28,0.94,,,,0.29,
+United Arab Emirates,Middle East and North Africa,2014,6.54,11.07,,65.34,,,,,,
+United Arab Emirates,Middle East and North Africa,2015,6.57,11.13,0.82,65.4,0.92,0.19,,0.72,0.3,
+United Arab Emirates,Middle East and North Africa,2016,6.83,11.17,0.85,65.55,0.95,0.12,,0.74,0.24,
+United Arab Emirates,Middle East and North Africa,2017,7.04,11.17,0.84,65.7,0.96,0.21,,0.74,0.21,
+United Arab Emirates,Middle East and North Africa,2018,6.6,11.18,0.85,65.85,0.94,0.04,,0.72,0.3,
+United Arab Emirates,Middle East and North Africa,2019,6.71,11.18,0.86,66,0.91,0.12,,0.73,0.28,
+United Arab Emirates,Middle East and North Africa,2020,6.46,11.12,0.83,66.15,0.94,0.05,,0.7,0.3,
+United Arab Emirates,Middle East and North Africa,2021,6.73,11.15,0.83,66.3,0.95,0.15,,0.7,0.22,
+United Arab Emirates,Middle East and North Africa,2022,6.74,11.2,0.8,66.45,0.93,0.17,,0.72,0.24,
+United Kingdom,Western Europe,2005,6.98,10.67,0.98,69.1,0.92,,0.4,0.78,0.26,0.49
+United Kingdom,Western Europe,2007,6.8,10.7,0.97,69.22,0.84,0.33,0.5,0.69,0.24,0.36
+United Kingdom,Western Europe,2008,6.99,10.69,0.95,69.28,0.76,0.33,0.55,0.72,0.22,0.32
+United Kingdom,Western Europe,2009,6.91,10.64,0.96,69.34,0.82,0.34,0.56,0.74,0.23,0.38
+United Kingdom,Western Europe,2010,7.03,10.65,0.96,69.4,0.84,0.4,0.59,0.75,0.18,0.5
+United Kingdom,Western Europe,2011,6.87,10.65,0.95,69.46,0.9,0.33,0.44,0.74,0.17,0.47
+United Kingdom,Western Europe,2012,6.88,10.66,0.93,69.52,0.89,0.37,0.43,0.74,0.18,0.42
+United Kingdom,Western Europe,2013,6.92,10.67,0.94,69.58,0.91,0.34,0.57,0.72,0.25,0.38
+United Kingdom,Western Europe,2014,6.76,10.7,0.91,69.64,0.86,0.35,0.48,0.74,0.25,0.42
+United Kingdom,Western Europe,2015,6.52,10.71,0.94,69.7,0.83,0.3,0.46,0.74,0.22,0.46
+United Kingdom,Western Europe,2016,6.82,10.73,0.95,69.8,0.82,0.25,0.46,0.73,0.23,0.41
+United Kingdom,Western Europe,2017,7.1,10.74,0.94,69.9,0.81,0.29,0.42,0.71,0.21,0.44
+United Kingdom,Western Europe,2018,7.23,10.76,0.93,70,0.84,0.22,0.4,0.74,0.23,0.42
+United Kingdom,Western Europe,2019,7.16,10.77,0.94,70.1,0.85,0.27,0.49,0.74,0.25,0.34
+United Kingdom,Western Europe,2020,6.8,10.65,0.93,70.2,0.88,0.2,0.49,0.72,0.22,0.35
+United Kingdom,Western Europe,2021,6.87,10.71,0.85,70.3,0.82,0.25,0.45,0.68,0.27,0.39
+United Kingdom,Western Europe,2022,6.72,10.75,0.86,70.4,0.86,0.31,0.43,0.72,0.27,
+United States,North America and ANZ,2006,7.18,10.92,0.96,66.78,0.91,,0.6,0.77,0.26,0.56
+United States,North America and ANZ,2007,7.51,10.93,,66.76,0.87,0.19,0.63,0.76,0.23,0.39
+United States,North America and ANZ,2008,7.28,10.92,0.95,66.74,0.88,0.25,0.67,0.77,0.23,0.38
+United States,North America and ANZ,2009,7.16,10.89,0.91,66.72,0.83,0.2,0.67,0.75,0.26,0.5
+United States,North America and ANZ,2010,7.16,10.91,0.93,66.7,0.83,0.24,0.69,0.78,0.23,0.42
+United States,North America and ANZ,2011,7.12,10.91,0.92,66.68,0.86,0.16,0.7,0.74,0.27,0.38
+United States,North America and ANZ,2012,7.03,10.93,0.9,66.66,0.82,0.21,0.71,0.76,0.26,0.35
+United States,North America and ANZ,2013,7.25,10.94,0.93,66.64,0.79,0.27,0.75,0.78,0.26,0.29
+United States,North America and ANZ,2014,7.15,10.96,0.9,66.62,0.87,0.22,0.7,0.79,0.28,0.35
+United States,North America and ANZ,2015,6.86,10.98,0.9,66.6,0.85,0.22,0.7,0.77,0.27,0.35
+United States,North America and ANZ,2016,6.8,10.98,0.9,66.47,0.76,0.14,0.74,0.74,0.26,0.3
+United States,North America and ANZ,2017,6.99,11,0.92,66.35,0.87,0.19,0.68,0.75,0.27,0.39
+United States,North America and ANZ,2018,6.88,11.02,0.9,66.22,0.82,0.11,0.71,0.76,0.29,0.31
+United States,North America and ANZ,2019,6.94,11.04,0.92,66.1,0.84,0.14,0.71,0.76,0.24,0.36
+United States,North America and ANZ,2020,7.03,11,0.94,65.97,0.85,0.03,0.68,0.72,0.3,0.46
+United States,North America and ANZ,2021,6.96,11.06,0.92,65.85,0.82,0.19,0.69,0.74,0.28,0.4
+United States,North America and ANZ,2022,6.69,11.08,0.9,65.72,0.74,0.19,0.7,0.71,0.27,
+Uruguay,Latin America and Caribbean,2006,5.79,9.63,0.91,66.78,0.81,-0.12,0.48,0.7,0.31,0.65
+Uruguay,Latin America and Caribbean,2007,5.69,9.69,0.87,66.86,0.79,-0.17,0.61,0.71,0.27,0.61
+Uruguay,Latin America and Caribbean,2008,5.66,9.76,0.88,66.94,0.81,-0.15,0.6,0.68,0.26,0.59
+Uruguay,Latin America and Caribbean,2009,6.3,9.8,0.92,67.02,0.83,-0.13,0.54,0.72,0.25,0.66
+Uruguay,Latin America and Caribbean,2010,6.06,9.87,0.89,67.1,0.83,-0.17,0.47,0.74,0.23,0.73
+Uruguay,Latin America and Caribbean,2011,6.55,9.92,0.89,67.18,0.85,-0.09,0.56,0.7,0.25,0.63
+Uruguay,Latin America and Caribbean,2012,6.45,9.95,0.86,67.26,0.87,0.06,0.62,0.69,0.21,0.58
+Uruguay,Latin America and Caribbean,2013,6.44,9.99,0.92,67.34,0.89,-0.05,0.59,0.74,0.25,0.52
+Uruguay,Latin America and Caribbean,2014,6.56,10.02,0.9,67.42,0.9,-0.08,0.53,0.79,0.25,0.6
+Uruguay,Latin America and Caribbean,2015,6.63,10.02,0.89,67.5,0.92,-0.04,0.67,0.81,0.3,0.55
+Uruguay,Latin America and Caribbean,2016,6.17,10.03,0.9,67.5,0.89,-0.08,0.68,0.73,0.28,0.42
+Uruguay,Latin America and Caribbean,2017,6.34,10.05,0.91,67.5,0.9,-0.1,0.63,0.74,0.28,0.41
+Uruguay,Latin America and Caribbean,2018,6.37,10.05,0.92,67.5,0.88,-0.11,0.68,0.77,0.27,0.36
+Uruguay,Latin America and Caribbean,2019,6.6,10.05,0.93,67.5,0.9,-0.1,0.6,0.76,0.22,0.55
+Uruguay,Latin America and Caribbean,2020,6.31,9.99,0.92,67.5,0.91,-0.09,0.49,0.72,0.26,0.67
+Uruguay,Latin America and Caribbean,2021,6.5,10.03,0.91,67.5,0.9,-0.05,0.61,0.75,0.26,0.49
+Uruguay,Latin America and Caribbean,2022,6.67,10.08,0.9,67.5,0.88,-0.05,0.63,0.77,0.27,
+Uzbekistan,Commonwealth of Independent States,2006,5.23,8.26,0.9,61.34,0.78,-0.12,0.61,0.65,0.2,0.89
+Uzbekistan,Commonwealth of Independent States,2008,5.31,8.4,0.89,61.82,0.83,-0.03,,0.65,0.19,
+Uzbekistan,Commonwealth of Independent States,2009,5.26,8.46,0.9,62.06,,0.01,0.61,0.65,0.16,
+Uzbekistan,Commonwealth of Independent States,2010,5.1,8.51,0.9,62.3,,-0.04,0.52,0.66,0.15,
+Uzbekistan,Commonwealth of Independent States,2011,5.74,8.55,0.92,62.54,0.93,0.04,0.52,0.66,0.12,
+Uzbekistan,Commonwealth of Independent States,2012,6.02,8.61,0.93,62.78,0.91,-0.04,0.46,0.65,0.12,
+Uzbekistan,Commonwealth of Independent States,2013,5.94,8.66,0.96,63.02,0.95,-0.04,0.43,0.69,0.13,
+Uzbekistan,Commonwealth of Independent States,2014,6.05,8.71,0.95,63.26,0.95,0.06,0.54,0.71,0.11,
+Uzbekistan,Commonwealth of Independent States,2015,5.97,8.76,0.97,63.5,0.98,0.37,0.47,0.78,0.1,0.97
+Uzbekistan,Commonwealth of Independent States,2016,5.89,8.8,0.95,63.8,0.98,0.2,,0.77,0.15,0.98
+Uzbekistan,Commonwealth of Independent States,2017,6.42,8.83,0.94,64.1,0.99,0.12,0.46,0.75,0.2,0.96
+Uzbekistan,Commonwealth of Independent States,2018,6.21,8.87,0.92,64.4,0.97,0.31,0.52,0.75,0.21,0.97
+Uzbekistan,Commonwealth of Independent States,2019,6.15,8.9,0.92,64.7,0.97,0.3,0.51,0.75,0.22,0.96
+Uzbekistan,Commonwealth of Independent States,2020,5.84,8.9,0.85,65,0.93,0.19,0.64,0.68,0.28,0.9
+Uzbekistan,Commonwealth of Independent States,2021,6.19,8.95,0.9,65.3,0.93,0.19,0.66,0.7,0.23,0.91
+Uzbekistan,Commonwealth of Independent States,2022,6.02,8.99,0.88,65.6,0.96,0.31,0.62,0.74,0.22,
+Venezuela,Latin America and Caribbean,2005,7.17,9.32,0.96,65.5,0.84,,0.72,0.8,0.23,0.49
+Venezuela,Latin America and Caribbean,2006,6.53,9.47,0.95,65.46,0.8,-0.03,0.65,0.84,0.18,0.63
+Venezuela,Latin America and Caribbean,2008,6.26,9.72,0.92,65.38,0.68,-0.23,0.78,0.82,0.22,0.53
+Venezuela,Latin America and Caribbean,2009,7.19,9.57,0.94,65.34,0.68,-0.12,0.83,0.79,0.18,0.49
+Venezuela,Latin America and Caribbean,2010,7.48,9.75,0.93,65.3,0.77,-0.16,0.75,0.85,0.13,0.59
+Venezuela,Latin America and Caribbean,2011,6.58,9.86,0.93,65.26,0.77,-0.23,0.77,0.82,0.2,0.52
+Venezuela,Latin America and Caribbean,2012,7.07,9.86,0.93,65.22,0.8,-0.2,0.74,0.84,0.18,0.54
+Venezuela,Latin America and Caribbean,2013,6.55,9.8,0.9,65.18,0.64,-0.23,0.84,0.81,0.24,0.39
+Venezuela,Latin America and Caribbean,2014,6.14,9.37,0.9,65.14,0.57,-0.19,0.83,0.8,0.24,0.2
+Venezuela,Latin America and Caribbean,2015,5.57,8.53,0.91,65.1,0.51,-0.09,0.81,0.84,0.22,0.21
+Venezuela,Latin America and Caribbean,2016,4.04,7.6,0.9,64.93,0.46,-0.06,0.89,0.68,0.39,0.16
+Venezuela,Latin America and Caribbean,2017,5.07,5.94,0.9,64.75,0.64,0.05,0.84,0.7,0.36,0.24
+Venezuela,Latin America and Caribbean,2018,5.01,5.94,0.89,64.57,0.61,0.07,0.83,0.72,0.37,0.26
+Venezuela,Latin America and Caribbean,2019,5.08,5.53,0.89,64.4,0.63,0.13,0.84,0.73,0.35,0.26
+Venezuela,Latin America and Caribbean,2020,4.57,,0.81,64.22,0.61,,0.81,0.69,0.4,0.25
+Venezuela,Latin America and Caribbean,2021,5.11,,0.81,64.05,0.6,,0.82,0.7,0.39,0.18
+Venezuela,Latin America and Caribbean,2022,5.95,,0.9,63.88,0.77,,0.8,0.75,0.29,
+Vietnam,Southeast Asia,2006,5.29,8.55,0.89,64.18,0.89,0,,0.66,0.2,0.86
+Vietnam,Southeast Asia,2007,5.42,8.61,0.86,64.26,0.92,0.07,0.75,,0.21,0.91
+Vietnam,Southeast Asia,2008,5.48,8.66,0.8,64.34,0.89,0.18,0.79,0.62,0.22,0.87
+Vietnam,Southeast Asia,2009,5.3,8.7,0.82,64.42,0.83,-0.08,0.84,0.48,0.19,0.86
+Vietnam,Southeast Asia,2010,5.3,8.75,0.79,64.5,0.83,-0.02,0.74,0.67,0.22,0.85
+Vietnam,Southeast Asia,2011,5.77,8.8,0.9,64.58,0.82,0.09,0.74,0.49,0.19,0.77
+Vietnam,Southeast Asia,2012,5.53,8.85,0.78,64.66,0.86,-0.13,0.81,0.55,0.22,0.86
+Vietnam,Southeast Asia,2013,5.02,8.89,0.76,64.74,0.92,-0.05,0.77,0.69,0.17,0.81
+Vietnam,Southeast Asia,2014,5.08,8.94,0.79,64.82,,-0.02,,0.63,0.24,
+Vietnam,Southeast Asia,2015,5.08,9,0.85,64.9,,0.07,,0.58,0.23,
+Vietnam,Southeast Asia,2016,5.06,9.05,0.88,65,0.89,-0.11,0.8,0.49,0.22,
+Vietnam,Southeast Asia,2017,5.18,9.11,,65.1,,,,,,
+Vietnam,Southeast Asia,2018,5.3,9.17,0.83,65.2,0.91,-0.06,0.81,0.61,0.19,
+Vietnam,Southeast Asia,2019,5.47,9.24,0.85,65.3,0.95,-0.15,0.79,0.66,0.19,
+Vietnam,Southeast Asia,2020,5.46,9.25,0.76,65.4,0.94,0.07,0.79,0.7,0.29,
+Vietnam,Southeast Asia,2021,5.54,9.27,0.8,65.5,0.9,0.11,0.8,0.65,0.28,
+Vietnam,Southeast Asia,2022,6.27,9.33,0.88,65.6,0.98,-0.18,0.7,0.77,0.11,
+Yemen,Middle East and North Africa,2007,4.48,8.21,0.82,58.72,0.67,0.01,,0.52,0.38,0.47
+Yemen,Middle East and North Africa,2009,4.81,8.25,0.76,58.64,0.64,-0.05,0.83,0.51,0.37,0.55
+Yemen,Middle East and North Africa,2010,4.35,8.41,0.73,58.6,0.66,-0.1,0.85,0.51,0.31,0.52
+Yemen,Middle East and North Africa,2011,3.75,8.26,0.66,58.56,0.64,-0.17,0.75,0.42,0.28,0.39
+Yemen,Middle East and North Africa,2012,4.06,8.18,0.68,58.52,0.71,-0.17,0.79,0.41,0.26,0.6
+Yemen,Middle East and North Africa,2013,4.22,8.17,0.69,58.48,0.54,-0.18,0.89,0.48,0.27,0.39
+Yemen,Middle East and North Africa,2014,3.97,8.16,0.64,58.44,0.66,-0.16,0.89,0.53,0.28,0.34
+Yemen,Middle East and North Africa,2015,2.98,7.77,0.67,58.4,0.61,-0.14,0.83,0.46,0.32,0.26
+Yemen,Middle East and North Africa,2016,3.83,7.55,0.78,58.17,0.53,-0.14,,0.4,0.23,0.27
+Yemen,Middle East and North Africa,2017,3.25,7.24,0.79,57.95,0.6,-0.12,,0.37,0.3,0.25
+Yemen,Middle East and North Africa,2018,3.06,7.44,0.79,57.72,0.55,-0.12,0.79,0.41,0.31,0.53
+Yemen,Middle East and North Africa,2019,4.2,7.45,0.87,57.5,0.65,-0.1,0.8,0.48,0.21,0.53
+Zambia,Sub-Saharan Africa,2006,4.82,7.83,0.8,46.76,0.72,-0.01,0.79,0.66,0.23,0.53
+Zambia,Sub-Saharan Africa,2007,4,7.88,0.69,47.42,0.68,-0.07,0.95,0.65,0.25,0.4
+Zambia,Sub-Saharan Africa,2008,4.73,7.92,0.62,48.08,0.72,0.05,0.89,0.71,0.21,0.56
+Zambia,Sub-Saharan Africa,2009,5.26,7.97,0.78,48.74,0.7,-0.1,0.92,0.69,0.12,0.41
+Zambia,Sub-Saharan Africa,2011,5,8.05,0.86,50.06,0.66,0,0.88,0.77,0.2,0.4
+Zambia,Sub-Saharan Africa,2012,5.01,8.09,0.78,50.72,0.79,0.01,0.81,0.68,0.25,0.59
+Zambia,Sub-Saharan Africa,2013,5.24,8.11,0.76,51.38,0.77,-0.1,0.73,0.73,0.31,0.55
+Zambia,Sub-Saharan Africa,2014,4.35,8.12,0.71,52.04,0.81,-0.01,0.81,0.64,0.33,0.61
+Zambia,Sub-Saharan Africa,2015,4.84,8.12,0.69,52.7,0.76,-0.04,0.87,0.63,0.38,0.63
+Zambia,Sub-Saharan Africa,2016,4.35,8.13,0.77,53.13,0.81,0.12,0.77,0.69,0.37,0.7
+Zambia,Sub-Saharan Africa,2017,3.93,8.13,0.74,53.55,0.82,0.14,0.74,0.66,0.39,0.72
+Zambia,Sub-Saharan Africa,2018,4.04,8.14,0.72,53.97,0.79,0.05,0.81,0.66,0.35,0.61
+Zambia,Sub-Saharan Africa,2019,3.31,8.12,0.64,54.4,0.81,0.08,0.83,0.67,0.39,0.59
+Zambia,Sub-Saharan Africa,2020,4.84,8.07,0.77,54.83,0.75,0.06,0.81,0.68,0.34,0.59
+Zambia,Sub-Saharan Africa,2021,3.08,8.08,0.62,55.25,0.83,0.14,0.82,0.66,0.35,0.7
+Zimbabwe,Sub-Saharan Africa,2006,3.83,7.46,0.82,40.4,0.43,-0.06,0.9,0.67,0.3,0.32
+Zimbabwe,Sub-Saharan Africa,2007,3.28,7.41,0.83,41.6,0.46,-0.07,0.95,0.59,0.26,0.23
+Zimbabwe,Sub-Saharan Africa,2008,3.17,7.21,0.84,42.8,0.34,-0.07,0.96,0.57,0.25,0.18
+Zimbabwe,Sub-Saharan Africa,2009,4.06,7.31,0.81,44,0.41,-0.06,0.93,0.66,0.22,0.29
+Zimbabwe,Sub-Saharan Africa,2010,4.68,7.5,0.86,45.2,0.66,-0.08,0.83,0.7,0.12,0.47
+Zimbabwe,Sub-Saharan Africa,2011,4.85,7.62,0.86,46.4,0.63,-0.07,0.83,0.7,0.21,0.43
+Zimbabwe,Sub-Saharan Africa,2012,4.96,7.75,0.9,47.6,0.47,-0.09,0.86,0.61,0.18,0.41
+Zimbabwe,Sub-Saharan Africa,2013,4.69,7.76,0.8,48.8,0.58,-0.09,0.83,0.62,0.18,0.53
+Zimbabwe,Sub-Saharan Africa,2014,4.18,7.75,0.77,50,0.64,-0.06,0.82,0.66,0.24,0.57
+Zimbabwe,Sub-Saharan Africa,2015,3.7,7.75,0.74,51.2,0.67,-0.11,0.81,0.64,0.18,0.59
+Zimbabwe,Sub-Saharan Africa,2016,3.74,7.73,0.77,51.67,0.73,-0.08,0.72,0.69,0.21,0.7
+Zimbabwe,Sub-Saharan Africa,2017,3.64,7.75,0.75,52.15,0.75,-0.08,0.75,0.73,0.22,0.68
+Zimbabwe,Sub-Saharan Africa,2018,3.62,7.78,0.78,52.63,0.76,-0.05,0.84,0.66,0.21,0.55
+Zimbabwe,Sub-Saharan Africa,2019,2.69,7.7,0.76,53.1,0.63,-0.05,0.83,0.66,0.24,0.46
+Zimbabwe,Sub-Saharan Africa,2020,3.16,7.6,0.72,53.58,0.64,0.01,0.79,0.66,0.35,0.58
+Zimbabwe,Sub-Saharan Africa,2021,3.15,7.66,0.69,54.05,0.67,-0.08,0.76,0.61,0.24,0.67
+Zimbabwe,Sub-Saharan Africa,2022,3.3,7.67,0.67,54.53,0.65,-0.07,0.75,0.64,0.19,0.67

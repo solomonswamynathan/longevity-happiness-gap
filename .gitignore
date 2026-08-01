@@ -1,0 +1,7 @@
+.DS_Store
+__pycache__/
+*.pyc
+build.log
+
+# Internal research — never publish
+docs/JUDGING_CRITERIA.md
