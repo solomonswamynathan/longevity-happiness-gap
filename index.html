@@ -24,7 +24,7 @@
   <!-- Screen-reader announcements: scene changes and the focused datapoint. -->
   <div id="a11y-live" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></div>
 
-  <a class="skip-link" href="#sources">Skip the animation — jump to sources and the full data table</a>
+  <a class="skip-link" href="#sources">Skip the animation — jump to sources, methods and the verification tables</a>
 
   <!-- ───────────  Duotone filters (tint imagery to the gap palette)  ─────────── -->
   <svg width="0" height="0" style="position:absolute" aria-hidden="true">
@@ -214,7 +214,8 @@
           <p>
             Split happiness into its two halves. Longevity is tied to
             <strong>less negative emotion</strong> (r&nbsp;=&nbsp;−0.49) far more than to
-            <strong>more positive emotion</strong> (r&nbsp;=&nbsp;+0.20).
+            <strong>more positive emotion</strong> (r&nbsp;=&nbsp;+0.20) — across the
+            <strong>132 countries</strong> that report both.
           </p>
           <p class="muted big-reveal">
             Extra years take the edge off the bad days. They don't add good ones.
@@ -299,6 +300,11 @@
             <li>The <strong>Great Decoupling</strong> set = countries whose healthy-life-expectancy
               trend exceeded +1&nbsp;yr/decade while their happiness trend was negative (linear fit
               over ≥6 observed years). 32 countries qualify.</li>
+            <li><strong>Populations differ by claim, and each is stated.</strong> The affect
+              correlations use the 132 countries in both the affect panel and the 2023
+              cross-section; across all 141 affect rows they are −0.422&nbsp;/&nbsp;+0.164 —
+              same direction, same conclusion. “Roughly 20% higher” freedom and support are
+              top-25 vs bottom-25 group means. Every table below names its own population.</li>
             <li>Fully reproducible: <span class="src-link">notebooks/build_dataset.py</span> and
               <span class="src-link">notebooks/build_panel.py</span>.</li>
           </ul>
@@ -331,17 +337,56 @@
             <li><strong>Fully keyboard operable:</strong> the scatter is one tab stop, then
               arrow keys walk all 136 countries in lifespan order — each announcing its own
               figures to a screen reader. A skip link jumps past the animation to this table.</li>
-            <li>Respects <code>prefers-reduced-motion</code>; full data table below.</li>
+            <li><strong>Every claim is checkable:</strong> the <em>Verify the data</em> panel below
+              gives each headline claim its own sortable table with the population it's computed
+              on and a CSV export — a full non-visual alternative to the charts.</li>
+            <li>Respects <code>prefers-reduced-motion</code>.</li>
           </ul>
         </div>
       </div>
 
+      <p class="verify-cta">
+        <button type="button" id="verify-open" class="btn-verify">
+          Verify the data — every figure in this story, as a table
+        </button>
+      </p>
+
       <details class="data-table-toggle">
-        <summary>View the underlying data as a table</summary>
+        <summary>Or view the headline dataset inline</summary>
         <div id="data-table"></div>
       </details>
     </div>
   </section>
+
+  <!-- ───────────────  VERIFICATION TABLES (modal)  ───────────────
+       Every claim the story makes, with the numbers behind it, the
+       population each statistic is computed on, and a CSV download. -->
+  <div id="verify" class="verify-modal" hidden>
+    <div class="verify-backdrop" data-verify-close></div>
+    <div class="verify-panel" role="dialog" aria-modal="true"
+         aria-labelledby="verify-title" tabindex="-1">
+      <header class="verify-head">
+        <h2 id="verify-title">Verify the data</h2>
+        <button type="button" class="verify-close" data-verify-close
+                aria-label="Close (Escape)">✕</button>
+      </header>
+
+      <div class="verify-tabs" role="tablist" aria-label="Which claim to verify"></div>
+
+      <div class="verify-body">
+        <div class="verify-claim">
+          <p class="verify-quote"></p>
+          <p class="verify-pop"></p>
+        </div>
+        <div class="verify-actions">
+          <button type="button" class="btn-csv" id="verify-csv">↓ Download this table as CSV</button>
+          <span class="verify-count"></span>
+        </div>
+        <div class="verify-table" tabindex="0" role="region"
+             aria-label="Data table, scrollable"></div>
+      </div>
+    </div>
+  </div>
 
   <script type="module" src="js/main.js"></script>
 </body>
