@@ -81,13 +81,29 @@ else:
     print("==> README link already set (no placeholder found)")
 PY
 
-# --- 3. commit -------------------------------------------------------------
-git add -A
-if git diff --cached --quiet; then
+# --- 3. commit ---------------------------------------------------------------
+# Deliberately does NOT 'git add -A'. Deploying is not the place to decide what
+# belongs in a public repo -- that is how internal notes got published once
+# already. Only the README rewrite from step 2 is auto-committed; anything else
+# uncommitted stops the deploy so you can look at it and commit it yourself.
+if [[ -n "$(git status --porcelain --untracked-files=all -- . ':!README.md')" ]]; then
+  echo "ERROR: uncommitted changes other than README.md:" >&2
+  git status --short --untracked-files=all -- . ':!README.md' >&2
+  cat >&2 <<'MSG'
+
+       Review these and commit them yourself before deploying. Check that
+       nothing internal is among them -- deploy.sh will not stage files for
+       you. If a file should never be published, add it to .gitignore.
+MSG
+  exit 1
+fi
+
+if git diff --quiet -- README.md; then
   echo "==> Nothing new to commit"
 else
-  git commit -q -m "Add README, .nojekyll, and judging-criteria analysis for GitHub Pages deploy"
-  echo "==> Committed"
+  git add README.md
+  git commit -q -m "Set the live Pages URL in the README"
+  echo "==> Committed the README live-link update"
 fi
 
 git branch -M main
@@ -128,7 +144,7 @@ SPLIT=$(git subtree split --prefix web -q --annotate="[pages] " HEAD 2>/dev/null
 git push -q --force "$PUSH_URL" "${SPLIT}:refs/heads/gh-pages"
 echo "==> gh-pages updated (web/ contents are now that branch's root)"
 
-# --- 6. enable Pages, serving from /web on main ----------------------------
+# --- 6. enable Pages, serving from the root of gh-pages ---------------------
 echo "==> Enabling GitHub Pages (source: gh-pages branch, root)"
 split "$(api -X POST "https://api.github.com/repos/${USER_NAME}/${REPO}/pages" \
   -d '{"source":{"branch":"gh-pages","path":"/"}}')"
@@ -155,11 +171,29 @@ for i in $(seq 1 40); do
     echo " LIVE: $PAGES_URL"
     echo "================================================================"
     # verify the assets the page depends on, not just the HTML
-    for f in css/style.css js/main.js data/gap.json data/world.topo.json img/hero.jpg; do
+    BAD=0
+    for f in css/style.css js/main.js img/hero.jpg img/close.jpg \
+             data/gap.json data/world.topo.json data/decoupling.json \
+             data/affect.json data/groups.json data/covid.json \
+             data/regions.json data/panel.json data/choropleth.json; do
       c=$(curl -s -o /dev/null -w '%{http_code}' "${PAGES_URL}${f}")
-      printf '  %-22s %s\n' "$f" "$c"
+      printf '  %-24s %s\n' "$f" "$c"
+      [[ "$c" == "200" ]] || BAD=1
     done
-    exit 0
+
+    # Confirm the deploy actually replaced the old files, rather than Pages
+    # serving a stale build: these strings only exist in the current version.
+    echo
+    for marker in verify-open a11y-live skip-link; do
+      if curl -s "$PAGES_URL" | grep -q "$marker"; then
+        printf '  %-24s present\n' "$marker"
+      else
+        printf '  %-24s MISSING (stale build?)\n' "$marker"; BAD=1
+      fi
+    done
+
+    [[ "$BAD" == "0" ]] && echo && echo "==> All assets and freshness markers OK"
+    exit "$BAD"
   fi
   printf '    ... still building (%s, attempt %d/40)\n' "$LIVE" "$i"
 done
