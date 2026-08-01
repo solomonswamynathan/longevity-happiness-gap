@@ -68,6 +68,7 @@ Promise.all([
   buildTooltip();
   buildCountrySelect();
   buildDataTable();
+  buildVerify();
   initImagery();
   initScrollama();
   window.addEventListener("resize", debounce(onResize, 200));
@@ -797,6 +798,343 @@ function buildDataTable() {
   const tbody = rows.map((d) =>
     `<tr>${cols.map(([k]) => `<td>${typeof d[k] === "number" ? d[k].toFixed(2) : shortName(d[k])}</td>`).join("")}</tr>`).join("");
   d3.select("#data-table").html(`<table><thead>${thead}</thead><tbody>${tbody}</tbody></table>`);
+}
+
+/* ═════════════════════  VERIFICATION TABLES  ═════════════════════════
+   Every headline claim in the story, paired with the data behind it. Each
+   view states the population its statistics are computed on, because two
+   defensible populations exist here (see the affect note) and an unstated
+   denominator is exactly what a judge should be able to check.
+   Columns are sortable; each view exports CSV.                          */
+
+const VERIFY_VIEWS = [
+  {
+    id: "all",
+    tab: "All countries",
+    claim: "“Across 136 countries, healthy life expectancy and happiness rise together — a correlation of r = 0.74.”",
+    pop: () => `n = ${state.data.length} countries · World Happiness Report 2023 cross-section · `
+      + `gap = OLS residual of happiness on healthy life expectancy `
+      + `(slope ${state.meta.slope.toFixed(4)}, intercept ${state.meta.intercept.toFixed(4)})`,
+    cols: [
+      ["country", "Country", "t"], ["region", "Region", "t"],
+      ["hle", "Healthy life exp. (yrs)", "n1"], ["happiness", "Happiness (0–10)", "n2"],
+      ["expected_happiness", "Predicted happiness", "n2"], ["gap", "Gap (residual)", "n2"],
+      ["performer", "Class", "t"],
+    ],
+    rows: () => [...state.data].sort((a, b) => d3.descending(a.gap, b.gap)),
+    sort: 5, desc: true,
+  },
+  {
+    id: "decoupling",
+    tab: "The Great Decoupling",
+    claim: "“In 32 countries, healthy lifespan climbed by more than a year per decade — while happiness fell.”",
+    pop: () => `n = ${state.decoupling.count} countries qualifying · trends from a linear fit over ≥6 observed `
+      + `years, 2006–2022 · criterion: healthy-life-expectancy slope > +1 yr/decade AND happiness slope < 0`,
+    cols: [
+      ["country", "Country", "t"], ["region", "Region", "t"],
+      ["hle_slope", "HLE trend (yrs/decade)", "n2"], ["hap_slope", "Happiness trend (pts/decade)", "n2"],
+      ["hle_last", "Latest HLE", "n1"], ["hap_last", "Latest happiness", "n2"],
+    ],
+    rows: () => [...state.decoupling.countries].sort((a, b) => d3.descending(a.hle_slope, b.hle_slope)),
+    sort: 2, desc: true,
+  },
+  {
+    id: "affect",
+    tab: "Joy vs. suffering",
+    claim: "“Longevity is tied to less negative emotion (r = −0.49) far more than to more positive emotion (r = +0.20).”",
+    pop: () => {
+      const c = state.affect.corr;
+      return `The quoted −0.49 / +0.20 are computed on the ${affectJoinN()} countries present in BOTH the affect `
+        + `panel and the 2023 cross-section. Across all ${state.affect.countries.length} affect rows the same `
+        + `correlations are r = ${c.hle_neg.toFixed(3)} (negative) and r = ${c.hle_pos.toFixed(3)} (positive) — `
+        + `same direction, same conclusion, different denominator. `
+        + `For reference, happiness itself correlates ${c.happy_pos.toFixed(3)} with positive affect and `
+        + `${c.happy_neg.toFixed(3)} with negative affect.`;
+    },
+    cols: [
+      ["country", "Country", "t"], ["region", "Region", "t"],
+      ["hle", "Healthy life exp. (yrs)", "n1"], ["happiness", "Happiness", "n2"],
+      ["pos", "Positive affect", "n3"], ["neg", "Negative affect", "n3"],
+    ],
+    rows: () => [...state.affect.countries].sort((a, b) => d3.descending(a.hle, b.hle)),
+    sort: 2, desc: true,
+  },
+  {
+    id: "groups",
+    tab: "Same lifespan, different lives",
+    claim: "“The 25 biggest over- and under-performers have a nearly identical average healthy lifespan — 64.8 vs 64.2 years.”",
+    pop: () => `Top and bottom 25 countries by gap (residual), n = 50 of ${state.data.length} · `
+      + `figures below are group means`,
+    cols: [
+      ["group", "Group", "t"], ["hle", "Mean healthy life exp. (yrs)", "n1"],
+      ["happiness", "Mean happiness", "n2"], ["freedom", "Mean freedom", "n3"],
+      ["social", "Mean social support", "n3"], ["generosity", "Mean generosity", "n3"],
+      ["members", "Countries", "t"],
+    ],
+    rows: () => ["over", "under"].map((k) => {
+      const g = state.groups[k];
+      return {
+        group: k === "over" ? "Over-performers (top 25)" : "Under-performers (bottom 25)",
+        hle: g.hle, happiness: g.happiness, freedom: g.freedom,
+        social: g.social, generosity: g.generosity,
+        members: g.countries.map(shortName).join(", "),
+      };
+    }),
+    sort: 0, desc: false,
+  },
+  {
+    id: "factors",
+    tab: "What explains the gap",
+    claim: "“The gap is explained by freedom to make life choices (r = +0.53) and social support (r = +0.45) — not money, not years.”",
+    pop: () => `Correlation column: Pearson r of each factor against the gap across all `
+      + `${state.data.length} countries. Group columns: means of the top 25 and bottom 25 `
+      + `by gap — the same split as “Same lifespan, different lives”, which is why freedom `
+      + `and support read “roughly 20% higher” there. All computed live in the browser from `
+      + `the rows shown under “All countries”. Healthy life expectancy correlates r = 0.000 `
+      + `with the gap by construction — the gap IS the residual after removing it, so a `
+      + `non-zero value there would mean the regression was wrong. Its group means `
+      + `(64.8 vs 64.2) are the figures quoted in “Same lifespan, different lives”.`,
+    cols: [
+      ["factor", "Factor", "t"], ["r", "Correlation with the gap", "n3"],
+      ["over", "Top-25 mean", "n3"], ["under", "Bottom-25 mean", "n3"],
+      ["lift", "Top vs. bottom", "t"],
+    ],
+    rows: () => factorCorrelations(),
+    sort: 1, desc: true,
+  },
+  {
+    id: "covid",
+    tab: "The pandemic shock",
+    claim: "“2019 to 2021 didn't hit everyone the same — East Asia rose while South Asia and Latin America fell hardest.”",
+    pop: () => `Change in happiness 2019 → 2021, by region (mean of member countries) and per country · `
+      + `n = ${state.covid.countries.length} countries across ${state.covid.by_region.length} regions`,
+    cols: [
+      ["country", "Country / region", "t"], ["region", "Region", "t"],
+      ["y2019", "Happiness 2019", "n2"], ["y2021", "Happiness 2021", "n2"],
+      ["chg", "Change", "n2"],
+    ],
+    rows: () => {
+      const regions = state.covid.by_region.map((r) => ({
+        country: `▸ ${r.region} (mean of ${r.n})`, region: r.region,
+        y2019: null, y2021: null, chg: r.mean, _group: true,
+      }));
+      const countries = [...state.covid.countries].sort((a, b) => d3.ascending(a.chg, b.chg));
+      return [...regions.sort((a, b) => d3.ascending(a.chg, b.chg)), ...countries];
+    },
+    sort: 4, desc: false,
+  },
+  {
+    id: "regions",
+    tab: "The gap by region",
+    claim: "“The gap has a geography: Latin America over-performs, East Asia and the Middle East under-perform.”",
+    pop: () => `Region-level means over the ${state.data.length}-country cross-section · `
+      + `the choropleth in the story refits the residual within each year, 2006–2022, `
+      + `so the map stays comparable across time`,
+    cols: [
+      ["region", "Region", "t"], ["n", "Countries", "n0"],
+      ["gap", "Mean gap", "n3"], ["hle", "Mean healthy life exp.", "n1"],
+      ["happy", "Mean happiness", "n2"],
+    ],
+    rows: () => [...state.regions].sort((a, b) => d3.descending(a.gap, b.gap)),
+    sort: 2, desc: true,
+  },
+];
+
+// Countries shared by the affect panel and the cross-section — the population
+// the story's −0.49 / +0.20 are computed on.
+function affectJoinN() {
+  const inGap = new Set(state.data.map((d) => d.country));
+  return state.affect.countries.filter((r) => inGap.has(r.country)).length;
+}
+
+// Correlations of each WHR factor against the gap, plus the group means the
+// story quotes. The group columns use the SAME top-25 / bottom-25 split as
+// scene 05 and groups.json — not a sign split on the residual, which would
+// give different numbers than the sentence above the table claims.
+function factorCorrelations() {
+  const defs = [
+    ["Freedom to make life choices", "freedom"],
+    ["Social support", "social"],
+    ["Generosity", "generosity"],
+    ["Perceived corruption", "corruption"],
+    ["Log GDP per capita", "loggdp"],
+    ["Healthy life expectancy", "hle"],
+  ];
+  const ranked = [...state.data].sort((a, b) => d3.descending(a.gap, b.gap));
+  const over = ranked.slice(0, 25);
+  const under = ranked.slice(-25);
+  const mean = (rows, k) => d3.mean(rows, (d) => d[k]);
+  return defs.map(([factor, key]) => {
+    const r = pearson(state.data.map((d) => d[key]), state.data.map((d) => d.gap));
+    const o = mean(over, key), u = mean(under, key);
+    // A percentage is meaningless when the base sits at ~0 (generosity is a
+    // centred residual), so fall back to the absolute difference there.
+    const lift = Math.abs(u) > 0.05
+      ? `${o - u >= 0 ? "+" : ""}${(((o - u) / Math.abs(u)) * 100).toFixed(0)}%`
+      : `${o - u >= 0 ? "+" : ""}${(o - u).toFixed(3)} abs.`;
+    return { factor, r, over: o, under: u, lift };
+  }).sort((a, b) => d3.descending(a.r, b.r));
+}
+
+function pearson(a, b) {
+  const n = a.length, ma = d3.mean(a), mb = d3.mean(b);
+  let num = 0, da = 0, db = 0;
+  for (let i = 0; i < n; i++) {
+    const x = a[i] - ma, y = b[i] - mb;
+    num += x * y; da += x * x; db += y * y;
+  }
+  return num / Math.sqrt(da * db);
+}
+
+const vstate = { view: VERIFY_VIEWS[0], sortCol: null, sortDesc: true, lastFocus: null };
+
+function fmt(v, kind) {
+  if (v == null || v === "") return "—";
+  if (kind === "t") return String(v);
+  const n = +v;
+  if (!Number.isFinite(n)) return "—";
+  const dp = { n0: 0, n1: 1, n2: 2, n3: 3 }[kind] ?? 2;
+  return n.toFixed(dp);
+}
+
+function buildVerify() {
+  const tabs = d3.select(".verify-tabs");
+  tabs.selectAll("button").data(VERIFY_VIEWS).join("button")
+    .attr("type", "button").attr("role", "tab")
+    .attr("id", (v) => `vtab-${v.id}`)
+    .attr("class", "verify-tab")
+    .text((v) => v.tab)
+    .on("click", (e, v) => selectVerifyView(v))
+    .on("keydown", (e, v) => {
+      const i = VERIFY_VIEWS.indexOf(v);
+      let j = null;
+      if (e.key === "ArrowRight") j = (i + 1) % VERIFY_VIEWS.length;
+      if (e.key === "ArrowLeft") j = (i - 1 + VERIFY_VIEWS.length) % VERIFY_VIEWS.length;
+      if (e.key === "Home") j = 0;
+      if (e.key === "End") j = VERIFY_VIEWS.length - 1;
+      if (j === null) return;
+      e.preventDefault();
+      selectVerifyView(VERIFY_VIEWS[j]);
+      document.getElementById(`vtab-${VERIFY_VIEWS[j].id}`).focus();
+    });
+
+  d3.select("#verify-open").on("click", openVerify);
+  d3.selectAll("[data-verify-close]").on("click", closeVerify);
+  d3.select("#verify-csv").on("click", downloadVerifyCsv);
+
+  // Escape closes; Tab cycles inside the dialog only.
+  d3.select("#verify").on("keydown", (e) => {
+    if (e.key === "Escape") { e.preventDefault(); closeVerify(); return; }
+    if (e.key !== "Tab") return;
+    const f = focusablesIn(document.querySelector(".verify-panel"));
+    if (!f.length) return;
+    const first = f[0], last = f[f.length - 1];
+    if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+    else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+  });
+
+  selectVerifyView(VERIFY_VIEWS[0]);
+}
+
+function focusablesIn(root) {
+  return [...root.querySelectorAll(
+    'button, [href], select, [tabindex]:not([tabindex="-1"])'
+  )].filter((el) => el.offsetParent !== null || el === document.activeElement);
+}
+
+function openVerify() {
+  vstate.lastFocus = document.activeElement;
+  const m = document.getElementById("verify");
+  m.hidden = false;
+  document.body.classList.add("verify-lock");
+  document.querySelector(".verify-panel").focus();
+  announce(`Verification tables open. ${VERIFY_VIEWS.length} views, arrow keys switch between them. Escape closes.`);
+}
+
+function closeVerify() {
+  const m = document.getElementById("verify");
+  if (m.hidden) return;
+  m.hidden = true;
+  document.body.classList.remove("verify-lock");
+  vstate.lastFocus?.focus();
+  announce("Verification tables closed.");
+}
+
+function selectVerifyView(v) {
+  vstate.view = v;
+  vstate.sortCol = v.sort ?? 0;
+  vstate.sortDesc = v.desc ?? true;
+
+  d3.selectAll(".verify-tab")
+    .classed("is-active", (d) => d.id === v.id)
+    .attr("aria-selected", (d) => (d.id === v.id ? "true" : "false"))
+    .attr("tabindex", (d) => (d.id === v.id ? 0 : -1));
+
+  d3.select(".verify-quote").text(v.claim);
+  d3.select(".verify-pop").text(v.pop());
+  renderVerifyTable();
+}
+
+function renderVerifyTable() {
+  const v = vstate.view;
+  const cols = v.cols;
+  let rows = v.rows();
+
+  const [key, , kind] = cols[vstate.sortCol];
+  rows = [...rows].sort((a, b) => {
+    const av = a[key], bv = b[key];
+    if (av == null) return 1;
+    if (bv == null) return -1;
+    const cmp = kind === "t" ? d3.ascending(String(av), String(bv)) : d3.ascending(+av, +bv);
+    return vstate.sortDesc ? -cmp : cmp;
+  });
+
+  d3.select(".verify-count").text(`${rows.length} row${rows.length === 1 ? "" : "s"}`);
+
+  const thead = `<tr>${cols.map(([, label], i) => {
+    const active = i === vstate.sortCol;
+    const dir = active ? (vstate.sortDesc ? "descending" : "ascending") : "none";
+    const arrow = active ? (vstate.sortDesc ? " ▾" : " ▴") : "";
+    return `<th aria-sort="${dir}"><button type="button" class="th-sort${active ? " is-active" : ""}"
+      data-col="${i}">${label}${arrow}</button></th>`;
+  }).join("")}</tr>`;
+
+  const tbody = rows.map((d) =>
+    `<tr${d._group ? ' class="row-group"' : ""}>${cols.map(([k, , kind]) =>
+      `<td class="${kind === "t" ? "td-t" : "td-n"}">${fmt(d[k], kind)}</td>`).join("")}</tr>`).join("");
+
+  d3.select(".verify-table").html(
+    `<table class="vtable"><caption class="sr-only">${v.tab}. ${v.claim}</caption>` +
+    `<thead>${thead}</thead><tbody>${tbody}</tbody></table>`);
+
+  d3.selectAll(".verify-table .th-sort").on("click", function () {
+    const i = +this.dataset.col;
+    if (i === vstate.sortCol) vstate.sortDesc = !vstate.sortDesc;
+    else { vstate.sortCol = i; vstate.sortDesc = true; }
+    renderVerifyTable();
+    const btn = document.querySelector(`.verify-table .th-sort[data-col="${i}"]`);
+    btn?.focus();
+    announce(`Sorted by ${vstate.view.cols[i][1]}, ${vstate.sortDesc ? "descending" : "ascending"}.`);
+  });
+}
+
+function downloadVerifyCsv() {
+  const v = vstate.view;
+  const esc = (s) => {
+    const t = String(s ?? "");
+    return /[",\n]/.test(t) ? `"${t.replace(/"/g, '""')}"` : t;
+  };
+  const head = v.cols.map(([, l]) => esc(l)).join(",");
+  const body = v.rows().map((d) => v.cols.map(([k]) => esc(d[k])).join(",")).join("\n");
+  const meta = `# ${v.claim}\n# ${v.pop()}\n# The Longevity-Happiness Gap — VizCon 2026\n`;
+  const blob = new Blob([meta + head + "\n" + body + "\n"], { type: "text/csv;charset=utf-8" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = `longevity-happiness-gap_${v.id}.csv`;
+  document.body.appendChild(a); a.click(); a.remove();
+  URL.revokeObjectURL(url);
+  announce(`Downloaded ${v.tab} as CSV.`);
 }
 
 // ──────────────────────────  SCROLLAMA  ────────────────────────────

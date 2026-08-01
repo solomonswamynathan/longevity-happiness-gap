@@ -36,8 +36,8 @@ and Egypt tell the same story. The rule doesn't just bend — it breaks.
 
 **2. Longer lives buy less suffering, not more joy.** Split happiness into its two
 halves and longevity is tied to **less negative emotion** (r = −0.49) far more
-than to **more positive emotion** (r = +0.20). Extra years take the edge off the
-bad days. They don't add good ones.
+than to **more positive emotion** (r = +0.20), across the 132 countries reporting
+both. Extra years take the edge off the bad days. They don't add good ones.
 
 ### What actually explains the gap
 
@@ -71,6 +71,12 @@ No Amazon-internal or proprietary data is used.
 - The **Great Decoupling** set = countries whose healthy-life-expectancy trend
   exceeded +1 yr/decade while their happiness trend was negative, from a linear
   fit over ≥6 observed years. 32 countries qualify.
+- **Populations differ by claim, and each one is stated.** The affect
+  correlations use the 132 countries present in both the affect panel and the
+  2023 cross-section; across all 141 affect rows they are −0.422 / +0.164 — same
+  direction, same conclusion. The "roughly 20% higher" freedom and support
+  figures are top-25 vs bottom-25 group means, not a sign split on the residual.
+  The *Verify the data* panel names the population for every table.
 
 Fully reproducible: [`notebooks/build_dataset.py`](notebooks/build_dataset.py)
 and [`notebooks/build_panel.py`](notebooks/build_panel.py) regenerate every JSON
@@ -104,13 +110,18 @@ Hand-coded, no dashboard tool and no build step:
 - Text contrast measured against the actual rendered imagery: hero title
   **4.73:1**, closing title **5.62:1**, closing body **5.41:1** — all pass WCAG AA.
 - Honors `prefers-reduced-motion`, disabling parallax, Ken Burns and drift.
-- The full underlying dataset is available as a sortable table at the foot of the
-  page, as a non-visual alternative to the charts.
+- **Every claim is checkable.** A *Verify the data* panel at the foot of the page
+  gives each headline claim its own table — the quoted sentence, the population
+  the statistic is computed on, sortable columns, and a CSV export. The panel is
+  a proper dialog: `Esc` closes, focus is trapped inside and restored to the
+  trigger on exit, the tablist is a roving-tabindex group, and sorting a column
+  sets `aria-sort` and announces itself.
 
-Verified with an automated 24-check Playwright suite driving real keyboard
+Verified with automated Playwright suites (73 checks) driving real keyboard
 events — roving tabindex, traversal order, focus-ring rendering, live-region
-output, and the absence of focusable-but-invisible marks across scene changes
-and viewport resizes.
+output, the absence of focusable-but-invisible marks across scene changes and
+viewport resizes, an 80-keypress focus-trap probe on the dialog, and assertions
+that each table's numbers match the sentence it claims to verify.
 
 ## Imagery
 
