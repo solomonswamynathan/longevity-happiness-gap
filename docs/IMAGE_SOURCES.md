@@ -24,7 +24,8 @@ Measured with the actual filter math from `index.html:28-44`:
 | hero | 86.3% | 1.1% | 100.0% | ideal |
 | decoupling | 73.8% | 7.0% | 99.9% | ideal |
 | affect | 85.2% | 0.0% | — | ideal |
-| close | 22.4% | 9.4% | 0.6% | acceptable — see note |
+| close | 22.4% | 9.4% | 0.6% | superseded — see §4 |
+| close (current) | — | — | — | replaced 2026-08-01; contrast re-measured, 5.62:1 / 5.41:1 |
 
 ---
 
@@ -82,29 +83,40 @@ place, no cultural content.
 radial ("Abstract Circle", CC0, 3272×2454). Use if you prefer a centred
 composition; the gradient version reads as "split" more clearly.
 
-## 4 — THE CLOSE → `close.png`
+## 4 — THE CLOSE → `close.jpg`  ✅ RESOLVED 2026-08-01
 
-**File:** `close_stocksnap_IC2UDAUNFF.jpg` (960×640; original 4769×3179)
-**Credit:** Lukáš Rychvalský, via StockSnap.io
+**File:** `close_commons_leiria_unsplash.jpg` (5184×3456, 1.8 MB; shipped as
+1600×900, 61 KB)
+**Credit:** Marcos Paixão, via Unsplash → Wikimedia Commons
 **License:** CC0 1.0 Universal
-**Source:** https://stocksnap.io/photo/active-activity-IC2UDAUNFF
+**Source:** https://commons.wikimedia.org/wiki/File:Leiria_sunset_crowd_silhouette_(Unsplash).jpg
 
-A lone figure in silhouette at a lakeshore at blue hour, seen from behind, facing
-a still horizon. Muted mauve/slate, calm and resolved. No face visible, no
-identifiable location.
+A crowd in silhouette at sunset, several people gathered close in overlapping
+profile against a banded pink/orange sky. No faces legible, no identifiable
+location, no country cues — so it stays consistent with the country-neutrality
+rule below.
 
-**Known compromise — read before using.** This is the weakest of the four
-against the original brief:
-- The prompt asked for **people gathered close together** (the "connection and
-  belonging" payoff). This is a **solitary** figure — it resolves the *calm* of
-  the ending but not the *social support* finding that the close argues.
-- Only 22.4% dark with a bright top third (0.6% dark), so the `.close-title`
-  overlay will need a scrim/gradient behind it for contrast. Everything else in
-  the set is safe on that front; this one is not.
+**Why this replaced the previous choice.** The earlier image
+(`close_stocksnap_IC2UDAUNFF.jpg`, Lukáš Rychvalský / StockSnap, CC0 — retained
+in `web/img/sourced/`) was **a solitary figure at a lakeshore**, while the
+closing copy argues people are *"connected to others… surrounded by people who
+have your back."* Image and text contradicted each other, which is precisely the
+flaw judges named against a previous winning entry ("the charts didn't always
+fully reflect the text blocks"). The replacement makes the image argue the same
+point as the copy.
 
-Two ways to close the gap: search a "friends silhouette dusk" CC0 set for a
-multi-figure blue-hour shot, or accept the solitary reading and adjust the close
-copy. Flagging rather than silently shipping a mismatch.
+**Contrast re-verified through the full render pipeline** — `#duo-warm`, then
+`opacity: 0.4` over `--bg-0` (#0a0d14), then the `::after` radial vignette,
+sampling the worst-case (brightest) region behind each text block:
+
+| Text | Color | Worst-case contrast | WCAG AA |
+|---|---|---|---|
+| `.close-title` | #b9c6dc (darkest gradient stop) | **5.62:1** | pass |
+| `.close-body` | #b9bdc7 (`--ink-soft`) | **5.41:1** | pass |
+
+Slightly lower than the solitary shot's 6.87:1 (more open sky), but comfortably
+above the 4.5:1 threshold — and it no longer needs the extra scrim the old image
+would have required.
 
 **Rejected candidates and why**
 - Dawn beach with distant figures (StockSnap `2WUSCGJ1BM`) — composition fit the
@@ -113,28 +125,21 @@ copy. Flagging rather than silently shipping a mismatch.
 - Lantern festival night scene (StockSnap `1LAVSCEHA7`) — tonally excellent
   (70% dark), rejected on inclusivity grounds: it reads as East/Southeast Asian,
   and East Asia is a named under-performer in the data. Exactly the stereotyping
-  risk `IMAGE_PROMPTS.md` sets out to avoid.
+  risk the country-neutrality rule exists to avoid.
 - Midday desert roads (StockSnap `LM2EAR3IMY`, `KUTIEJSZNU`) — right composition,
   0.2% dark and bright blue skies; wrong mood and unusable under duotone.
 
 ---
 
-## Sources & Methods panel — replacement copy
+## Sources & Methods panel — DONE
 
-`index.html` currently claims (lines ~296-305) that imagery was generated with
-Amazon Titan Image Generator. **That claim is not currently true** — the files in
-`web/img/` are 700-byte placeholder SVGs. If you ship sourced photography,
-replace that block with:
+An earlier draft of `index.html` credited the imagery to Amazon Titan Image
+Generator, which was never true — nothing here is generated. The shipped panel
+now credits NASA and the CC0 photographers correctly, and the imagery notes in
+`README.md` match. No generated imagery appears anywhere in the entry.
 
-> **Imagery**
-> - Hero: NASA / ISS Expedition 30 (public domain). Night-limb photograph, not a
->   rendering.
-> - Scene and closing imagery: CC0 1.0 photography via StockSnap.io and Wikimedia
->   Commons. Full credits in `docs/IMAGE_SOURCES.md`.
-> - Images are **illustrative and intentionally universal** — no image depicts any
->   specific country in the data, by design, to avoid stereotyping.
-> - Selected by measured luminance distribution to survive the duotone filter and
->   preserve text contrast; all imagery is tinted in-browser to the story palette.
-
-`docs/IMAGE_PROMPTS.md` is retained: it records the art direction that drove
-selection, and the inclusivity reasoning still applies.
+The former `docs/IMAGE_PROMPTS.md` (which described that abandoned
+generate-the-imagery approach) has been removed from the repo for the same
+reason: publishing it alongside this file would put two contradictory provenance
+claims on the public record. The art-direction and inclusivity reasoning that
+still applies is captured in this document.

@@ -166,6 +166,122 @@ function buildChart() {
       .attr("cx", (d) => state.x(d.hle)).attr("cy", (d) => state.y(d.happiness))
       .attr("r", 0).attr("fill", PAL.neutral).attr("opacity", 0.85)
       .on("mousemove", onDotHover).on("mouseleave", hideTooltip);
+
+  makeDotsFocusable();
+}
+
+/* ─────────────────────  KEYBOARD ACCESS (a11y)  ─────────────────────
+   The scatter is a roving-tabindex group: one Tab stop reaches the plot,
+   then Arrow keys walk country to country in lifespan order. Each dot is
+   an image-role node carrying its own numbers in aria-label, so a screen
+   reader announces the datapoint rather than "graphic". Home/End jump to
+   the extremes, Enter/Space pins a country the way the picker does.      */
+function makeDotsFocusable() {
+  // traversal order = left-to-right on the x-axis, which is what a sighted
+  // user perceives; ties broken by happiness so the order is deterministic.
+  state.navOrder = [...state.data].sort(
+    (a, b) => d3.ascending(a.hle, b.hle) || d3.ascending(a.happiness, b.happiness)
+  );
+  state.navIndex = 0;
+
+  // No tabindex yet: at boot the dots are still r=0 and no scene has run, so
+  // they must not be tab stops. initScrollama's first onStepEnter opens them
+  // via setDotsReachable(); onResize re-applies it after a rebuild.
+  state.dots
+    .attr("role", "img")
+    .attr("aria-label", dotLabel)
+    .attr("aria-hidden", "true")
+    .on("focus", function (event, d) {
+      state.navIndex = state.navOrder.findIndex((r) => r.country === d.country);
+      describeDot(d);
+      showTooltipForDot(this, d);
+    })
+    .on("blur", hideTooltip)
+    .on("keydown", onDotKeydown);
+}
+
+function dotLabel(d) {
+  const dir = d.gap >= 0 ? "happier than" : "less happy than";
+  return `${shortName(d.country)}: healthy life expectancy ${d.hle.toFixed(1)} years, `
+    + `happiness ${d.happiness.toFixed(2)} out of 10. `
+    + `${Math.abs(d.gap).toFixed(2)} points ${dir} its lifespan predicts. `
+    + `Freedom ${d.freedom.toFixed(2)}, social support ${d.social.toFixed(2)}.`;
+}
+
+function onDotKeydown(event, d) {
+  const n = state.navOrder.length;
+  let next = null;
+
+  switch (event.key) {
+    case "ArrowRight": case "ArrowDown": next = (state.navIndex + 1) % n; break;
+    case "ArrowLeft":  case "ArrowUp":   next = (state.navIndex - 1 + n) % n; break;
+    case "Home": next = 0; break;
+    case "End":  next = n - 1; break;
+    case "Enter": case " ":
+      event.preventDefault();
+      highlightCountry(d.country);
+      d3.select("#country-select").property("value", d.country);
+      announce(`Selected ${shortName(d.country)}. ${dotLabel(d)}`);
+      return;
+    case "Escape":
+      hideTooltip();
+      return;
+    default: return;                       // let every other key through
+  }
+
+  event.preventDefault();
+  moveFocusToDot(next);
+}
+
+function moveFocusToDot(index) {
+  const target = state.navOrder[index];
+  if (!target) return;
+  state.navIndex = index;
+  // roving tabindex: exactly one dot is tabbable at a time
+  state.dots.attr("tabindex", (d) => (d.country === target.country ? 0 : -1));
+  const node = state.dots.filter((d) => d.country === target.country).node();
+  if (node) node.focus();
+}
+
+/* Scenes that hide the scatter (map, bars, etc.) must also drop the dots out
+   of the tab order — 136 invisible tab stops would be a keyboard trap. */
+// 'affect' draws its own circle.aff marks and leaves state.dots wherever the
+// previous scene left them — so the scatter is not the live chart there either.
+const DOTLESS_SCENES = new Set(["map", "decouple", "why", "affect", "covid"]);
+
+function setDotsReachable(reachable) {
+  if (!state.dots) return;
+  if (reachable) {
+    const cur = state.navOrder?.[state.navIndex] ?? state.navOrder?.[0];
+    state.dots
+      .attr("aria-hidden", null)
+      .attr("tabindex", (d) => (cur && d.country === cur.country ? 0 : -1));
+  } else {
+    state.dots.attr("tabindex", null).attr("aria-hidden", "true");
+    hideTooltip();
+  }
+}
+
+// Screen-reader announcements for state the visuals convey by motion/color.
+function announce(msg) {
+  const el = document.getElementById("a11y-live");
+  if (el) el.textContent = msg;
+}
+function describeDot(d) { announce(dotLabel(d)); }
+
+// Reuse the hover tooltip for keyboard focus, positioned off the dot itself
+// rather than the pointer (there is no pointer during keyboard use).
+function showTooltipForDot(node, d) {
+  const r = node.getBoundingClientRect();
+  const cls = d.gap >= 0 ? "tt-gap-over" : "tt-gap-under";
+  d3.select("#tooltip").style("opacity", 1)
+    .style("left", r.left + r.width / 2 + 14 + "px")
+    .style("top", r.top + r.height / 2 + 14 + "px")
+    .html(`<div class="tt-name">${shortName(d.country)}</div>
+      <div class="tt-row"><span>Gap</span><span class="${cls}">${d.gap >= 0 ? "+" : ""}${d.gap.toFixed(2)}</span></div>
+      <div class="tt-row"><span>Healthy life exp.</span><span>${d.hle.toFixed(1)} yrs</span></div>
+      <div class="tt-row"><span>Happiness</span><span>${d.happiness.toFixed(2)}</span></div>
+      <div class="tt-row"><span>Freedom</span><span>${d.freedom.toFixed(2)}</span></div>`);
 }
 
 function trendPath() {
@@ -338,6 +454,23 @@ function exitMap() {
   const m = state.g.select(".map-layer");
   if (!m.selectAll("*").empty()) m.selectAll("*").transition().duration(300).attr("opacity", 0).remove();
 }
+/* Each scene retitles the figure so a screen reader gets the chart's current
+   meaning, not one generic label for ten different visualizations. */
+function announceScene(element, scene) {
+  const h = element.querySelector("h2");
+  const kicker = element.querySelector(".step-kicker");
+  const fig = document.getElementById("graphic");
+  const cap = document.getElementById("caption");
+  const label = [kicker?.textContent.trim(), h?.textContent.trim(), cap?.textContent.trim()]
+    .filter(Boolean).join(". ");
+  if (fig && label) fig.setAttribute("aria-label", label);
+  if (!DOTLESS_SCENES.has(scene)) {
+    announce(`${label} Press Tab to reach the plot, then arrow keys to move between countries.`);
+  } else {
+    announce(label);
+  }
+}
+
 function setCaption(txt) {
   const c = d3.select("#caption");
   c.style("opacity", 0);
@@ -679,6 +812,8 @@ function initScrollama() {
       if (state.prevScene === "map" && scene !== "map") clearTimeout(state._mapTimer);
       setSceneImage(scene);
       if (SCENES[scene]) SCENES[scene]();
+      setDotsReachable(!DOTLESS_SCENES.has(scene));
+      announceScene(element, scene);
     });
   window.addEventListener("load", () => scroller.resize());
 }
@@ -690,7 +825,12 @@ function clamp01(v) { return Math.max(0, Math.min(1, v)); }
 function debounce(fn, ms) { let t; return (...a) => { clearTimeout(t); t = setTimeout(() => fn(...a), ms); }; }
 function onResize() {
   clearTimeout(state._mapTimer);
+  const keepIndex = state.navIndex;          // survive the rebuild
   d3.select("#chart svg").remove();
   buildChart();
   if (state.scene && SCENES[state.scene]) SCENES[state.scene]();
+  // buildChart() reset the tab order; restore the caret and re-apply whether
+  // this scene shows dots at all, or a resize would revive hidden tab stops.
+  state.navIndex = Math.min(keepIndex, state.navOrder.length - 1);
+  setDotsReachable(!DOTLESS_SCENES.has(state.scene));
 }

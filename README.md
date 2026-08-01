@@ -88,14 +88,29 @@ Hand-coded, no dashboard tool and no build step:
 
 ## Accessibility
 
+- **Fully keyboard operable.** The scatter plot is a roving-tabindex group: one
+  `Tab` reaches the plot, then `←`/`→` walk all 136 countries in life-expectancy
+  order, `Home`/`End` jump to the extremes, and `Enter` pins a country. Marks
+  that a scene hides drop out of the tab order, so there is no keyboard trap.
+- **Per-datapoint screen-reader labels.** Every dot carries its own
+  `aria-label` with the country's actual figures ("Hong Kong: healthy life
+  expectancy 77.3 years, happiness 5.31 out of 10, 2.04 points less happy than
+  its lifespan predicts…") rather than one generic label for the whole chart.
+  A polite live region announces each scene change and the focused datapoint.
+- A **skip link** jumps past the ten animated scenes straight to the data table.
 - Diverging palette verified colorblind-safe: the two poles stay **ΔE ≥ 66**
   apart (CIE76) under simulated protanopia, deuteranopia and tritanopia — worst
   case protanopia, ΔE 66.6.
 - Text contrast measured against the actual rendered imagery: hero title
-  **4.73:1**, closing title **5.62:1** — both pass WCAG AA.
+  **4.73:1**, closing title **5.62:1**, closing body **5.41:1** — all pass WCAG AA.
 - Honors `prefers-reduced-motion`, disabling parallax, Ken Burns and drift.
 - The full underlying dataset is available as a sortable table at the foot of the
   page, as a non-visual alternative to the charts.
+
+Verified with an automated 24-check Playwright suite driving real keyboard
+events — roving tabindex, traversal order, focus-ring rendering, live-region
+output, and the absence of focusable-but-invisible marks across scene changes
+and viewport resizes.
 
 ## Imagery
 
