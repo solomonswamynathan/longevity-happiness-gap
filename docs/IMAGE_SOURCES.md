@@ -111,12 +111,28 @@ sampling the worst-case (brightest) region behind each text block:
 
 | Text | Color | Worst-case contrast | WCAG AA |
 |---|---|---|---|
-| `.close-title` | #b9c6dc (darkest gradient stop) | **5.62:1** | pass |
-| `.close-body` | #b9bdc7 (`--ink-soft`) | **5.41:1** | pass |
+| `.close-title` | #b9c6dc (darkest gradient stop) | **5.04:1** | pass |
+| `.close-body` | #b9bdc7 (`--ink-soft`) | **4.61:1** | pass |
 
-Slightly lower than the solitary shot's 6.87:1 (more open sky), but comfortably
-above the 4.5:1 threshold — and it no longer needs the extra scrim the old image
-would have required.
+Slightly lower than the solitary shot (more open sky), but above the 4.5:1
+threshold — and it no longer needs the extra scrim the old image would have
+required.
+
+These figures are lower than the 5.62 / 5.41 quoted in an earlier revision of
+this file. The image did not change; the *measurement* got stricter. It is now
+taken from the element's exact bounding box on the live page with the type
+hidden, row by row, keeping the brightest background pixel per row — see
+`tests/cvd_contrast_check.py`, runnable with `--live`. The earlier numbers came
+from a hand-picked sample region and were optimistic. The stricter method is the
+one quoted everywhere now.
+
+One caveat the script documents in code: `.hero-title` is painted with a
+vertical white→#cdd6e6 gradient, and scoring it as "darkest stop vs brightest
+pixel anywhere in the box" produces 3.44:1 — a failure that isn't real, because
+the darkest stop sits at the bottom of the box where the photograph is dark
+while the brightest background is at the top where the type is near-white. Those
+pixels never overlap. Measured row-wise against its actual interpolated colour,
+the true worst case is **4.61:1**.
 
 **Rejected candidates and why**
 - Dawn beach with distant figures (StockSnap `2WUSCGJ1BM`) — composition fit the

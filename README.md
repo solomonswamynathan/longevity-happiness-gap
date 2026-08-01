@@ -107,8 +107,11 @@ Hand-coded, no dashboard tool and no build step:
 - Diverging palette verified colorblind-safe: the two poles stay **ΔE ≥ 66**
   apart (CIE76) under simulated protanopia, deuteranopia and tritanopia — worst
   case protanopia, ΔE 66.6.
-- Text contrast measured against the actual rendered imagery: hero title
-  **4.73:1**, closing title **5.62:1**, closing body **5.41:1** — all pass WCAG AA.
+- Text contrast measured against the actual rendered imagery, through the
+  duotone → `opacity: 0.4` → vignette pipeline: hero title **4.61:1**, hero
+  standfirst **7.45:1**, closing title **5.04:1**, closing body **4.61:1** — all
+  pass WCAG AA. Reproduce both this and the ΔE figures with
+  `python3 tests/cvd_contrast_check.py --live`.
 - Honors `prefers-reduced-motion`, disabling parallax, Ken Burns and drift.
 - **Every claim is checkable.** A *Verify the data* panel at the foot of the page
   gives each headline claim its own table — the quoted sentence, the population
@@ -116,12 +119,30 @@ Hand-coded, no dashboard tool and no build step:
   a proper dialog: `Esc` closes, focus is trapped inside and restored to the
   trigger on exit, the tablist is a roving-tabindex group, and sorting a column
   sets `aria-sort` and announces itself.
+- **Ask the data.** A second panel takes natural-language questions over all 136
+  countries — *"why is Hong Kong an under-performer?"*, *"does money buy
+  happiness?"*, *"compare Finland and Japan"* — resolves the entities, and answers
+  with the arithmetic shown. It is **a scripted query engine, not an LLM**: no
+  model, no API call, no network request, 14 pattern-matched intents computing
+  from the same JSON the charts use. It says so in its own header, and answers
+  honestly if you ask it directly. The reasoning behind that choice is in
+  [`docs/GENAI.md`](docs/GENAI.md).
 
-Verified with automated Playwright suites (73 checks) driving real keyboard
-events — roving tabindex, traversal order, focus-ring rendering, live-region
-output, the absence of focusable-but-invisible marks across scene changes and
-viewport resizes, an 80-keypress focus-trap probe on the dialog, and assertions
-that each table's numbers match the sentence it claims to verify.
+Verified with **147 automated checks** — five Playwright suites (137) driving
+real keyboard events, plus a palette-and-contrast checker (10). Between them they
+cover roving tabindex, traversal order, focus-ring rendering, live-region output,
+the absence of focusable-but-invisible marks across scene changes and viewport
+resizes, an 80-keypress focus-trap probe on both dialogs, assertions that each
+table's numbers match the sentence it claims to verify, a sweep of all 136
+countries through the Ask panel's query engine, and the colorblind ΔE and
+WCAG contrast math.
+
+Run them yourself — the runner starts its own server and prints a combined total:
+
+```bash
+pip install playwright pillow && playwright install chromium
+./tests/run_all.sh
+```
 
 ## Imagery
 
@@ -146,6 +167,26 @@ python3 -m http.server 8765
 ```
 
 No dependencies, no build, no bundler — it's static files.
+
+## Use of generative AI
+
+GenAI built this entry; GenAI does not run inside it. The D3, the statistical
+verification, the accessibility harness and the narrative drafting were all
+produced in an AI-assisted workflow — and no photograph, data value or runtime
+answer was model-generated. The *Ask the data* panel is deterministic and
+scripted, deliberately.
+
+Full disclosure, including what AI was **not** used for and how to verify each
+claim: [`docs/GENAI.md`](docs/GENAI.md).
+
+## Documentation
+
+| File | Contents |
+|---|---|
+| [`docs/SOURCES.md`](docs/SOURCES.md) | Every dataset, vintage, and transformation |
+| [`docs/GENAI.md`](docs/GENAI.md) | Where generative AI was and wasn't used |
+| [`docs/IMAGE_SOURCES.md`](docs/IMAGE_SOURCES.md) | Image provenance, licensing, contrast measurements |
+| `tests/` | The 147 checks, and `run_all.sh` to run them |
 
 ---
 

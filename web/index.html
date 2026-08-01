@@ -349,6 +349,9 @@
         <button type="button" id="verify-open" class="btn-verify">
           Verify the data — every figure in this story, as a table
         </button>
+        <button type="button" id="ask-open" class="btn-verify btn-ask">
+          Ask the data — query all 136 countries in plain English
+        </button>
       </p>
 
       <details class="data-table-toggle">
@@ -385,6 +388,45 @@
         <div class="verify-table" tabindex="0" role="region"
              aria-label="Data table, scrollable"></div>
       </div>
+    </div>
+  </div>
+
+  <!-- ───────────────  ASK THE DATA (modal)  ───────────────
+       A scripted query interface over the same JSON the charts use.
+       Deliberately NOT an LLM — see the honesty note in the panel
+       footer and docs/GENAI.md. -->
+  <div id="ask" class="verify-modal" hidden>
+    <div class="verify-backdrop" data-ask-close></div>
+    <div class="verify-panel ask-panel" role="dialog" aria-modal="true"
+         aria-labelledby="ask-title" tabindex="-1">
+      <header class="verify-head">
+        <h2 id="ask-title">Ask the data</h2>
+        <button type="button" class="verify-close" data-ask-close
+                aria-label="Close (Escape)">✕</button>
+      </header>
+
+      <p class="ask-disclosure">
+        <strong>This is a scripted query engine, not a language model.</strong>
+        No model, no API call, no network request — your question is matched to
+        a query pattern and answered by computing from the same JSON files the
+        charts use. Every answer shows its arithmetic, and the same question
+        always returns the same answer.
+      </p>
+
+      <div class="ask-log" id="ask-log" role="log" aria-live="polite"
+           aria-label="Conversation" tabindex="0"></div>
+
+      <form class="ask-form" id="ask-form" autocomplete="off">
+        <label class="sr-only" for="ask-input">Ask a question about the data</label>
+        <input type="text" id="ask-input" class="ask-input"
+               placeholder="e.g. Why is Hong Kong an under-performer?"
+               aria-describedby="ask-hint" />
+        <button type="submit" class="btn-ask-send">Ask</button>
+      </form>
+      <p class="ask-hint" id="ask-hint">
+        Try a country, two countries to compare, a region, a factor, or
+        “how is the gap calculated?”
+      </p>
     </div>
   </div>
 
