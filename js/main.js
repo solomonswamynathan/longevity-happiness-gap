@@ -12,6 +12,8 @@
      V   Shock/You → covid, explore
    ========================================================================= */
 
+import { createAsk } from "./ask.js";
+
 const PAL = {
   over: "#3987e5", under: "#e66767", neutral: "#6f6d67",
   overGlow: "#5598e7", underGlow: "#ec835a",
@@ -69,6 +71,7 @@ Promise.all([
   buildCountrySelect();
   buildDataTable();
   buildVerify();
+  buildAsk();
   initImagery();
   initScrollama();
   window.addEventListener("resize", debounce(onResize, 200));
@@ -1135,6 +1138,141 @@ function downloadVerifyCsv() {
   document.body.appendChild(a); a.click(); a.remove();
   URL.revokeObjectURL(url);
   announce(`Downloaded ${v.tab} as CSV.`);
+}
+
+/* ═════════════════════════  ASK THE DATA  ════════════════════════════
+   UI shell around the scripted query engine in ask.js. The engine does the
+   resolving and arithmetic; this only renders turns and handles the dialog. */
+
+const astate = { engine: null, lastFocus: null, turns: 0 };
+
+const ASK_OPENERS = [
+  "Why is Hong Kong an under-performer?",
+  "Who over-performs the most?",
+  "Does money buy happiness?",
+  "Which countries are decoupling?",
+  "How is the gap calculated?",
+];
+
+function buildAsk() {
+  astate.engine = createAsk(state, { shortName, pearson });
+  // Exposed so the Playwright suite can sweep all 136 countries and every
+  // intent without going through the DOM. Read-only; nothing depends on it.
+  window.__askEngine = astate.engine;
+  window.__state = state;
+
+  d3.select("#ask-open").on("click", openAsk);
+  d3.selectAll("[data-ask-close]").on("click", closeAsk);
+
+  d3.select("#ask-form").on("submit", (e) => {
+    e.preventDefault();
+    const input = document.getElementById("ask-input");
+    const q = input.value.trim();
+    if (!q) return;
+    input.value = "";
+    askTurn(q);
+  });
+
+  d3.select("#ask").on("keydown", (e) => {
+    if (e.key === "Escape") { e.preventDefault(); closeAsk(); return; }
+    if (e.key !== "Tab") return;
+    const f = focusablesIn(document.querySelector(".ask-panel"));
+    if (!f.length) return;
+    const first = f[0], last = f[f.length - 1];
+    if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+    else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+  });
+
+  greetAsk();
+}
+
+function greetAsk() {
+  const log = d3.select("#ask-log");
+  log.html("");
+  astate.turns = 0;
+  addAskTurn("bot", {
+    text: `Ask me anything about the ${state.data.length} countries in this story. `
+      + `I resolve country names, regions and factors, then compute the answer from `
+      + `the same seven datasets the charts use — and show you the arithmetic.`,
+    math: "I'm scripted, not generative: no model is consulted, so I can't invent a "
+      + "figure the data doesn't contain. Where my coverage ends, I say so.",
+    followups: ASK_OPENERS,
+  });
+}
+
+function askTurn(q) {
+  addAskTurn("user", { text: q });
+  const res = astate.engine.ask(q);
+  addAskTurn("bot", res);
+  astate.turns += 1;
+  announce(res.unmatched
+    ? "No match for that question. Suggestions offered."
+    : `Answered: ${res.text.slice(0, 120)}`);
+}
+
+function addAskTurn(who, res) {
+  const log = document.getElementById("ask-log");
+  const wrap = document.createElement("div");
+  wrap.className = `ask-turn ask-${who}`;
+
+  if (who === "user") {
+    wrap.innerHTML = `<p class="ask-q"><span class="ask-who">You</span>${esc(res.text)}</p>`;
+  } else {
+    let html = `<p class="ask-a">${esc(res.text)}</p>`;
+    if (res.math) html += `<p class="ask-math">${esc(res.math)}</p>`;
+    if (res.rows) {
+      html += `<div class="ask-table" tabindex="0" role="region" aria-label="Supporting figures">`
+        + `<table class="vtable"><thead><tr>`
+        + res.rows.cols.map((c, i) =>
+            `<th class="${i === 0 ? "td-t" : "td-n"}"><span class="th-plain">${esc(c)}</span></th>`).join("")
+        + `</tr></thead><tbody>`
+        + res.rows.rows.map((r) => `<tr>`
+            + r.map((cell, i) => {
+                const numeric = /^[−+-]?[\d.]+%?$/.test(String(cell));
+                return `<td class="${i === 0 || !numeric ? "td-t" : "td-n"}">${esc(cell)}</td>`;
+              }).join("")
+            + `</tr>`).join("")
+        + `</tbody></table></div>`;
+    }
+    if (res.followups?.length) {
+      html += `<div class="ask-chips">`
+        + res.followups.map((f) =>
+            `<button type="button" class="ask-chip">${esc(f)}</button>`).join("")
+        + `</div>`;
+    }
+    wrap.innerHTML = html;
+  }
+
+  log.appendChild(wrap);
+
+  // Follow-up chips ask their own question.
+  wrap.querySelectorAll(".ask-chip").forEach((b) => {
+    b.addEventListener("click", () => askTurn(b.textContent));
+  });
+
+  log.scrollTop = log.scrollHeight;
+}
+
+function esc(s) {
+  return String(s).replace(/[&<>"']/g, (c) =>
+    ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+}
+
+function openAsk() {
+  astate.lastFocus = document.activeElement;
+  document.getElementById("ask").hidden = false;
+  document.body.classList.add("verify-lock");
+  document.getElementById("ask-input").focus();
+  announce("Ask the data panel open. Type a question, or Escape to close.");
+}
+
+function closeAsk() {
+  const m = document.getElementById("ask");
+  if (m.hidden) return;
+  m.hidden = true;
+  document.body.classList.remove("verify-lock");
+  astate.lastFocus?.focus();
+  announce("Ask the data panel closed.");
 }
 
 // ──────────────────────────  SCROLLAMA  ────────────────────────────
