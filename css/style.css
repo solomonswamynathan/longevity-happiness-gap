@@ -313,6 +313,52 @@ strong { color: var(--ink); font-weight: 600; }
   outline-offset: 2px;
 }
 
+/* ─────────────────────────  ACCESSIBILITY  ───────────────────────── */
+
+/* Visually hidden, still announced. */
+.sr-only {
+  position: absolute; width: 1px; height: 1px;
+  padding: 0; margin: -1px; overflow: hidden;
+  clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap; border: 0;
+}
+
+/* First tab stop on the page: an escape hatch past ten scroll-driven scenes
+   straight to the tabular data. Invisible until focused. */
+.skip-link {
+  position: absolute; top: -100%; left: 1rem; z-index: 100;
+  background: var(--bg-0); color: var(--ink);
+  border: 1px solid var(--over); border-radius: 0 0 8px 8px;
+  padding: 0.75rem 1.1rem; font-size: 0.9rem; text-decoration: none;
+}
+.skip-link:focus-visible { top: 0; outline: 2px solid var(--over); outline-offset: 2px; }
+
+/* Focused datapoint. A white ring reads against both palette poles and the
+   dark plane; the halo keeps it legible where dots overlap densely. */
+.dot:focus-visible,
+.dot:focus {
+  outline: none;
+  stroke: #ffffff;
+  stroke-width: 3px;
+  paint-order: stroke;
+  filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.95));
+}
+
+.kbd-hint {
+  margin: 0.5rem 0 0; text-align: center;
+  font-size: 0.74rem; color: var(--ink-mute); letter-spacing: 0.01em;
+}
+.kbd-hint kbd {
+  font-family: var(--sans); font-size: 0.72rem;
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid var(--hairline); border-radius: 4px;
+  padding: 0.05rem 0.32rem; margin: 0 0.06rem;
+}
+/* Pointer users never need the hint; keep it for keyboard users only. */
+@media (hover: hover) and (pointer: fine) {
+  .kbd-hint { opacity: 0; transition: opacity 0.25s ease; }
+  #graphic:focus-within .kbd-hint { opacity: 1; }
+}
+
 .readout { margin-top: 1.2rem; }
 .readout-grid {
   display: grid;

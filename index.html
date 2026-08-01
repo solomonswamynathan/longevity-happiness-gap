@@ -21,6 +21,11 @@
 </head>
 <body data-palette="#3987e5,#e66767">
 
+  <!-- Screen-reader announcements: scene changes and the focused datapoint. -->
+  <div id="a11y-live" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></div>
+
+  <a class="skip-link" href="#sources">Skip the animation — jump to sources and the full data table</a>
+
   <!-- ───────────  Duotone filters (tint imagery to the gap palette)  ─────────── -->
   <svg width="0" height="0" style="position:absolute" aria-hidden="true">
     <defs>
@@ -79,10 +84,17 @@
       </div>
     </div>
 
-    <!-- STICKY GRAPHIC -->
-    <figure id="graphic" role="img" aria-label="Animated scatter plot of national healthy life expectancy against happiness score for 136 countries.">
+    <!-- STICKY GRAPHIC
+         Deliberately NOT role="img": that would hide the focusable, individually
+         labelled dots from assistive tech. role="group" keeps them reachable. -->
+    <figure id="graphic" role="group" aria-label="Animated scatter plot of national healthy life expectancy against happiness score for 136 countries.">
       <div id="chart"></div>
       <figcaption class="chart-caption" id="caption"></figcaption>
+      <p class="kbd-hint">
+        <kbd>Tab</kbd> to enter the plot, <kbd>←</kbd><kbd>→</kbd> to move between
+        countries, <kbd>Enter</kbd> to select, <kbd>Home</kbd>/<kbd>End</kbd> for
+        the extremes.
+      </p>
     </figure>
 
     <!-- SCROLLING STEPS -->
@@ -316,6 +328,9 @@
             <li>Palette validated colorblind-safe: the two poles stay
               <strong>ΔE&nbsp;≥&nbsp;66</strong> apart (CIE76) under simulated protanopia,
               deuteranopia and tritanopia — worst case protanopia, ΔE&nbsp;66.6.</li>
+            <li><strong>Fully keyboard operable:</strong> the scatter is one tab stop, then
+              arrow keys walk all 136 countries in lifespan order — each announcing its own
+              figures to a screen reader. A skip link jumps past the animation to this table.</li>
             <li>Respects <code>prefers-reduced-motion</code>; full data table below.</li>
           </ul>
         </div>
